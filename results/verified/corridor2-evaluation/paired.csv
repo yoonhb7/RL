@@ -1,0 +1,11 @@
+﻿baseline_controller,controller,seed,wait_reduction_percent,arrived_delta,unfinished_delta,not_departed_delta
+fixed,queue,1001,45.33869885982561,0,0,0
+fixed,dqn,1001,43.08709399252659,0,0,0
+fixed,queue,1002,41.833697162135344,0,0,0
+fixed,dqn,1002,42.22067870609248,0,0,0
+fixed,queue,1003,33.370221327967805,0,0,0
+fixed,dqn,1003,44.366197183098585,0,0,0
+fixed,queue,1004,48.652011613438404,0,0,0
+fixed,dqn,1004,42.79344670261303,0,0,0
+fixed,queue,1005,50.75653370013755,0,0,0
+fixed,dqn,1005,37.30822135223786,0,0,0

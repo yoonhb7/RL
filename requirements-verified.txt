@@ -1,0 +1,11 @@
+# Top-level versions used in this session (Windows x86-64 / Python 3.12.14).
+# Install this file to match the tested core package versions.
+eclipse-sumo==1.28.0
+sumo-data==1.28.0
+traci==1.28.0
+sumolib==1.28.0
+gymnasium==1.2.2
+numpy==2.5.4
+torch==2.15.0
+matplotlib==3.10.8
+pytest==9.0.1

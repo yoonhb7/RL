@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<connections>
+  <connection from="N0_J0" to="J0_S0" fromLane="0" toLane="0" tl="J0" linkIndex="0" />
+  <connection from="S0_J0" to="J0_N0" fromLane="0" toLane="0" tl="J0" linkIndex="1" />
+  <connection from="W_J0" to="J0_J1" fromLane="0" toLane="0" tl="J0" linkIndex="2" />
+  <connection from="J1_J0" to="J0_W" fromLane="0" toLane="0" tl="J0" linkIndex="3" />
+  <connection from="N1_J1" to="J1_S1" fromLane="0" toLane="0" tl="J1" linkIndex="0" />
+  <connection from="S1_J1" to="J1_N1" fromLane="0" toLane="0" tl="J1" linkIndex="1" />
+  <connection from="J0_J1" to="J1_J2" fromLane="0" toLane="0" tl="J1" linkIndex="2" />
+  <connection from="J2_J1" to="J1_J0" fromLane="0" toLane="0" tl="J1" linkIndex="3" />
+  <connection from="N2_J2" to="J2_S2" fromLane="0" toLane="0" tl="J2" linkIndex="0" />
+  <connection from="S2_J2" to="J2_N2" fromLane="0" toLane="0" tl="J2" linkIndex="1" />
+  <connection from="J1_J2" to="J2_E" fromLane="0" toLane="0" tl="J2" linkIndex="2" />
+  <connection from="E_J2" to="J2_J1" fromLane="0" toLane="0" tl="J2" linkIndex="3" />
+</connections>

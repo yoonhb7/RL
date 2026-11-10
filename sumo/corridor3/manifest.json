@@ -1,0 +1,149 @@
+{
+  "name": "synthetic-corridor-3",
+  "synthetic": true,
+  "net_file": "network.net.xml",
+  "signals": [
+    {
+      "id": "J0",
+      "lanes": [
+        "N0_J0_0",
+        "S0_J0_0",
+        "W_J0_0",
+        "J1_J0_0"
+      ],
+      "greens": [
+        "GrGr",
+        "rGrG"
+      ],
+      "yellows": [
+        "yryr",
+        "ryry"
+      ],
+      "all_red_state": "rrrr",
+      "min_green": 10,
+      "max_green": 60,
+      "yellow": 3,
+      "all_red": 2,
+      "fixed_green": 30
+    },
+    {
+      "id": "J1",
+      "lanes": [
+        "N1_J1_0",
+        "S1_J1_0",
+        "J0_J1_0",
+        "J2_J1_0"
+      ],
+      "greens": [
+        "GrGr",
+        "rGrG"
+      ],
+      "yellows": [
+        "yryr",
+        "ryry"
+      ],
+      "all_red_state": "rrrr",
+      "min_green": 10,
+      "max_green": 60,
+      "yellow": 3,
+      "all_red": 2,
+      "fixed_green": 30
+    },
+    {
+      "id": "J2",
+      "lanes": [
+        "N2_J2_0",
+        "S2_J2_0",
+        "J1_J2_0",
+        "E_J2_0"
+      ],
+      "greens": [
+        "GrGr",
+        "rGrG"
+      ],
+      "yellows": [
+        "yryr",
+        "ryry"
+      ],
+      "all_red_state": "rrrr",
+      "min_green": 10,
+      "max_green": 60,
+      "yellow": 3,
+      "all_red": 2,
+      "fixed_green": 30
+    }
+  ],
+  "paths": [
+    {
+      "id": "east",
+      "edges": [
+        "W_J0",
+        "J0_J1",
+        "J1_J2",
+        "J2_E"
+      ],
+      "rate": 600
+    },
+    {
+      "id": "west",
+      "edges": [
+        "E_J2",
+        "J2_J1",
+        "J1_J0",
+        "J0_W"
+      ],
+      "rate": 600
+    },
+    {
+      "id": "N0",
+      "edges": [
+        "N0_J0",
+        "J0_S0"
+      ],
+      "rate": 250
+    },
+    {
+      "id": "S0",
+      "edges": [
+        "S0_J0",
+        "J0_N0"
+      ],
+      "rate": 250
+    },
+    {
+      "id": "N1",
+      "edges": [
+        "N1_J1",
+        "J1_S1"
+      ],
+      "rate": 250
+    },
+    {
+      "id": "S1",
+      "edges": [
+        "S1_J1",
+        "J1_N1"
+      ],
+      "rate": 250
+    },
+    {
+      "id": "N2",
+      "edges": [
+        "N2_J2",
+        "J2_S2"
+      ],
+      "rate": 250
+    },
+    {
+      "id": "S2",
+      "edges": [
+        "S2_J2",
+        "J2_N2"
+      ],
+      "rate": 250
+    }
+  ],
+  "demand_seconds": 600,
+  "horizon_seconds": 900,
+  "decision_seconds": 5
+}

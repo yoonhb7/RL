@@ -1,0 +1,6 @@
+{
+  "name": "synthetic-corridor-3", "intersections": 3,
+  "demand_seconds": 600, "horizon_seconds": 900, "decision_seconds": 5,
+  "min_green": 10, "max_green": 60, "yellow": 3, "all_red": 2,
+  "fixed_green": 30, "ew_rate": 600, "ns_rate": 250
+}

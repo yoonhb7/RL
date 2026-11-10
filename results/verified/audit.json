@@ -1,0 +1,9 @@
+{
+  "evaluation_runs": 45,
+  "signal_second_records": 81000,
+  "trace_order_and_signal_durations_pass": true,
+  "vehicle_balance_pass": true,
+  "paired_demand_hashes_pass": true,
+  "collision_events": 0,
+  "teleports": 0
+}

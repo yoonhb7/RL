@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<edges>
+  <edge id="W_J0" from="W" to="J0" numLanes="1" speed="13.89" priority="2" />
+  <edge id="J0_W" from="J0" to="W" numLanes="1" speed="13.89" priority="2" />
+  <edge id="J0_J1" from="J0" to="J1" numLanes="1" speed="13.89" priority="2" />
+  <edge id="J1_J0" from="J1" to="J0" numLanes="1" speed="13.89" priority="2" />
+  <edge id="J1_E" from="J1" to="E" numLanes="1" speed="13.89" priority="2" />
+  <edge id="E_J1" from="E" to="J1" numLanes="1" speed="13.89" priority="2" />
+  <edge id="N0_J0" from="N0" to="J0" numLanes="1" speed="13.89" priority="2" />
+  <edge id="J0_N0" from="J0" to="N0" numLanes="1" speed="13.89" priority="2" />
+  <edge id="N1_J1" from="N1" to="J1" numLanes="1" speed="13.89" priority="2" />
+  <edge id="J1_N1" from="J1" to="N1" numLanes="1" speed="13.89" priority="2" />
+  <edge id="S0_J0" from="S0" to="J0" numLanes="1" speed="13.89" priority="2" />
+  <edge id="J0_S0" from="J0" to="S0" numLanes="1" speed="13.89" priority="2" />
+  <edge id="S1_J1" from="S1" to="J1" numLanes="1" speed="13.89" priority="2" />
+  <edge id="J1_S1" from="J1" to="S1" numLanes="1" speed="13.89" priority="2" />
+</edges>

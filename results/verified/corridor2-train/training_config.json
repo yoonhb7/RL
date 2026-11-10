@@ -1,0 +1,43 @@
+{
+  "algorithm": "DQN",
+  "episodes": 20,
+  "training_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "gamma": 0.99,
+  "learning_rate": 0.001,
+  "batch_size": 64,
+  "learning_starts": 256,
+  "train_every_decisions": 4,
+  "reward": "negative all-external-lane stopped vehicle-seconds / 100",
+  "target_update_gradient_steps": 250,
+  "replay_capacity": 50000,
+  "architecture": [
+    128,
+    128
+  ],
+  "device": "cpu",
+  "torch": "2.15.0+cpu",
+  "numpy": "2.5.4",
+  "gradient_updates": 837,
+  "decision_steps": 3600
+}

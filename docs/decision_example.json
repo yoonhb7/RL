@@ -1,0 +1,3479 @@
+{
+  "model": "results/local/corridor2-train/model.pt",
+  "seed": 1001,
+  "example": {
+    "time_s": 55,
+    "observation_29": [
+      0.06111111119389534,
+      0.025614753365516663,
+      0.10245901346206665,
+      0.025614753365516663,
+      0.10245901346206665,
+      0.0,
+      0.051229506731033325,
+      0.0,
+      0.13615144789218903,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.1666666716337204,
+      0.051229506731033325,
+      0.10245901346206665,
+      0.0,
+      0.051229506731033325,
+      0.0,
+      0.07780083268880844,
+      0.0,
+      0.07684426009654999,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.3333333432674408
+    ],
+    "intersections": [
+      {
+        "intersection": "J0",
+        "green_index": 1,
+        "stage": "green",
+        "elapsed_s": 10,
+        "incoming_lanes": [
+          {
+            "id": "N0_J0_0",
+            "stopped": 1,
+            "vehicles": 4
+          },
+          {
+            "id": "S0_J0_0",
+            "stopped": 1,
+            "vehicles": 4
+          },
+          {
+            "id": "W_J0_0",
+            "stopped": 0,
+            "vehicles": 2
+          },
+          {
+            "id": "J1_J0_0",
+            "stopped": 0,
+            "vehicles": 7
+          }
+        ]
+      },
+      {
+        "intersection": "J1",
+        "green_index": 1,
+        "stage": "green",
+        "elapsed_s": 20,
+        "incoming_lanes": [
+          {
+            "id": "N1_J1_0",
+            "stopped": 2,
+            "vehicles": 4
+          },
+          {
+            "id": "S1_J1_0",
+            "stopped": 0,
+            "vehicles": 2
+          },
+          {
+            "id": "J0_J1_0",
+            "stopped": 0,
+            "vehicles": 4
+          },
+          {
+            "id": "E_J1_0",
+            "stopped": 0,
+            "vehicles": 3
+          }
+        ]
+      }
+    ],
+    "queued_before": 4,
+    "legal_actions": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "q_values": [
+      -4.232236862182617,
+      -4.544278621673584,
+      -4.379374980926514,
+      -4.4114460945129395
+    ],
+    "chosen_action": 0,
+    "chosen_bits_A_B": [
+      0,
+      0
+    ],
+    "next_5s_reward": -0.23,
+    "next_time_s": 60,
+    "next_5s_stopped_vehicle_seconds": 23.0
+  },
+  "all_first_150s_decisions": [
+    {
+      "time_s": 0,
+      "observation_29": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "intersections": [
+        {
+          "intersection": "J0",
+          "green_index": 0,
+          "stage": "green",
+          "elapsed_s": 0,
+          "incoming_lanes": [
+            {
+              "id": "N0_J0_0",
+              "stopped": 0,
+              "vehicles": 0
+            },
+            {
+              "id": "S0_J0_0",
+              "stopped": 0,
+              "vehicles": 0
+            },
+            {
+              "id": "W_J0_0",
+              "stopped": 0,
+              "vehicles": 0
+            },
+            {
+              "id": "J1_J0_0",
+              "stopped": 0,
+              "vehicles": 0
+            }
+          ]
+        },
+        {
+          "intersection": "J1",
+          "green_index": 0,
+          "stage": "green",
+          "elapsed_s": 0,
+          "incoming_lanes": [
+            {
+              "id": "N1_J1_0",
+              "stopped": 0,
+              "vehicles": 0
+            },
+            {
+              "id": "S1_J1_0",
+              "stopped": 0,
+              "vehicles": 0
+            },
+            {
+              "id": "J0_J1_0",
+              "stopped": 0,
+              "vehicles": 0
+            },
+            {
+              "id": "E_J1_0",
+              "stopped": 0,
+              "vehicles": 0
+            }
+          ]
+        }
+      ],
+      "queued_before": 0,
+      "legal_actions": [
+        0
+      ],
+      "q_values": [
+        -1.3052786588668823,
+        -1.372999668121338,
+        -1.4034072160720825,
+        -1.4497705698013306
+      ],
+      "chosen_action": 0,
+      "chosen_bits_A_B": [
+        0,
+        0
+      ],
+      "next_5s_reward": -0.0,
+      "next_time_s": 5,
+      "next_5s_stopped_vehicle_seconds": 0.0
+    },
+    {
+      "time_s": 5,
+      "observation_29": [
+        0.0055555556900799274,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0833333358168602,
+        0.0,
+        0.0,
+        0.0,
+        0.025614753365516663,
+        0.0,
+        0.0,
+        0.0,
+        0.025614753365516663,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0833333358168602
+      ],
+      "intersections": [
+        {
+          "intersection": "J0",
+          "green_index": 0,
+          "stage": "green",
+          "elapsed_s": 5,
+          "incoming_lanes": [
+            {
+              "id": "N0_J0_0",
+              "stopped": 0,
+              "vehicles": 0
+            },
+            {
+              "id": "S0_J0_0",
+              "stopped": 0,
+              "vehicles": 0
+            },
+            {
+              "id": "W_J0_0",
+              "stopped": 0,
+              "vehicles": 0
+            },
+            {
+              "id": "J1_J0_0",
+              "stopped": 0,
+              "vehicles": 0
+            }
+          ]
+        },
+        {
+          "intersection": "J1",
+          "green_index": 0,
+          "stage": "green",
+          "elapsed_s": 5,
+          "incoming_lanes": [
+            {
+              "id": "N1_J1_0",
+              "stopped": 0,
+              "vehicles": 0
+            },
+            {
+              "id": "S1_J1_0",
+              "stopped": 0,
+              "vehicles": 1
+            },
+            {
+              "id": "J0_J1_0",
+              "stopped": 0,
+              "vehicles": 0
+            },
+            {
+              "id": "E_J1_0",
+              "stopped": 0,
+              "vehicles": 1
+            }
+          ]
+        }
+      ],
+      "queued_before": 0,
+      "legal_actions": [
+        0
+      ],
+      "q_values": [
+        -1.5320959091186523,
+        -1.64179527759552,
+        -1.6404736042022705,
+        -1.7351950407028198
+      ],
+      "chosen_action": 0,
+      "chosen_bits_A_B": [
+        0,
+        0
+      ],
+      "next_5s_reward": -0.0,
+      "next_time_s": 10,
+      "next_5s_stopped_vehicle_seconds": 0.0
+    },
+    {
+      "time_s": 10,
+      "observation_29": [
+        0.011111111380159855,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.1666666716337204,
+        0.0,
+        0.025614753365516663,
+        0.0,
+        0.051229506731033325,
+        0.0,
+        0.0,
+        0.0,
+        0.051229506731033325,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.1666666716337204
+      ],
+      "intersections": [
+        {
+          "intersection": "J0",
+          "green_index": 0,
+          "stage": "green",
+          "elapsed_s": 10,
+          "incoming_lanes": [
+            {
+              "id": "N0_J0_0",
+              "stopped": 0,
+              "vehicles": 0
+            },
+            {
+              "id": "S0_J0_0",
+              "stopped": 0,
+              "vehicles": 0
+            },
+            {
+              "id": "W_J0_0",
+              "stopped": 0,
+              "vehicles": 0
+            },
+            {
+              "id": "J1_J0_0",
+              "stopped": 0,
+              "vehicles": 0
+            }
+          ]
+        },
+        {
+          "intersection": "J1",
+          "green_index": 0,
+          "stage": "green",
+          "elapsed_s": 10,
+          "incoming_lanes": [
+            {
+              "id": "N1_J1_0",
+              "stopped": 0,
+              "vehicles": 1
+            },
+            {
+              "id": "S1_J1_0",
+              "stopped": 0,
+              "vehicles": 2
+            },
+            {
+              "id": "J0_J1_0",
+              "stopped": 0,
+              "vehicles": 0
+            },
+            {
+              "id": "E_J1_0",
+              "stopped": 0,
+              "vehicles": 2
+            }
+          ]
+        }
+      ],
+      "queued_before": 0,
+      "legal_actions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "q_values": [
+        -1.8536237478256226,
+        -2.0329596996307373,
+        -1.9970263242721558,
+        -2.1733016967773438
+      ],
+      "chosen_action": 0,
+      "chosen_bits_A_B": [
+        0,
+        0
+      ],
+      "next_5s_reward": -0.0,
+      "next_time_s": 15,
+      "next_5s_stopped_vehicle_seconds": 0.0
+    },
+    {
+      "time_s": 15,
+      "observation_29": [
+        0.01666666753590107,
+        0.0,
+        0.0,
+        0.0,
+        0.025614753365516663,
+        0.0,
+        0.051229506731033325,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.25,
+        0.0,
+        0.025614753365516663,
+        0.0,
+        0.051229506731033325,
+        0.0,
+        0.0,
+        0.0,
+        0.07684426009654999,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.25
+      ],
+      "intersections": [
+        {
+          "intersection": "J0",
+          "green_index": 0,
+          "stage": "green",
+          "elapsed_s": 15,
+          "incoming_lanes": [
+            {
+              "id": "N0_J0_0",
+              "stopped": 0,
+              "vehicles": 0
+            },
+            {
+              "id": "S0_J0_0",
+              "stopped": 0,
+              "vehicles": 1
+            },
+            {
+              "id": "W_J0_0",
+              "stopped": 0,
+              "vehicles": 2
+            },
+            {
+              "id": "J1_J0_0",
+              "stopped": 0,
+              "vehicles": 0
+            }
+          ]
+        },
+        {
+          "intersection": "J1",
+          "green_index": 0,
+          "stage": "green",
+          "elapsed_s": 15,
+          "incoming_lanes": [
+            {
+              "id": "N1_J1_0",
+              "stopped": 0,
+              "vehicles": 1
+            },
+            {
+              "id": "S1_J1_0",
+              "stopped": 0,
+              "vehicles": 2
+            },
+            {
+              "id": "J0_J1_0",
+              "stopped": 0,
+              "vehicles": 0
+            },
+            {
+              "id": "E_J1_0",
+              "stopped": 0,
+              "vehicles": 3
+            }
+          ]
+        }
+      ],
+      "queued_before": 0,
+      "legal_actions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "q_values": [
+        -2.2872190475463867,
+        -2.4619266986846924,
+        -2.4054675102233887,
+        -2.583111047744751
+      ],
+      "chosen_action": 0,
+      "chosen_bits_A_B": [
+        0,
+        0
+      ],
+      "next_5s_reward": -0.0,
+      "next_time_s": 20,
+      "next_5s_stopped_vehicle_seconds": 0.0
+    },
+    {
+      "time_s": 20,
+      "observation_29": [
+        0.02222222276031971,
+        0.0,
+        0.025614753365516663,
+        0.0,
+        0.025614753365516663,
+        0.0,
+        0.07684426009654999,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.3333333432674408,
+        0.0,
+        0.051229506731033325,
+        0.0,
+        0.051229506731033325,
+        0.0,
+        0.0,
+        0.0,
+        0.15368852019309998,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.3333333432674408
+      ],
+      "intersections": [
+        {
+          "intersection": "J0",
+          "green_index": 0,
+          "stage": "green",
+          "elapsed_s": 20,
+          "incoming_lanes": [
+            {
+              "id": "N0_J0_0",
+              "stopped": 0,
+              "vehicles": 1
+            },
+            {
+              "id": "S0_J0_0",
+              "stopped": 0,
+              "vehicles": 1
+            },
+            {
+              "id": "W_J0_0",
+              "stopped": 0,
+              "vehicles": 3
+            },
+            {
+              "id": "J1_J0_0",
+              "stopped": 0,
+              "vehicles": 0
+            }
+          ]
+        },
+        {
+          "intersection": "J1",
+          "green_index": 0,
+          "stage": "green",
+          "elapsed_s": 20,
+          "incoming_lanes": [
+            {
+              "id": "N1_J1_0",
+              "stopped": 0,
+              "vehicles": 2
+            },
+            {
+              "id": "S1_J1_0",
+              "stopped": 0,
+              "vehicles": 2
+            },
+            {
+              "id": "J0_J1_0",
+              "stopped": 0,
+              "vehicles": 0
+            },
+            {
+              "id": "E_J1_0",
+              "stopped": 0,
+              "vehicles": 6
+            }
+          ]
+        }
+      ],
+      "queued_before": 0,
+      "legal_actions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "q_values": [
+        -2.9970908164978027,
+        -3.1998214721679688,
+        -3.0826282501220703,
+        -3.2994680404663086
+      ],
+      "chosen_action": 0,
+      "chosen_bits_A_B": [
+        0,
+        0
+      ],
+      "next_5s_reward": -0.0,
+      "next_time_s": 25,
+      "next_5s_stopped_vehicle_seconds": 0.0
+    },
+    {
+      "time_s": 25,
+      "observation_29": [
+        0.02777777798473835,
+        0.0,
+        0.025614753365516663,
+        0.0,
+        0.051229506731033325,
+        0.0,
+        0.07684426009654999,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.4166666567325592,
+        0.0,
+        0.07684426009654999,
+        0.0,
+        0.051229506731033325,
+        0.0,
+        0.0,
+        0.0,
+        0.15368852019309998,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.4166666567325592
+      ],
+      "intersections": [
+        {
+          "intersection": "J0",
+          "green_index": 0,
+          "stage": "green",
+          "elapsed_s": 25,
+          "incoming_lanes": [
+            {
+              "id": "N0_J0_0",
+              "stopped": 0,
+              "vehicles": 1
+            },
+            {
+              "id": "S0_J0_0",
+              "stopped": 0,
+              "vehicles": 2
+            },
+            {
+              "id": "W_J0_0",
+              "stopped": 0,
+              "vehicles": 3
+            },
+            {
+              "id": "J1_J0_0",
+              "stopped": 0,
+              "vehicles": 0
+            }
+          ]
+        },
+        {
+          "intersection": "J1",
+          "green_index": 0,
+          "stage": "green",
+          "elapsed_s": 25,
+          "incoming_lanes": [
+            {
+              "id": "N1_J1_0",
+              "stopped": 0,
+              "vehicles": 3
+            },
+            {
+              "id": "S1_J1_0",
+              "stopped": 0,
+              "vehicles": 2
+            },
+            {
+              "id": "J0_J1_0",
+              "stopped": 0,
+              "vehicles": 0
+            },
+            {
+              "id": "E_J1_0",
+              "stopped": 0,
+              "vehicles": 6
+            }
+          ]
+        }
+      ],
+      "queued_before": 0,
+      "legal_actions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "q_values": [
+        -3.2535738945007324,
+        -3.499997615814209,
+        -3.3488903045654297,
+        -3.61630916595459
+      ],
+      "chosen_action": 0,
+      "chosen_bits_A_B": [
+        0,
+        0
+      ],
+      "next_5s_reward": -0.04,
+      "next_time_s": 30,
+      "next_5s_stopped_vehicle_seconds": 4.0
+    },
+    {
+      "time_s": 30,
+      "observation_29": [
+        0.03333333507180214,
+        0.0,
+        0.051229506731033325,
+        0.0,
+        0.051229506731033325,
+        0.0,
+        0.07684426009654999,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.07684426009654999,
+        0.0,
+        0.025614753365516663,
+        0.0,
+        0.0,
+        0.025614753365516663,
+        0.15368852019309998,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "intersections": [
+        {
+          "intersection": "J0",
+          "green_index": 0,
+          "stage": "green",
+          "elapsed_s": 30,
+          "incoming_lanes": [
+            {
+              "id": "N0_J0_0",
+              "stopped": 0,
+              "vehicles": 2
+            },
+            {
+              "id": "S0_J0_0",
+              "stopped": 0,
+              "vehicles": 2
+            },
+            {
+              "id": "W_J0_0",
+              "stopped": 0,
+              "vehicles": 3
+            },
+            {
+              "id": "J1_J0_0",
+              "stopped": 0,
+              "vehicles": 0
+            }
+          ]
+        },
+        {
+          "intersection": "J1",
+          "green_index": 0,
+          "stage": "green",
+          "elapsed_s": 30,
+          "incoming_lanes": [
+            {
+              "id": "N1_J1_0",
+              "stopped": 0,
+              "vehicles": 3
+            },
+            {
+              "id": "S1_J1_0",
+              "stopped": 0,
+              "vehicles": 1
+            },
+            {
+              "id": "J0_J1_0",
+              "stopped": 0,
+              "vehicles": 0
+            },
+            {
+              "id": "E_J1_0",
+              "stopped": 1,
+              "vehicles": 6
+            }
+          ]
+        }
+      ],
+      "queued_before": 1,
+      "legal_actions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "q_values": [
+        -3.4660301208496094,
+        -3.699512481689453,
+        -3.4633193016052246,
+        -3.7448489665985107
+      ],
+      "chosen_action": 2,
+      "chosen_bits_A_B": [
+        0,
+        1
+      ],
+      "next_5s_reward": -0.09,
+      "next_time_s": 35,
+      "next_5s_stopped_vehicle_seconds": 9.0
+    },
+    {
+      "time_s": 35,
+      "observation_29": [
+        0.03888889029622078,
+        0.0,
+        0.07684426009654999,
+        0.0,
+        0.025614753365516663,
+        0.0,
+        0.1280737668275833,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.5833333134651184,
+        0.0,
+        0.051229506731033325,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.07684426009654999,
+        0.17930327355861664,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "intersections": [
+        {
+          "intersection": "J0",
+          "green_index": 0,
+          "stage": "green",
+          "elapsed_s": 35,
+          "incoming_lanes": [
+            {
+              "id": "N0_J0_0",
+              "stopped": 0,
+              "vehicles": 3
+            },
+            {
+              "id": "S0_J0_0",
+              "stopped": 0,
+              "vehicles": 1
+            },
+            {
+              "id": "W_J0_0",
+              "stopped": 0,
+              "vehicles": 5
+            },
+            {
+              "id": "J1_J0_0",
+              "stopped": 0,
+              "vehicles": 0
+            }
+          ]
+        },
+        {
+          "intersection": "J1",
+          "green_index": 0,
+          "stage": "all_red",
+          "elapsed_s": 2,
+          "incoming_lanes": [
+            {
+              "id": "N1_J1_0",
+              "stopped": 0,
+              "vehicles": 2
+            },
+            {
+              "id": "S1_J1_0",
+              "stopped": 0,
+              "vehicles": 0
+            },
+            {
+              "id": "J0_J1_0",
+              "stopped": 0,
+              "vehicles": 0
+            },
+            {
+              "id": "E_J1_0",
+              "stopped": 3,
+              "vehicles": 7
+            }
+          ]
+        }
+      ],
+      "queued_before": 3,
+      "legal_actions": [
+        0,
+        1
+      ],
+      "q_values": [
+        -3.335237979888916,
+        -3.475112199783325,
+        -3.298095703125,
+        -3.57205867767334
+      ],
+      "chosen_action": 0,
+      "chosen_bits_A_B": [
+        0,
+        0
+      ],
+      "next_5s_reward": -0.1,
+      "next_time_s": 40,
+      "next_5s_stopped_vehicle_seconds": 10.0
+    },
+    {
+      "time_s": 40,
+      "observation_29": [
+        0.04444444552063942,
+        0.0,
+        0.051229506731033325,
+        0.0,
+        0.025614753365516663,
+        0.051229506731033325,
+        0.1280737668275833,
+        0.0,
+        0.01945020817220211,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.6666666865348816,
+        0.0,
+        0.051229506731033325,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.15368852019309998,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0833333358168602
+      ],
+      "intersections": [
+        {
+          "intersection": "J0",
+          "green_index": 0,
+          "stage": "green",
+          "elapsed_s": 40,
+          "incoming_lanes": [
+            {
+              "id": "N0_J0_0",
+              "stopped": 0,
+              "vehicles": 2
+            },
+            {
+              "id": "S0_J0_0",
+              "stopped": 0,
+              "vehicles": 1
+            },
+            {
+              "id": "W_J0_0",
+              "stopped": 2,
+              "vehicles": 5
+            },
+            {
+              "id": "J1_J0_0",
+              "stopped": 0,
+              "vehicles": 1
+            }
+          ]
+        },
+        {
+          "intersection": "J1",
+          "green_index": 1,
+          "stage": "green",
+          "elapsed_s": 5,
+          "incoming_lanes": [
+            {
+              "id": "N1_J1_0",
+              "stopped": 0,
+              "vehicles": 2
+            },
+            {
+              "id": "S1_J1_0",
+              "stopped": 0,
+              "vehicles": 0
+            },
+            {
+              "id": "J0_J1_0",
+              "stopped": 0,
+              "vehicles": 0
+            },
+            {
+              "id": "E_J1_0",
+              "stopped": 0,
+              "vehicles": 6
+            }
+          ]
+        }
+      ],
+      "queued_before": 2,
+      "legal_actions": [
+        0,
+        1
+      ],
+      "q_values": [
+        -3.475637912750244,
+        -3.257880210876465,
+        -3.250485897064209,
+        -3.2336723804473877
+      ],
+      "chosen_action": 1,
+      "chosen_bits_A_B": [
+        1,
+        0
+      ],
+      "next_5s_reward": -0.14,
+      "next_time_s": 45,
+      "next_5s_stopped_vehicle_seconds": 14.000000000000002
+    },
+    {
+      "time_s": 45,
+      "observation_29": [
+        0.05000000074505806,
+        0.0,
+        0.07684426009654999,
+        0.0,
+        0.051229506731033325,
+        0.07684426009654999,
+        0.1280737668275833,
+        0.0,
+        0.07780083268880844,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.025614753365516663,
+        0.051229506731033325,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1280737668275833,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.1666666716337204
+      ],
+      "intersections": [
+        {
+          "intersection": "J0",
+          "green_index": 0,
+          "stage": "all_red",
+          "elapsed_s": 2,
+          "incoming_lanes": [
+            {
+              "id": "N0_J0_0",
+              "stopped": 0,
+              "vehicles": 3
+            },
+            {
+              "id": "S0_J0_0",
+              "stopped": 0,
+              "vehicles": 2
+            },
+            {
+              "id": "W_J0_0",
+              "stopped": 3,
+              "vehicles": 5
+            },
+            {
+              "id": "J1_J0_0",
+              "stopped": 0,
+              "vehicles": 4
+            }
+          ]
+        },
+        {
+          "intersection": "J1",
+          "green_index": 1,
+          "stage": "green",
+          "elapsed_s": 10,
+          "incoming_lanes": [
+            {
+              "id": "N1_J1_0",
+              "stopped": 1,
+              "vehicles": 2
+            },
+            {
+              "id": "S1_J1_0",
+              "stopped": 0,
+              "vehicles": 0
+            },
+            {
+              "id": "J0_J1_0",
+              "stopped": 0,
+              "vehicles": 0
+            },
+            {
+              "id": "E_J1_0",
+              "stopped": 0,
+              "vehicles": 5
+            }
+          ]
+        }
+      ],
+      "queued_before": 4,
+      "legal_actions": [
+        0,
+        2
+      ],
+      "q_values": [
+        -3.545513153076172,
+        -2.970440149307251,
+        -3.5664148330688477,
+        -2.945610284805298
+      ],
+      "chosen_action": 0,
+      "chosen_bits_A_B": [
+        0,
+        0
+      ],
+      "next_5s_reward": -0.12,
+      "next_time_s": 50,
+      "next_5s_stopped_vehicle_seconds": 12.0
+    },
+    {
+      "time_s": 50,
+      "observation_29": [
+        0.0555555559694767,
+        0.0,
+        0.07684426009654999,
+        0.025614753365516663,
+        0.07684426009654999,
+        0.0,
+        0.10245901346206665,
+        0.0,
+        0.11670124530792236,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0833333358168602,
+        0.051229506731033325,
+        0.051229506731033325,
+        0.0,
+        0.025614753365516663,
+        0.0,
+        0.01945020817220211,
+        0.0,
+        0.10245901346206665,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.25
+      ],
+      "intersections": [
+        {
+          "intersection": "J0",
+          "green_index": 1,
+          "stage": "green",
+          "elapsed_s": 5,
+          "incoming_lanes": [
+            {
+              "id": "N0_J0_0",
+              "stopped": 0,
+              "vehicles": 3
+            },
+            {
+              "id": "S0_J0_0",
+              "stopped": 1,
+              "vehicles": 3
+            },
+            {
+              "id": "W_J0_0",
+              "stopped": 0,
+              "vehicles": 4
+            },
+            {
+              "id": "J1_J0_0",
+              "stopped": 0,
+              "vehicles": 6
+            }
+          ]
+        },
+        {
+          "intersection": "J1",
+          "green_index": 1,
+          "stage": "green",
+          "elapsed_s": 15,
+          "incoming_lanes": [
+            {
+              "id": "N1_J1_0",
+              "stopped": 2,
+              "vehicles": 2
+            },
+            {
+              "id": "S1_J1_0",
+              "stopped": 0,
+              "vehicles": 1
+            },
+            {
+              "id": "J0_J1_0",
+              "stopped": 0,
+              "vehicles": 1
+            },
+            {
+              "id": "E_J1_0",
+              "stopped": 0,
+              "vehicles": 4
+            }
+          ]
+        }
+      ],
+      "queued_before": 3,
+      "legal_actions": [
+        0,
+        2
+      ],
+      "q_values": [
+        -3.7220466136932373,
+        -4.192434310913086,
+        -3.838059425354004,
+        -4.0238800048828125
+      ],
+      "chosen_action": 0,
+      "chosen_bits_A_B": [
+        0,
+        0
+      ],
+      "next_5s_reward": -0.17,
+      "next_time_s": 55,
+      "next_5s_stopped_vehicle_seconds": 17.0
+    },
+    {
+      "time_s": 55,
+      "observation_29": [
+        0.06111111119389534,
+        0.025614753365516663,
+        0.10245901346206665,
+        0.025614753365516663,
+        0.10245901346206665,
+        0.0,
+        0.051229506731033325,
+        0.0,
+        0.13615144789218903,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.1666666716337204,
+        0.051229506731033325,
+        0.10245901346206665,
+        0.0,
+        0.051229506731033325,
+        0.0,
+        0.07780083268880844,
+        0.0,
+        0.07684426009654999,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.3333333432674408
+      ],
+      "intersections": [
+        {
+          "intersection": "J0",
+          "green_index": 1,
+          "stage": "green",
+          "elapsed_s": 10,
+          "incoming_lanes": [
+            {
+              "id": "N0_J0_0",
+              "stopped": 1,
+              "vehicles": 4
+            },
+            {
+              "id": "S0_J0_0",
+              "stopped": 1,
+              "vehicles": 4
+            },
+            {
+              "id": "W_J0_0",
+              "stopped": 0,
+              "vehicles": 2
+            },
+            {
+              "id": "J1_J0_0",
+              "stopped": 0,
+              "vehicles": 7
+            }
+          ]
+        },
+        {
+          "intersection": "J1",
+          "green_index": 1,
+          "stage": "green",
+          "elapsed_s": 20,
+          "incoming_lanes": [
+            {
+              "id": "N1_J1_0",
+              "stopped": 2,
+              "vehicles": 4
+            },
+            {
+              "id": "S1_J1_0",
+              "stopped": 0,
+              "vehicles": 2
+            },
+            {
+              "id": "J0_J1_0",
+              "stopped": 0,
+              "vehicles": 4
+            },
+            {
+              "id": "E_J1_0",
+              "stopped": 0,
+              "vehicles": 3
+            }
+          ]
+        }
+      ],
+      "queued_before": 4,
+      "legal_actions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "q_values": [
+        -4.232236862182617,
+        -4.544278621673584,
+        -4.379374980926514,
+        -4.4114460945129395
+      ],
+      "chosen_action": 0,
+      "chosen_bits_A_B": [
+        0,
+        0
+      ],
+      "next_5s_reward": -0.23,
+      "next_time_s": 60,
+      "next_5s_stopped_vehicle_seconds": 23.0
+    },
+    {
+      "time_s": 60,
+      "observation_29": [
+        0.06666667014360428,
+        0.051229506731033325,
+        0.1280737668275833,
+        0.025614753365516663,
+        0.10245901346206665,
+        0.0,
+        0.07684426009654999,
+        0.0,
+        0.13615144789218903,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.25,
+        0.051229506731033325,
+        0.10245901346206665,
+        0.0,
+        0.10245901346206665,
+        0.0,
+        0.0972510352730751,
+        0.0,
+        0.10245901346206665,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.4166666567325592
+      ],
+      "intersections": [
+        {
+          "intersection": "J0",
+          "green_index": 1,
+          "stage": "green",
+          "elapsed_s": 15,
+          "incoming_lanes": [
+            {
+              "id": "N0_J0_0",
+              "stopped": 2,
+              "vehicles": 5
+            },
+            {
+              "id": "S0_J0_0",
+              "stopped": 1,
+              "vehicles": 4
+            },
+            {
+              "id": "W_J0_0",
+              "stopped": 0,
+              "vehicles": 3
+            },
+            {
+              "id": "J1_J0_0",
+              "stopped": 0,
+              "vehicles": 7
+            }
+          ]
+        },
+        {
+          "intersection": "J1",
+          "green_index": 1,
+          "stage": "green",
+          "elapsed_s": 25,
+          "incoming_lanes": [
+            {
+              "id": "N1_J1_0",
+              "stopped": 2,
+              "vehicles": 4
+            },
+            {
+              "id": "S1_J1_0",
+              "stopped": 0,
+              "vehicles": 4
+            },
+            {
+              "id": "J0_J1_0",
+              "stopped": 0,
+              "vehicles": 5
+            },
+            {
+              "id": "E_J1_0",
+              "stopped": 0,
+              "vehicles": 4
+            }
+          ]
+        }
+      ],
+      "queued_before": 5,
+      "legal_actions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "q_values": [
+        -5.019749641418457,
+        -5.329846382141113,
+        -5.155420780181885,
+        -5.204977035522461
+      ],
+      "chosen_action": 0,
+      "chosen_bits_A_B": [
+        0,
+        0
+      ],
+      "next_5s_reward": -0.26,
+      "next_time_s": 65,
+      "next_5s_stopped_vehicle_seconds": 26.0
+    },
+    {
+      "time_s": 65,
+      "observation_29": [
+        0.07222222536802292,
+        0.051229506731033325,
+        0.17930327355861664,
+        0.051229506731033325,
+        0.10245901346206665,
+        0.0,
+        0.10245901346206665,
+        0.0,
+        0.15560166537761688,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.3333333432674408,
+        0.051229506731033325,
+        0.10245901346206665,
+        0.0,
+        0.1280737668275833,
+        0.0,
+        0.0972510352730751,
+        0.0,
+        0.1280737668275833,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "intersections": [
+        {
+          "intersection": "J0",
+          "green_index": 1,
+          "stage": "green",
+          "elapsed_s": 20,
+          "incoming_lanes": [
+            {
+              "id": "N0_J0_0",
+              "stopped": 2,
+              "vehicles": 7
+            },
+            {
+              "id": "S0_J0_0",
+              "stopped": 2,
+              "vehicles": 4
+            },
+            {
+              "id": "W_J0_0",
+              "stopped": 0,
+              "vehicles": 4
+            },
+            {
+              "id": "J1_J0_0",
+              "stopped": 0,
+              "vehicles": 8
+            }
+          ]
+        },
+        {
+          "intersection": "J1",
+          "green_index": 1,
+          "stage": "green",
+          "elapsed_s": 30,
+          "incoming_lanes": [
+            {
+              "id": "N1_J1_0",
+              "stopped": 2,
+              "vehicles": 4
+            },
+            {
+              "id": "S1_J1_0",
+              "stopped": 0,
+              "vehicles": 5
+            },
+            {
+              "id": "J0_J1_0",
+              "stopped": 0,
+              "vehicles": 5
+            },
+            {
+              "id": "E_J1_0",
+              "stopped": 0,
+              "vehicles": 5
+            }
+          ]
+        }
+      ],
+      "queued_before": 6,
+      "legal_actions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "q_values": [
+        -5.8499226570129395,
+        -6.176384925842285,
+        -5.946030139923096,
+        -6.039736747741699
+      ],
+      "chosen_action": 0,
+      "chosen_bits_A_B": [
+        0,
+        0
+      ],
+      "next_5s_reward": -0.31,
+      "next_time_s": 70,
+      "next_5s_stopped_vehicle_seconds": 31.0
+    },
+    {
+      "time_s": 70,
+      "observation_29": [
+        0.07777778059244156,
+        0.07684426009654999,
+        0.2049180269241333,
+        0.051229506731033325,
+        0.10245901346206665,
+        0.0,
+        0.10245901346206665,
+        0.0,
+        0.15560166537761688,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.4166666567325592,
+        0.051229506731033325,
+        0.10245901346206665,
+        0.0,
+        0.1280737668275833,
+        0.0,
+        0.11670124530792236,
+        0.0,
+        0.1280737668275833,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.5833333134651184
+      ],
+      "intersections": [
+        {
+          "intersection": "J0",
+          "green_index": 1,
+          "stage": "green",
+          "elapsed_s": 25,
+          "incoming_lanes": [
+            {
+              "id": "N0_J0_0",
+              "stopped": 3,
+              "vehicles": 8
+            },
+            {
+              "id": "S0_J0_0",
+              "stopped": 2,
+              "vehicles": 4
+            },
+            {
+              "id": "W_J0_0",
+              "stopped": 0,
+              "vehicles": 4
+            },
+            {
+              "id": "J1_J0_0",
+              "stopped": 0,
+              "vehicles": 8
+            }
+          ]
+        },
+        {
+          "intersection": "J1",
+          "green_index": 1,
+          "stage": "green",
+          "elapsed_s": 35,
+          "incoming_lanes": [
+            {
+              "id": "N1_J1_0",
+              "stopped": 2,
+              "vehicles": 4
+            },
+            {
+              "id": "S1_J1_0",
+              "stopped": 0,
+              "vehicles": 5
+            },
+            {
+              "id": "J0_J1_0",
+              "stopped": 0,
+              "vehicles": 6
+            },
+            {
+              "id": "E_J1_0",
+              "stopped": 0,
+              "vehicles": 5
+            }
+          ]
+        }
+      ],
+      "queued_before": 7,
+      "legal_actions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "q_values": [
+        -6.148429870605469,
+        -6.367806434631348,
+        -6.262267589569092,
+        -6.283365249633789
+      ],
+      "chosen_action": 0,
+      "chosen_bits_A_B": [
+        0,
+        0
+      ],
+      "next_5s_reward": -0.46,
+      "next_time_s": 75,
+      "next_5s_stopped_vehicle_seconds": 46.0
+    },
+    {
+      "time_s": 75,
+      "observation_29": [
+        0.0833333358168602,
+        0.10245901346206665,
+        0.2049180269241333,
+        0.10245901346206665,
+        0.10245901346206665,
+        0.0,
+        0.1280737668275833,
+        0.0,
+        0.11670124530792236,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.5,
+        0.07684426009654999,
+        0.10245901346206665,
+        0.025614753365516663,
+        0.1280737668275833,
+        0.0,
+        0.11670124530792236,
+        0.0,
+        0.10245901346206665,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.6666666865348816
+      ],
+      "intersections": [
+        {
+          "intersection": "J0",
+          "green_index": 1,
+          "stage": "green",
+          "elapsed_s": 30,
+          "incoming_lanes": [
+            {
+              "id": "N0_J0_0",
+              "stopped": 4,
+              "vehicles": 8
+            },
+            {
+              "id": "S0_J0_0",
+              "stopped": 4,
+              "vehicles": 4
+            },
+            {
+              "id": "W_J0_0",
+              "stopped": 0,
+              "vehicles": 5
+            },
+            {
+              "id": "J1_J0_0",
+              "stopped": 0,
+              "vehicles": 6
+            }
+          ]
+        },
+        {
+          "intersection": "J1",
+          "green_index": 1,
+          "stage": "green",
+          "elapsed_s": 40,
+          "incoming_lanes": [
+            {
+              "id": "N1_J1_0",
+              "stopped": 3,
+              "vehicles": 4
+            },
+            {
+              "id": "S1_J1_0",
+              "stopped": 1,
+              "vehicles": 5
+            },
+            {
+              "id": "J0_J1_0",
+              "stopped": 0,
+              "vehicles": 6
+            },
+            {
+              "id": "E_J1_0",
+              "stopped": 0,
+              "vehicles": 4
+            }
+          ]
+        }
+      ],
+      "queued_before": 12,
+      "legal_actions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "q_values": [
+        -6.283689022064209,
+        -6.366959571838379,
+        -6.342748165130615,
+        -6.269343852996826
+      ],
+      "chosen_action": 3,
+      "chosen_bits_A_B": [
+        1,
+        1
+      ],
+      "next_5s_reward": -0.68,
+      "next_time_s": 80,
+      "next_5s_stopped_vehicle_seconds": 68.0
+    },
+    {
+      "time_s": 80,
+      "observation_29": [
+        0.08888889104127884,
+        0.1280737668275833,
+        0.2049180269241333,
+        0.10245901346206665,
+        0.1280737668275833,
+        0.0,
+        0.15368852019309998,
+        0.0,
+        0.0972510352730751,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.10245901346206665,
+        0.1280737668275833,
+        0.07684426009654999,
+        0.1280737668275833,
+        0.0,
+        0.11670124530792236,
+        0.0,
+        0.17930327355861664,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "intersections": [
+        {
+          "intersection": "J0",
+          "green_index": 1,
+          "stage": "all_red",
+          "elapsed_s": 2,
+          "incoming_lanes": [
+            {
+              "id": "N0_J0_0",
+              "stopped": 5,
+              "vehicles": 8
+            },
+            {
+              "id": "S0_J0_0",
+              "stopped": 4,
+              "vehicles": 5
+            },
+            {
+              "id": "W_J0_0",
+              "stopped": 0,
+              "vehicles": 6
+            },
+            {
+              "id": "J1_J0_0",
+              "stopped": 0,
+              "vehicles": 5
+            }
+          ]
+        },
+        {
+          "intersection": "J1",
+          "green_index": 1,
+          "stage": "all_red",
+          "elapsed_s": 2,
+          "incoming_lanes": [
+            {
+              "id": "N1_J1_0",
+              "stopped": 4,
+              "vehicles": 5
+            },
+            {
+              "id": "S1_J1_0",
+              "stopped": 3,
+              "vehicles": 5
+            },
+            {
+              "id": "J0_J1_0",
+              "stopped": 0,
+              "vehicles": 6
+            },
+            {
+              "id": "E_J1_0",
+              "stopped": 0,
+              "vehicles": 7
+            }
+          ]
+        }
+      ],
+      "queued_before": 16,
+      "legal_actions": [
+        0
+      ],
+      "q_values": [
+        -6.363590717315674,
+        -6.405609607696533,
+        -7.031123638153076,
+        -6.84795618057251
+      ],
+      "chosen_action": 0,
+      "chosen_bits_A_B": [
+        0,
+        0
+      ],
+      "next_5s_reward": -0.53,
+      "next_time_s": 85,
+      "next_5s_stopped_vehicle_seconds": 53.0
+    },
+    {
+      "time_s": 85,
+      "observation_29": [
+        0.09444444626569748,
+        0.025614753365516663,
+        0.15368852019309998,
+        0.0,
+        0.07684426009654999,
+        0.051229506731033325,
+        0.2049180269241333,
+        0.01945020817220211,
+        0.0972510352730751,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0833333358168602,
+        0.0,
+        0.07684426009654999,
+        0.0,
+        0.1280737668275833,
+        0.05835062265396118,
+        0.11670124530792236,
+        0.0,
+        0.23053278028964996,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0833333358168602
+      ],
+      "intersections": [
+        {
+          "intersection": "J0",
+          "green_index": 0,
+          "stage": "green",
+          "elapsed_s": 5,
+          "incoming_lanes": [
+            {
+              "id": "N0_J0_0",
+              "stopped": 1,
+              "vehicles": 6
+            },
+            {
+              "id": "S0_J0_0",
+              "stopped": 0,
+              "vehicles": 3
+            },
+            {
+              "id": "W_J0_0",
+              "stopped": 2,
+              "vehicles": 8
+            },
+            {
+              "id": "J1_J0_0",
+              "stopped": 1,
+              "vehicles": 5
+            }
+          ]
+        },
+        {
+          "intersection": "J1",
+          "green_index": 0,
+          "stage": "green",
+          "elapsed_s": 5,
+          "incoming_lanes": [
+            {
+              "id": "N1_J1_0",
+              "stopped": 0,
+              "vehicles": 3
+            },
+            {
+              "id": "S1_J1_0",
+              "stopped": 0,
+              "vehicles": 5
+            },
+            {
+              "id": "J0_J1_0",
+              "stopped": 3,
+              "vehicles": 6
+            },
+            {
+              "id": "E_J1_0",
+              "stopped": 0,
+              "vehicles": 9
+            }
+          ]
+        }
+      ],
+      "queued_before": 7,
+      "legal_actions": [
+        0
+      ],
+      "q_values": [
+        -6.7417120933532715,
+        -6.994086265563965,
+        -6.882409572601318,
+        -7.146244525909424
+      ],
+      "chosen_action": 0,
+      "chosen_bits_A_B": [
+        0,
+        0
+      ],
+      "next_5s_reward": -0.56,
+      "next_time_s": 90,
+      "next_5s_stopped_vehicle_seconds": 56.00000000000001
+    },
+    {
+      "time_s": 90,
+      "observation_29": [
+        0.10000000149011612,
+        0.0,
+        0.10245901346206665,
+        0.0,
+        0.025614753365516663,
+        0.07684426009654999,
+        0.23053278028964996,
+        0.03890041634440422,
+        0.0972510352730751,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.1666666716337204,
+        0.0,
+        0.025614753365516663,
+        0.0,
+        0.10245901346206665,
+        0.0972510352730751,
+        0.11670124530792236,
+        0.07684426009654999,
+        0.2561475336551666,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.1666666716337204
+      ],
+      "intersections": [
+        {
+          "intersection": "J0",
+          "green_index": 0,
+          "stage": "green",
+          "elapsed_s": 10,
+          "incoming_lanes": [
+            {
+              "id": "N0_J0_0",
+              "stopped": 0,
+              "vehicles": 4
+            },
+            {
+              "id": "S0_J0_0",
+              "stopped": 0,
+              "vehicles": 1
+            },
+            {
+              "id": "W_J0_0",
+              "stopped": 3,
+              "vehicles": 9
+            },
+            {
+              "id": "J1_J0_0",
+              "stopped": 2,
+              "vehicles": 5
+            }
+          ]
+        },
+        {
+          "intersection": "J1",
+          "green_index": 0,
+          "stage": "green",
+          "elapsed_s": 10,
+          "incoming_lanes": [
+            {
+              "id": "N1_J1_0",
+              "stopped": 0,
+              "vehicles": 1
+            },
+            {
+              "id": "S1_J1_0",
+              "stopped": 0,
+              "vehicles": 4
+            },
+            {
+              "id": "J0_J1_0",
+              "stopped": 5,
+              "vehicles": 6
+            },
+            {
+              "id": "E_J1_0",
+              "stopped": 3,
+              "vehicles": 10
+            }
+          ]
+        }
+      ],
+      "queued_before": 13,
+      "legal_actions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "q_values": [
+        -7.424968719482422,
+        -7.2472920417785645,
+        -7.105715274810791,
+        -6.926860809326172
+      ],
+      "chosen_action": 3,
+      "chosen_bits_A_B": [
+        1,
+        1
+      ],
+      "next_5s_reward": -0.75,
+      "next_time_s": 95,
+      "next_5s_stopped_vehicle_seconds": 75.0
+    },
+    {
+      "time_s": 95,
+      "observation_29": [
+        0.10555555671453476,
+        0.025614753365516663,
+        0.1280737668275833,
+        0.0,
+        0.051229506731033325,
+        0.1280737668275833,
+        0.23053278028964996,
+        0.03890041634440422,
+        0.0972510352730751,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.025614753365516663,
+        0.025614753365516663,
+        0.10245901346206665,
+        0.0972510352730751,
+        0.11670124530792236,
+        0.10245901346206665,
+        0.2817623019218445,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "intersections": [
+        {
+          "intersection": "J0",
+          "green_index": 0,
+          "stage": "all_red",
+          "elapsed_s": 2,
+          "incoming_lanes": [
+            {
+              "id": "N0_J0_0",
+              "stopped": 1,
+              "vehicles": 5
+            },
+            {
+              "id": "S0_J0_0",
+              "stopped": 0,
+              "vehicles": 2
+            },
+            {
+              "id": "W_J0_0",
+              "stopped": 5,
+              "vehicles": 9
+            },
+            {
+              "id": "J1_J0_0",
+              "stopped": 2,
+              "vehicles": 5
+            }
+          ]
+        },
+        {
+          "intersection": "J1",
+          "green_index": 0,
+          "stage": "all_red",
+          "elapsed_s": 2,
+          "incoming_lanes": [
+            {
+              "id": "N1_J1_0",
+              "stopped": 0,
+              "vehicles": 1
+            },
+            {
+              "id": "S1_J1_0",
+              "stopped": 1,
+              "vehicles": 4
+            },
+            {
+              "id": "J0_J1_0",
+              "stopped": 5,
+              "vehicles": 6
+            },
+            {
+              "id": "E_J1_0",
+              "stopped": 4,
+              "vehicles": 11
+            }
+          ]
+        }
+      ],
+      "queued_before": 18,
+      "legal_actions": [
+        0
+      ],
+      "q_values": [
+        -6.924912929534912,
+        -6.340272426605225,
+        -7.127686023712158,
+        -6.627651691436768
+      ],
+      "chosen_action": 0,
+      "chosen_bits_A_B": [
+        0,
+        0
+      ],
+      "next_5s_reward": -0.55,
+      "next_time_s": 100,
+      "next_5s_stopped_vehicle_seconds": 55.00000000000001
+    },
+    {
+      "time_s": 100,
+      "observation_29": [
+        0.1111111119389534,
+        0.10245901346206665,
+        0.15368852019309998,
+        0.0,
+        0.07684426009654999,
+        0.025614753365516663,
+        0.2049180269241333,
+        0.0,
+        0.07780083268880844,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0833333358168602,
+        0.0,
+        0.025614753365516663,
+        0.025614753365516663,
+        0.1280737668275833,
+        0.01945020817220211,
+        0.0972510352730751,
+        0.0,
+        0.2561475336551666,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0833333358168602
+      ],
+      "intersections": [
+        {
+          "intersection": "J0",
+          "green_index": 1,
+          "stage": "green",
+          "elapsed_s": 5,
+          "incoming_lanes": [
+            {
+              "id": "N0_J0_0",
+              "stopped": 4,
+              "vehicles": 6
+            },
+            {
+              "id": "S0_J0_0",
+              "stopped": 0,
+              "vehicles": 3
+            },
+            {
+              "id": "W_J0_0",
+              "stopped": 1,
+              "vehicles": 8
+            },
+            {
+              "id": "J1_J0_0",
+              "stopped": 0,
+              "vehicles": 4
+            }
+          ]
+        },
+        {
+          "intersection": "J1",
+          "green_index": 1,
+          "stage": "green",
+          "elapsed_s": 5,
+          "incoming_lanes": [
+            {
+              "id": "N1_J1_0",
+              "stopped": 0,
+              "vehicles": 1
+            },
+            {
+              "id": "S1_J1_0",
+              "stopped": 1,
+              "vehicles": 5
+            },
+            {
+              "id": "J0_J1_0",
+              "stopped": 1,
+              "vehicles": 5
+            },
+            {
+              "id": "E_J1_0",
+              "stopped": 0,
+              "vehicles": 10
+            }
+          ]
+        }
+      ],
+      "queued_before": 7,
+      "legal_actions": [
+        0
+      ],
+      "q_values": [
+        -6.146488189697266,
+        -6.820106506347656,
+        -7.048193454742432,
+        -7.394649982452393
+      ],
+      "chosen_action": 0,
+      "chosen_bits_A_B": [
+        0,
+        0
+      ],
+      "next_5s_reward": -0.29,
+      "next_time_s": 105,
+      "next_5s_stopped_vehicle_seconds": 28.999999999999996
+    },
+    {
+      "time_s": 105,
+      "observation_29": [
+        0.11666666716337204,
+        0.10245901346206665,
+        0.15368852019309998,
+        0.025614753365516663,
+        0.07684426009654999,
+        0.0,
+        0.15368852019309998,
+        0.0,
+        0.0972510352730751,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.1666666716337204,
+        0.0,
+        0.025614753365516663,
+        0.051229506731033325,
+        0.1280737668275833,
+        0.0,
+        0.11670124530792236,
+        0.0,
+        0.2049180269241333,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.1666666716337204
+      ],
+      "intersections": [
+        {
+          "intersection": "J0",
+          "green_index": 1,
+          "stage": "green",
+          "elapsed_s": 10,
+          "incoming_lanes": [
+            {
+              "id": "N0_J0_0",
+              "stopped": 4,
+              "vehicles": 6
+            },
+            {
+              "id": "S0_J0_0",
+              "stopped": 1,
+              "vehicles": 3
+            },
+            {
+              "id": "W_J0_0",
+              "stopped": 0,
+              "vehicles": 6
+            },
+            {
+              "id": "J1_J0_0",
+              "stopped": 0,
+              "vehicles": 5
+            }
+          ]
+        },
+        {
+          "intersection": "J1",
+          "green_index": 1,
+          "stage": "green",
+          "elapsed_s": 10,
+          "incoming_lanes": [
+            {
+              "id": "N1_J1_0",
+              "stopped": 0,
+              "vehicles": 1
+            },
+            {
+              "id": "S1_J1_0",
+              "stopped": 2,
+              "vehicles": 5
+            },
+            {
+              "id": "J0_J1_0",
+              "stopped": 0,
+              "vehicles": 6
+            },
+            {
+              "id": "E_J1_0",
+              "stopped": 0,
+              "vehicles": 8
+            }
+          ]
+        }
+      ],
+      "queued_before": 7,
+      "legal_actions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "q_values": [
+        -5.772604465484619,
+        -6.189443588256836,
+        -6.353038311004639,
+        -6.488882541656494
+      ],
+      "chosen_action": 0,
+      "chosen_bits_A_B": [
+        0,
+        0
+      ],
+      "next_5s_reward": -0.42,
+      "next_time_s": 110,
+      "next_5s_stopped_vehicle_seconds": 42.0
+    },
+    {
+      "time_s": 110,
+      "observation_29": [
+        0.12222222238779068,
+        0.10245901346206665,
+        0.15368852019309998,
+        0.025614753365516663,
+        0.07684426009654999,
+        0.0,
+        0.07684426009654999,
+        0.0,
+        0.11670124530792236,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.25,
+        0.025614753365516663,
+        0.025614753365516663,
+        0.07684426009654999,
+        0.1280737668275833,
+        0.0,
+        0.13615144789218903,
+        0.0,
+        0.1280737668275833,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.25
+      ],
+      "intersections": [
+        {
+          "intersection": "J0",
+          "green_index": 1,
+          "stage": "green",
+          "elapsed_s": 15,
+          "incoming_lanes": [
+            {
+              "id": "N0_J0_0",
+              "stopped": 4,
+              "vehicles": 6
+            },
+            {
+              "id": "S0_J0_0",
+              "stopped": 1,
+              "vehicles": 3
+            },
+            {
+              "id": "W_J0_0",
+              "stopped": 0,
+              "vehicles": 3
+            },
+            {
+              "id": "J1_J0_0",
+              "stopped": 0,
+              "vehicles": 6
+            }
+          ]
+        },
+        {
+          "intersection": "J1",
+          "green_index": 1,
+          "stage": "green",
+          "elapsed_s": 15,
+          "incoming_lanes": [
+            {
+              "id": "N1_J1_0",
+              "stopped": 1,
+              "vehicles": 1
+            },
+            {
+              "id": "S1_J1_0",
+              "stopped": 3,
+              "vehicles": 5
+            },
+            {
+              "id": "J0_J1_0",
+              "stopped": 0,
+              "vehicles": 7
+            },
+            {
+              "id": "E_J1_0",
+              "stopped": 0,
+              "vehicles": 5
+            }
+          ]
+        }
+      ],
+      "queued_before": 9,
+      "legal_actions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "q_values": [
+        -5.176736354827881,
+        -5.337360858917236,
+        -5.489470958709717,
+        -5.3965911865234375
+      ],
+      "chosen_action": 0,
+      "chosen_bits_A_B": [
+        0,
+        0
+      ],
+      "next_5s_reward": -0.49,
+      "next_time_s": 115,
+      "next_5s_stopped_vehicle_seconds": 49.0
+    },
+    {
+      "time_s": 115,
+      "observation_29": [
+        0.12777778506278992,
+        0.10245901346206665,
+        0.15368852019309998,
+        0.025614753365516663,
+        0.07684426009654999,
+        0.0,
+        0.051229506731033325,
+        0.0,
+        0.17505186796188354,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.3333333432674408,
+        0.025614753365516663,
+        0.025614753365516663,
+        0.10245901346206665,
+        0.15368852019309998,
+        0.0,
+        0.17505186796188354,
+        0.0,
+        0.07684426009654999,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.3333333432674408
+      ],
+      "intersections": [
+        {
+          "intersection": "J0",
+          "green_index": 1,
+          "stage": "green",
+          "elapsed_s": 20,
+          "incoming_lanes": [
+            {
+              "id": "N0_J0_0",
+              "stopped": 4,
+              "vehicles": 6
+            },
+            {
+              "id": "S0_J0_0",
+              "stopped": 1,
+              "vehicles": 3
+            },
+            {
+              "id": "W_J0_0",
+              "stopped": 0,
+              "vehicles": 2
+            },
+            {
+              "id": "J1_J0_0",
+              "stopped": 0,
+              "vehicles": 9
+            }
+          ]
+        },
+        {
+          "intersection": "J1",
+          "green_index": 1,
+          "stage": "green",
+          "elapsed_s": 20,
+          "incoming_lanes": [
+            {
+              "id": "N1_J1_0",
+              "stopped": 1,
+              "vehicles": 1
+            },
+            {
+              "id": "S1_J1_0",
+              "stopped": 4,
+              "vehicles": 6
+            },
+            {
+              "id": "J0_J1_0",
+              "stopped": 0,
+              "vehicles": 9
+            },
+            {
+              "id": "E_J1_0",
+              "stopped": 0,
+              "vehicles": 3
+            }
+          ]
+        }
+      ],
+      "queued_before": 10,
+      "legal_actions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "q_values": [
+        -5.386097431182861,
+        -5.554078102111816,
+        -5.599807262420654,
+        -5.524346828460693
+      ],
+      "chosen_action": 0,
+      "chosen_bits_A_B": [
+        0,
+        0
+      ],
+      "next_5s_reward": -0.59,
+      "next_time_s": 120,
+      "next_5s_stopped_vehicle_seconds": 59.0
+    },
+    {
+      "time_s": 120,
+      "observation_29": [
+        0.13333334028720856,
+        0.15368852019309998,
+        0.15368852019309998,
+        0.07684426009654999,
+        0.07684426009654999,
+        0.0,
+        0.051229506731033325,
+        0.0,
+        0.21395228803157806,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.4166666567325592,
+        0.025614753365516663,
+        0.051229506731033325,
+        0.10245901346206665,
+        0.15368852019309998,
+        0.0,
+        0.1945020705461502,
+        0.0,
+        0.07684426009654999,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.4166666567325592
+      ],
+      "intersections": [
+        {
+          "intersection": "J0",
+          "green_index": 1,
+          "stage": "green",
+          "elapsed_s": 25,
+          "incoming_lanes": [
+            {
+              "id": "N0_J0_0",
+              "stopped": 6,
+              "vehicles": 6
+            },
+            {
+              "id": "S0_J0_0",
+              "stopped": 3,
+              "vehicles": 3
+            },
+            {
+              "id": "W_J0_0",
+              "stopped": 0,
+              "vehicles": 2
+            },
+            {
+              "id": "J1_J0_0",
+              "stopped": 0,
+              "vehicles": 11
+            }
+          ]
+        },
+        {
+          "intersection": "J1",
+          "green_index": 1,
+          "stage": "green",
+          "elapsed_s": 25,
+          "incoming_lanes": [
+            {
+              "id": "N1_J1_0",
+              "stopped": 1,
+              "vehicles": 2
+            },
+            {
+              "id": "S1_J1_0",
+              "stopped": 4,
+              "vehicles": 6
+            },
+            {
+              "id": "J0_J1_0",
+              "stopped": 0,
+              "vehicles": 10
+            },
+            {
+              "id": "E_J1_0",
+              "stopped": 0,
+              "vehicles": 3
+            }
+          ]
+        }
+      ],
+      "queued_before": 14,
+      "legal_actions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "q_values": [
+        -5.990053653717041,
+        -6.062514305114746,
+        -6.2239251136779785,
+        -6.092098236083984
+      ],
+      "chosen_action": 0,
+      "chosen_bits_A_B": [
+        0,
+        0
+      ],
+      "next_5s_reward": -0.74,
+      "next_time_s": 125,
+      "next_5s_stopped_vehicle_seconds": 74.0
+    },
+    {
+      "time_s": 125,
+      "observation_29": [
+        0.1388888955116272,
+        0.15368852019309998,
+        0.15368852019309998,
+        0.07684426009654999,
+        0.07684426009654999,
+        0.0,
+        0.051229506731033325,
+        0.0,
+        0.23340249061584473,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.5,
+        0.025614753365516663,
+        0.051229506731033325,
+        0.1280737668275833,
+        0.15368852019309998,
+        0.0,
+        0.1945020705461502,
+        0.0,
+        0.07684426009654999,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "intersections": [
+        {
+          "intersection": "J0",
+          "green_index": 1,
+          "stage": "green",
+          "elapsed_s": 30,
+          "incoming_lanes": [
+            {
+              "id": "N0_J0_0",
+              "stopped": 6,
+              "vehicles": 6
+            },
+            {
+              "id": "S0_J0_0",
+              "stopped": 3,
+              "vehicles": 3
+            },
+            {
+              "id": "W_J0_0",
+              "stopped": 0,
+              "vehicles": 2
+            },
+            {
+              "id": "J1_J0_0",
+              "stopped": 0,
+              "vehicles": 12
+            }
+          ]
+        },
+        {
+          "intersection": "J1",
+          "green_index": 1,
+          "stage": "green",
+          "elapsed_s": 30,
+          "incoming_lanes": [
+            {
+              "id": "N1_J1_0",
+              "stopped": 1,
+              "vehicles": 2
+            },
+            {
+              "id": "S1_J1_0",
+              "stopped": 5,
+              "vehicles": 6
+            },
+            {
+              "id": "J0_J1_0",
+              "stopped": 0,
+              "vehicles": 10
+            },
+            {
+              "id": "E_J1_0",
+              "stopped": 0,
+              "vehicles": 3
+            }
+          ]
+        }
+      ],
+      "queued_before": 15,
+      "legal_actions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "q_values": [
+        -6.200323104858398,
+        -6.284997940063477,
+        -6.340259075164795,
+        -6.246692180633545
+      ],
+      "chosen_action": 0,
+      "chosen_bits_A_B": [
+        0,
+        0
+      ],
+      "next_5s_reward": -0.75,
+      "next_time_s": 130,
+      "next_5s_stopped_vehicle_seconds": 75.0
+    },
+    {
+      "time_s": 130,
+      "observation_29": [
+        0.14444445073604584,
+        0.15368852019309998,
+        0.15368852019309998,
+        0.07684426009654999,
+        0.07684426009654999,
+        0.0,
+        0.07684426009654999,
+        0.0,
+        0.21395228803157806,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.5833333134651184,
+        0.025614753365516663,
+        0.07684426009654999,
+        0.1280737668275833,
+        0.17930327355861664,
+        0.0,
+        0.15560166537761688,
+        0.0,
+        0.07684426009654999,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.5833333134651184
+      ],
+      "intersections": [
+        {
+          "intersection": "J0",
+          "green_index": 1,
+          "stage": "green",
+          "elapsed_s": 35,
+          "incoming_lanes": [
+            {
+              "id": "N0_J0_0",
+              "stopped": 6,
+              "vehicles": 6
+            },
+            {
+              "id": "S0_J0_0",
+              "stopped": 3,
+              "vehicles": 3
+            },
+            {
+              "id": "W_J0_0",
+              "stopped": 0,
+              "vehicles": 3
+            },
+            {
+              "id": "J1_J0_0",
+              "stopped": 0,
+              "vehicles": 11
+            }
+          ]
+        },
+        {
+          "intersection": "J1",
+          "green_index": 1,
+          "stage": "green",
+          "elapsed_s": 35,
+          "incoming_lanes": [
+            {
+              "id": "N1_J1_0",
+              "stopped": 1,
+              "vehicles": 3
+            },
+            {
+              "id": "S1_J1_0",
+              "stopped": 5,
+              "vehicles": 7
+            },
+            {
+              "id": "J0_J1_0",
+              "stopped": 0,
+              "vehicles": 8
+            },
+            {
+              "id": "E_J1_0",
+              "stopped": 0,
+              "vehicles": 3
+            }
+          ]
+        }
+      ],
+      "queued_before": 15,
+      "legal_actions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "q_values": [
+        -6.411740779876709,
+        -6.506174087524414,
+        -6.404919147491455,
+        -6.353430271148682
+      ],
+      "chosen_action": 3,
+      "chosen_bits_A_B": [
+        1,
+        1
+      ],
+      "next_5s_reward": -0.79,
+      "next_time_s": 135,
+      "next_5s_stopped_vehicle_seconds": 79.0
+    },
+    {
+      "time_s": 135,
+      "observation_29": [
+        0.15000000596046448,
+        0.15368852019309998,
+        0.15368852019309998,
+        0.07684426009654999,
+        0.07684426009654999,
+        0.0,
+        0.10245901346206665,
+        0.0,
+        0.1945020705461502,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.025614753365516663,
+        0.10245901346206665,
+        0.15368852019309998,
+        0.17930327355861664,
+        0.0,
+        0.15560166537761688,
+        0.0,
+        0.10245901346206665,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "intersections": [
+        {
+          "intersection": "J0",
+          "green_index": 1,
+          "stage": "all_red",
+          "elapsed_s": 2,
+          "incoming_lanes": [
+            {
+              "id": "N0_J0_0",
+              "stopped": 6,
+              "vehicles": 6
+            },
+            {
+              "id": "S0_J0_0",
+              "stopped": 3,
+              "vehicles": 3
+            },
+            {
+              "id": "W_J0_0",
+              "stopped": 0,
+              "vehicles": 4
+            },
+            {
+              "id": "J1_J0_0",
+              "stopped": 0,
+              "vehicles": 10
+            }
+          ]
+        },
+        {
+          "intersection": "J1",
+          "green_index": 1,
+          "stage": "all_red",
+          "elapsed_s": 2,
+          "incoming_lanes": [
+            {
+              "id": "N1_J1_0",
+              "stopped": 1,
+              "vehicles": 4
+            },
+            {
+              "id": "S1_J1_0",
+              "stopped": 6,
+              "vehicles": 7
+            },
+            {
+              "id": "J0_J1_0",
+              "stopped": 0,
+              "vehicles": 8
+            },
+            {
+              "id": "E_J1_0",
+              "stopped": 0,
+              "vehicles": 4
+            }
+          ]
+        }
+      ],
+      "queued_before": 16,
+      "legal_actions": [
+        0
+      ],
+      "q_values": [
+        -5.783796787261963,
+        -6.000631809234619,
+        -6.450445652008057,
+        -6.448957920074463
+      ],
+      "chosen_action": 0,
+      "chosen_bits_A_B": [
+        0,
+        0
+      ],
+      "next_5s_reward": -0.54,
+      "next_time_s": 140,
+      "next_5s_stopped_vehicle_seconds": 54.0
+    },
+    {
+      "time_s": 140,
+      "observation_29": [
+        0.15555556118488312,
+        0.025614753365516663,
+        0.10245901346206665,
+        0.0,
+        0.025614753365516663,
+        0.025614753365516663,
+        0.15368852019309998,
+        0.05835062265396118,
+        0.1945020705461502,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0833333358168602,
+        0.0,
+        0.10245901346206665,
+        0.025614753365516663,
+        0.1280737668275833,
+        0.05835062265396118,
+        0.15560166537761688,
+        0.025614753365516663,
+        0.10245901346206665,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0833333358168602
+      ],
+      "intersections": [
+        {
+          "intersection": "J0",
+          "green_index": 0,
+          "stage": "green",
+          "elapsed_s": 5,
+          "incoming_lanes": [
+            {
+              "id": "N0_J0_0",
+              "stopped": 1,
+              "vehicles": 4
+            },
+            {
+              "id": "S0_J0_0",
+              "stopped": 0,
+              "vehicles": 1
+            },
+            {
+              "id": "W_J0_0",
+              "stopped": 1,
+              "vehicles": 6
+            },
+            {
+              "id": "J1_J0_0",
+              "stopped": 3,
+              "vehicles": 10
+            }
+          ]
+        },
+        {
+          "intersection": "J1",
+          "green_index": 0,
+          "stage": "green",
+          "elapsed_s": 5,
+          "incoming_lanes": [
+            {
+              "id": "N1_J1_0",
+              "stopped": 0,
+              "vehicles": 4
+            },
+            {
+              "id": "S1_J1_0",
+              "stopped": 1,
+              "vehicles": 5
+            },
+            {
+              "id": "J0_J1_0",
+              "stopped": 3,
+              "vehicles": 8
+            },
+            {
+              "id": "E_J1_0",
+              "stopped": 1,
+              "vehicles": 4
+            }
+          ]
+        }
+      ],
+      "queued_before": 10,
+      "legal_actions": [
+        0
+      ],
+      "q_values": [
+        -6.33928918838501,
+        -6.321803569793701,
+        -6.589553356170654,
+        -6.455941677093506
+      ],
+      "chosen_action": 0,
+      "chosen_bits_A_B": [
+        0,
+        0
+      ],
+      "next_5s_reward": -0.62,
+      "next_time_s": 145,
+      "next_5s_stopped_vehicle_seconds": 62.0
+    },
+    {
+      "time_s": 145,
+      "observation_29": [
+        0.16111111640930176,
+        0.0,
+        0.051229506731033325,
+        0.0,
+        0.0,
+        0.051229506731033325,
+        0.15368852019309998,
+        0.11670124530792236,
+        0.1945020705461502,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.1666666716337204,
+        0.0,
+        0.10245901346206665,
+        0.0,
+        0.07684426009654999,
+        0.13615144789218903,
+        0.15560166537761688,
+        0.051229506731033325,
+        0.10245901346206665,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.1666666716337204
+      ],
+      "intersections": [
+        {
+          "intersection": "J0",
+          "green_index": 0,
+          "stage": "green",
+          "elapsed_s": 10,
+          "incoming_lanes": [
+            {
+              "id": "N0_J0_0",
+              "stopped": 0,
+              "vehicles": 2
+            },
+            {
+              "id": "S0_J0_0",
+              "stopped": 0,
+              "vehicles": 0
+            },
+            {
+              "id": "W_J0_0",
+              "stopped": 2,
+              "vehicles": 6
+            },
+            {
+              "id": "J1_J0_0",
+              "stopped": 6,
+              "vehicles": 10
+            }
+          ]
+        },
+        {
+          "intersection": "J1",
+          "green_index": 0,
+          "stage": "green",
+          "elapsed_s": 10,
+          "incoming_lanes": [
+            {
+              "id": "N1_J1_0",
+              "stopped": 0,
+              "vehicles": 4
+            },
+            {
+              "id": "S1_J1_0",
+              "stopped": 0,
+              "vehicles": 3
+            },
+            {
+              "id": "J0_J1_0",
+              "stopped": 7,
+              "vehicles": 8
+            },
+            {
+              "id": "E_J1_0",
+              "stopped": 2,
+              "vehicles": 4
+            }
+          ]
+        }
+      ],
+      "queued_before": 17,
+      "legal_actions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "q_values": [
+        -7.30647611618042,
+        -6.738996505737305,
+        -7.063846111297607,
+        -6.352090358734131
+      ],
+      "chosen_action": 3,
+      "chosen_bits_A_B": [
+        1,
+        1
+      ],
+      "next_5s_reward": -1.04,
+      "next_time_s": 150,
+      "next_5s_stopped_vehicle_seconds": 104.0
+    }
+  ],
+  "model_sha256": "8d4adca47835fa10439c12e6d694325e9da5d6fa5c03ac79a688cb2a9e6542d9",
+  "purpose": "Read-only inference example from the current 100-episode model; no training updates performed."
+}

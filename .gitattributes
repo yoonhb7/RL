@@ -1,0 +1,9 @@
+# Keep network XML byte-stable across Windows/macOS/Linux checkouts.
+# Checkpoint compatibility checks include the network file SHA-256.
+* text=auto eol=lf
+# These XML files already match the supplied checkpoint hashes. Preserve bytes.
+*.xml -text
+*.cmd text eol=crlf
+*.pt binary
+*.png binary
+*.gif binary
