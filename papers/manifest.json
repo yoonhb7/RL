@@ -1,0 +1,46 @@
+[
+  {
+    "file": "joint-pedestrian-vehicle-2025.pdf",
+    "title": "Joint Pedestrian and Vehicle Traffic Optimization in Urban Environments using Reinforcement Learning",
+    "authors": "Bibek Poudel, Xuan Wang, Weizi Li, Lei Zhu, Kevin Heaslip",
+    "source": "https://arxiv.org/abs/2504.05018v2",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license_evidence": "arXiv v2 record: view license (checked 2026-11-11)",
+    "modified": false,
+    "sha256": "e92e1ef84f260458b5fc7bbf8e51294d2e5f460d1a6e429fef5305443de8e810"
+  },
+  {
+    "file": "adaptive-multi-objective-2025.pdf",
+    "title": "Adaptive traffic signal control using deep reinforcement learning: A multi-objective approach for single and multi-intersection scenarios",
+    "authors": "Marwa Elharoun, Sherif M. El-Badawy, Elsayed Abd-Elazem Shwaly, Usama Elrawy Shahdah",
+    "source": "https://doi.org/10.1016/j.iatssr.2025.10.004",
+    "license": "CC BY-NC-ND 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "license_evidence": "Publisher PDF, first page: CC BY-NC-ND 4.0",
+    "modified": false,
+    "sha256": "bc59b1e1bebb261ea0998fdd80213a2fda33c96f856f367fcddac57f2b91a652"
+  },
+  {
+    "file": "cenlight-2023.pdf",
+    "title": "CenLight: Centralized traffic grid signal optimization via action and state decomposition",
+    "authors": "Jia Wu, Yunchuan Ran, Yican Lou, Lingzhou Shu",
+    "source": "https://doi.org/10.1049/itr2.12354",
+    "license": "CC BY-NC-ND",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "license_evidence": "Publisher PDF, first page: Creative Commons Attribution-NonCommercial-NoDerivs License",
+    "modified": false,
+    "sha256": "973c1489e7f66dd2877a91237fceaea6ff86a762bbeda4cabf1e5ae627870af5"
+  },
+  {
+    "file": "single-agent-urban-corridors-2026.pdf",
+    "title": "Single-Agent Reinforcement Learning Model for Adaptive Traffic Signal Control in Urban Corridors",
+    "authors": "Qiang Li, Xiya Zhuang, Lishan Liu, Bokui Chen, Yi Zhang, Yingping Zhao",
+    "source": "https://doi.org/10.1155/atr/5134018",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license_evidence": "Publisher PDF, first page: Creative Commons Attribution License; copyright 2026 Qiang Li et al.",
+    "modified": false,
+    "sha256": "17a7938bbb808a9c62b927ea82401797b9d2fd41d5174f7e6a983c60d8582272"
+  }
+]
