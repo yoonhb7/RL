@@ -1,0 +1,42 @@
+{
+  "variant": "basic",
+  "seed": 1001,
+  "profile": "balanced",
+  "seconds": 420,
+  "route_sha256": "1c1c6d23304f4cfbc5adc750f741b0e60b57fc03f5b08272cbd033e549fc9936",
+  "switches": 44,
+  "vehicle_stops": 135,
+  "collisions": 0,
+  "teleports": 0,
+  "base_return": -26.700000000000003,
+  "switch_cost_sum": 0.0,
+  "return": -26.700000000000003,
+  "max_continuous_ped_wait_at_decision_s": 65.0,
+  "vehicle": {
+    "scheduled": 86,
+    "departed": 86,
+    "arrived": 86,
+    "remaining": 0,
+    "not_departed": 0,
+    "mean_wait_s": 14.848837209302326,
+    "p95_wait_s": 34.75,
+    "max_wait_s": 45
+  },
+  "person": {
+    "scheduled": 29,
+    "departed": 29,
+    "arrived": 29,
+    "remaining": 0,
+    "not_departed": 0,
+    "mean_wait_s": 21.896551724137932,
+    "p95_wait_s": 56.39999999999996,
+    "max_wait_s": 65
+  },
+  "crossing_count": 4,
+  "site_switches": {
+    "C1": 9,
+    "C2": 11,
+    "C3": 10,
+    "C4": 14
+  }
+}

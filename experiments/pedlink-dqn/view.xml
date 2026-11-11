@@ -1,0 +1,16 @@
+<viewsettings>
+  <scheme name="Single crossing">
+    <background backgroundColor="235,241,230" showGrid="0"/>
+    <edges laneShowBorders="1" showLinkDecals="1" showLinkRules="1" hideConnectors="1" widthExaggeration="1.1">
+      <colorScheme name="uniform"><entry color="58,66,78" name="road"/><entry color="185,192,180" name="sidewalk"/></colorScheme>
+    </edges>
+    <vehicles vehicleMode="0" vehicleQuality="2" vehicle_minSize="3" vehicle_exaggeration="1.1" showBlinker="1">
+      <colorScheme name="given vehicle/type/route color"><entry color="40,125,235"/></colorScheme>
+    </vehicles>
+    <persons personMode="0" personQuality="2" person_minSize="0.5" person_exaggeration="0.7" person_constantSize="1">
+      <colorScheme name="given person/type color"><entry color="240,100,30"/></colorScheme>
+    </persons>
+    <junctions showLane2Lane="0" drawShape="1" drawCrossingsAndWalkingareas="1"/>
+    <pois poiType_show="1" poiType_size="70" poiType_constantSize="1" poiType_color="25,35,50" poiType_bgColor="235,241,230,245"/>
+  </scheme>
+</viewsettings>

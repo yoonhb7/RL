@@ -1,0 +1,102 @@
+{
+  "model_sha256": "a10ebfa5f98553a93cba257dac7ea48d98fe9909ee1cc1916424e17290969719",
+  "training": {
+    "variant": "adaptive",
+    "episodes": 30,
+    "seed": 42,
+    "action_budget": 2520,
+    "wait_limit_s": 30,
+    "switch_weight": 0.02,
+    "reward": "-(stopped vehicle seconds + pending vehicle seconds + 2*stopped person seconds)/100 - cost",
+    "learning_starts": 128,
+    "learn_every": 2,
+    "batch": 64,
+    "gamma": 0.99,
+    "learning_rate": 0.001,
+    "training_seeds": [
+      42,
+      1042,
+      2042,
+      3042,
+      4042,
+      5042,
+      6042,
+      7042,
+      8042,
+      9042,
+      10042,
+      11042,
+      12042,
+      13042,
+      14042,
+      15042,
+      16042,
+      17042,
+      18042,
+      19042,
+      20042,
+      21042,
+      22042,
+      23042,
+      24042,
+      25042,
+      26042,
+      27042,
+      28042,
+      29042
+    ],
+    "profiles": [
+      "balanced",
+      "vehicle-heavy",
+      "ped-burst"
+    ],
+    "observation_size": 62,
+    "joint_actions": 16,
+    "completed_episodes": 30,
+    "updates": 1197
+  },
+  "results": [
+    {
+      "variant": "adaptive",
+      "seed": 1001,
+      "profile": "ped-burst",
+      "seconds": 420,
+      "route_sha256": "85586c9929873efd91148ad7e2dd20066e80076f2fda09e52e2c621b72fb38cc",
+      "switches": 50,
+      "vehicle_stops": 225,
+      "collisions": 0,
+      "teleports": 0,
+      "base_return": -31.670000000000005,
+      "switch_cost_sum": 0.22483333333333344,
+      "return": -31.894833333333338,
+      "max_continuous_ped_wait_at_decision_s": 38.0,
+      "vehicle": {
+        "scheduled": 86,
+        "departed": 86,
+        "arrived": 86,
+        "remaining": 0,
+        "not_departed": 0,
+        "mean_wait_s": 20.848837209302324,
+        "p95_wait_s": 49.0,
+        "max_wait_s": 53
+      },
+      "person": {
+        "scheduled": 49,
+        "departed": 49,
+        "arrived": 49,
+        "remaining": 0,
+        "not_departed": 0,
+        "mean_wait_s": 12.26530612244898,
+        "p95_wait_s": 31.399999999999977,
+        "max_wait_s": 38
+      },
+      "crossing_count": 4,
+      "site_switches": {
+        "C1": 12,
+        "C2": 10,
+        "C3": 14,
+        "C4": 14
+      }
+    }
+  ]
+}

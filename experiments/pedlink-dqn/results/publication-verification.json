@@ -1,0 +1,14 @@
+{
+  "checked_on": "2026-11-11",
+  "recorded_evaluations_audited": 27,
+  "signal_node_seconds_audited": 45360,
+  "portable_adaptive_rerun_evaluations": 9,
+  "portable_rerun_results_decisions_seconds_exact_match": true,
+  "portable_training_smoke_episodes": 2,
+  "portable_training_updates": 21,
+  "shared_baseline_tests_passed": 18,
+  "unchanged_pdf_hashes_verified": 4,
+  "published_markdown_local_links_verified": true,
+  "execution": "Windows, SUMO 1.28.0, CPU; external prepared Python packages selected explicitly for local validation",
+  "scope": "Functional and packaging verification; not independent repeated research training"
+}

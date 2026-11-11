@@ -1,0 +1,10 @@
+{
+  "evaluation_runs": 27,
+  "signal_node_seconds_checked": 45360,
+  "demand_files_matched": true,
+  "accounting_verified": true,
+  "phase_timing_and_clearance_verified": true,
+  "gui_matches_headless": true,
+  "frames": 50,
+  "remaining_and_not_departed": 13
+}

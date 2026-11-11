@@ -1,10 +1,16 @@
-# Corridor2-DQN: 두 사거리 차량 대기 최소화
+# SUMO 교통신호 강화학습 프로젝트
 
-이 브랜치는 차량 중심의 중앙 DQN 기본 실험을 보존한다. 가상 사거리 2개를 단일 DQN으로 제어하고 고정 신호·대기행렬 규칙과 비교한다.
+차량 중심 기본 실험에서 차량·보행자 공동 제어 실험으로 확장한 코드와 실행 기록이다.
 
-- **[팀원용 상세 비교 설명서](docs/EXPERIMENT_COMPARISON_KO.md)**: 논문, MDP, 구현, 추가 아이디어, 실측 결과와 한계.
-- [기존 설치·실행 안내](docs/CORRIDOR2_README_KO.md) · [100회 모델](models/corridor2-100ep/MODEL_CARD.md)
-- [논문 PDF와 출처·라이선스](papers/README.md)
-- [현재 PedLink-DQN 브랜치](https://github.com/yoonhb7/RL/tree/experiment/pedlink-dqn): 차량과 보행자를 함께 다루는 네 횡단보도 실험.
+**[팀원용 상세 실험 비교 설명서](docs/EXPERIMENT_COMPARISON_KO.md)** — 어떤 논문을 참고했고, 무엇을 구현했으며, 추가 아이디어와 실제 결과가 무엇인지 설명한다.
 
-최상위 `START_SIMULATION.cmd`는 기존 두 사거리 시연이다. 새 실험의 실행기와 구분한다. 기존 100회 학습 모델은 평가 시드 5개에서 차량 평균 대기 12.02초였으며, 동일 수요의 고정 신호는 27.24초, 대기행렬 규칙은 15.26초였다. 특정 합성 도로와 한 번의 학습 결과다.
+| 실험 | 목표 | 브랜치 | 실행·설명 |
+|---|---|---|---|
+| Corridor2-DQN | 두 사거리의 차량 대기 최소화 | [experiment/corridor2-dqn](https://github.com/yoonhb7/RL/tree/experiment/corridor2-dqn) | [기존 안내](docs/CORRIDOR2_README_KO.md), 최상위 `START_SIMULATION.cmd` |
+| PedLink-DQN | 네 횡단보도의 보행자 우선·대기 연동 전환 비용 | [experiment/pedlink-dqn](https://github.com/yoonhb7/RL/tree/experiment/pedlink-dqn) | [현재 실험](experiments/pedlink-dqn/README.md), 그 폴더의 `START_SIMULATION.cmd` |
+
+![PedLink-DQN 실제 SUMO 화면](experiments/pedlink-dqn/media/pedlink-sumo.gif)
+
+[논문 PDF·서지·라이선스](papers/README.md)를 함께 제공한다. 모델과 결과는 소규모 탐색 실험이며, 원 PPO 논문의 완전 재현이나 DQN의 일반적 우수성을 입증한 결과는 아니다. PedLink-DQN은 이 프로젝트의 이름이다.
+
+별도 PC 설치와 재학습은 [PedLink-DQN 안내](experiments/pedlink-dqn/README.md)를 따른다. 두 모델은 입력·행동 공간이 달라 교환할 수 없다. 새 실험 결과는 `results/local/` 또는 현재 실험의 자동 생성된 새 폴더에 저장한다.

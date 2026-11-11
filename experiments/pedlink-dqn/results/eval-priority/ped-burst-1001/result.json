@@ -1,0 +1,42 @@
+{
+  "variant": "priority",
+  "seed": 1001,
+  "profile": "ped-burst",
+  "seconds": 420,
+  "route_sha256": "85586c9929873efd91148ad7e2dd20066e80076f2fda09e52e2c621b72fb38cc",
+  "switches": 36,
+  "vehicle_stops": 162,
+  "collisions": 0,
+  "teleports": 0,
+  "base_return": -29.839999999999993,
+  "switch_cost_sum": 0.0,
+  "return": -29.839999999999993,
+  "max_continuous_ped_wait_at_decision_s": 38.0,
+  "vehicle": {
+    "scheduled": 86,
+    "departed": 86,
+    "arrived": 86,
+    "remaining": 0,
+    "not_departed": 0,
+    "mean_wait_s": 19.36046511627907,
+    "p95_wait_s": 50.75,
+    "max_wait_s": 59
+  },
+  "person": {
+    "scheduled": 49,
+    "departed": 49,
+    "arrived": 49,
+    "remaining": 0,
+    "not_departed": 0,
+    "mean_wait_s": 11.63265306122449,
+    "p95_wait_s": 32.99999999999994,
+    "max_wait_s": 38
+  },
+  "crossing_count": 4,
+  "site_switches": {
+    "C1": 8,
+    "C2": 11,
+    "C3": 8,
+    "C4": 9
+  }
+}

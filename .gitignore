@@ -39,3 +39,9 @@ tripinfo.xml
 trace.csv
 run.json
 gui-screenshot.png
+
+# PedLink published evidence is explicit; new local runs stay local.
+/experiments/pedlink-dqn/results/view-*/
+/experiments/pedlink-dqn/results/new-*/
+/experiments/pedlink-dqn/results/evaluation-*/
+/experiments/pedlink-dqn/results/experiment-*/

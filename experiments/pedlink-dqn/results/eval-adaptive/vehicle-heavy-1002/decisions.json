@@ -1,0 +1,4286 @@
+[
+  {
+    "time": 0,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.01
+  },
+  {
+    "time": 5,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 10,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.01
+  },
+  {
+    "time": 15,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.08
+  },
+  {
+    "time": 20,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 4.0,
+        "cost_gate": 0.8666666666666667,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 4.0,
+    "switch_cost": 0.0,
+    "reward": -0.15
+  },
+  {
+    "time": 25,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 9.0,
+        "cost_gate": 0.7,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 2.0,
+        "cost_gate": 0.9333333333333333,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 9.0,
+    "switch_cost": 0.0,
+    "reward": -0.23
+  },
+  {
+    "time": 30,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 14.0,
+        "cost_gate": 0.5333333333333333,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 7.0,
+        "cost_gate": 0.7666666666666666,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 14.0,
+    "switch_cost": 0.0,
+    "reward": -0.24
+  },
+  {
+    "time": 35,
+    "action_id": 1,
+    "actions": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 19.0,
+        "cost_gate": 0.3666666666666667,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 1,
+        "stage_before": "vehicle",
+        "target_changed": true,
+        "oldest_ped_wait": 12.0,
+        "cost_gate": 0.6,
+        "switch_cost": 0.012
+      }
+    ],
+    "oldest_ped_wait": 19.0,
+    "switch_cost": 0.003,
+    "reward": -0.273
+  },
+  {
+    "time": 40,
+    "action_id": 1,
+    "actions": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 24.0,
+        "cost_gate": 0.19999999999999996,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 1.0,
+        "cost_gate": 0.9666666666666667,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 1,
+        "stage_before": "to_pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 17.0,
+        "cost_gate": 0.43333333333333335,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 24.0,
+    "switch_cost": 0.0,
+    "reward": -0.37
+  },
+  {
+    "time": 45,
+    "action_id": 1,
+    "actions": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 29.0,
+        "cost_gate": 0.033333333333333326,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 6.0,
+        "cost_gate": 0.8,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 1,
+        "stage_before": "pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 29.0,
+    "switch_cost": 0.0,
+    "reward": -0.5
+  },
+  {
+    "time": 50,
+    "action_id": 8,
+    "actions": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 1,
+        "stage_before": "vehicle",
+        "target_changed": true,
+        "oldest_ped_wait": 34.0,
+        "cost_gate": 0.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 11.0,
+        "cost_gate": 0.6333333333333333,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "pedestrian",
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.02
+      }
+    ],
+    "oldest_ped_wait": 34.0,
+    "switch_cost": 0.005,
+    "reward": -0.555
+  },
+  {
+    "time": 55,
+    "action_id": 12,
+    "actions": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 1,
+        "stage_before": "to_pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 39.0,
+        "cost_gate": 0.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 1,
+        "stage_before": "vehicle",
+        "target_changed": true,
+        "oldest_ped_wait": 16.0,
+        "cost_gate": 0.4666666666666667,
+        "switch_cost": 0.009333333333333334
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 39.0,
+    "switch_cost": 0.0023333333333333335,
+    "reward": -0.7123333333333333
+  },
+  {
+    "time": 60,
+    "action_id": 12,
+    "actions": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 1,
+        "stage_before": "pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 1,
+        "stage_before": "to_pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 21.0,
+        "cost_gate": 0.30000000000000004,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 21.0,
+    "switch_cost": 0.0,
+    "reward": -0.42
+  },
+  {
+    "time": 65,
+    "action_id": 4,
+    "actions": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "pedestrian",
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.02
+      },
+      {
+        "site": "C2",
+        "action": 1,
+        "stage_before": "pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.005,
+    "reward": -0.28500000000000003
+  },
+  {
+    "time": 70,
+    "action_id": 6,
+    "actions": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 2.0,
+        "cost_gate": 0.9333333333333333,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 1,
+        "stage_before": "pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 1,
+        "stage_before": "vehicle",
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.02
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 2.0,
+    "switch_cost": 0.005,
+    "reward": -0.365
+  },
+  {
+    "time": 75,
+    "action_id": 2,
+    "actions": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 7.0,
+        "cost_gate": 0.7666666666666666,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "pedestrian",
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.02
+      },
+      {
+        "site": "C3",
+        "action": 1,
+        "stage_before": "to_pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 7.0,
+    "switch_cost": 0.005,
+    "reward": -0.225
+  },
+  {
+    "time": 80,
+    "action_id": 2,
+    "actions": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 12.0,
+        "cost_gate": 0.6,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 1,
+        "stage_before": "pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 12.0,
+    "switch_cost": 0.0,
+    "reward": -0.4
+  },
+  {
+    "time": 85,
+    "action_id": 2,
+    "actions": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 17.0,
+        "cost_gate": 0.43333333333333335,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 1,
+        "stage_before": "pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 17.0,
+    "switch_cost": 0.0,
+    "reward": -0.54
+  },
+  {
+    "time": 90,
+    "action_id": 8,
+    "actions": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 1,
+        "stage_before": "vehicle",
+        "target_changed": true,
+        "oldest_ped_wait": 22.0,
+        "cost_gate": 0.2666666666666667,
+        "switch_cost": 0.005333333333333335
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "pedestrian",
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.02
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 22.0,
+    "switch_cost": 0.006333333333333334,
+    "reward": -0.5263333333333333
+  },
+  {
+    "time": 95,
+    "action_id": 8,
+    "actions": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 1,
+        "stage_before": "to_pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 27.0,
+        "cost_gate": 0.09999999999999998,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 27.0,
+    "switch_cost": 0.0,
+    "reward": -0.57
+  },
+  {
+    "time": 100,
+    "action_id": 8,
+    "actions": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 1,
+        "stage_before": "pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.69
+  },
+  {
+    "time": 105,
+    "action_id": 4,
+    "actions": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "pedestrian",
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.02
+      },
+      {
+        "site": "C2",
+        "action": 1,
+        "stage_before": "vehicle",
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.02
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.01,
+    "reward": -0.63
+  },
+  {
+    "time": 110,
+    "action_id": 4,
+    "actions": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 1,
+        "stage_before": "to_pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.69
+  },
+  {
+    "time": 115,
+    "action_id": 4,
+    "actions": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 1,
+        "stage_before": "pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.63
+  },
+  {
+    "time": 120,
+    "action_id": 1,
+    "actions": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "pedestrian",
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.02
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 1,
+        "stage_before": "vehicle",
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.02
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.01,
+    "reward": -0.72
+  },
+  {
+    "time": 125,
+    "action_id": 3,
+    "actions": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 1,
+        "stage_before": "vehicle",
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.02
+      },
+      {
+        "site": "C4",
+        "action": 1,
+        "stage_before": "to_pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.005,
+    "reward": -0.985
+  },
+  {
+    "time": 130,
+    "action_id": 3,
+    "actions": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 1,
+        "stage_before": "to_pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 1,
+        "stage_before": "pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.95
+  },
+  {
+    "time": 135,
+    "action_id": 3,
+    "actions": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 1,
+        "stage_before": "pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 1,
+        "stage_before": "pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.72
+  },
+  {
+    "time": 140,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "pedestrian",
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.02
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "pedestrian",
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.02
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.01,
+    "reward": -0.71
+  },
+  {
+    "time": 145,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -1.02
+  },
+  {
+    "time": 150,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.89
+  },
+  {
+    "time": 155,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.5
+  },
+  {
+    "time": 160,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.34
+  },
+  {
+    "time": 165,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.22
+  },
+  {
+    "time": 170,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.2
+  },
+  {
+    "time": 175,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.15
+  },
+  {
+    "time": 180,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.06
+  },
+  {
+    "time": 185,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.02
+  },
+  {
+    "time": 190,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.06
+  },
+  {
+    "time": 195,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.16
+  },
+  {
+    "time": 200,
+    "action_id": 4,
+    "actions": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 1,
+        "stage_before": "vehicle",
+        "target_changed": true,
+        "oldest_ped_wait": 2.0,
+        "cost_gate": 0.9333333333333333,
+        "switch_cost": 0.018666666666666668
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 2.0,
+    "switch_cost": 0.004666666666666667,
+    "reward": -0.15466666666666667
+  },
+  {
+    "time": 205,
+    "action_id": 4,
+    "actions": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 1,
+        "stage_before": "to_pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 7.0,
+        "cost_gate": 0.7666666666666666,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 7.0,
+    "switch_cost": 0.0,
+    "reward": -0.16
+  },
+  {
+    "time": 210,
+    "action_id": 4,
+    "actions": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 1,
+        "stage_before": "pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.2
+  },
+  {
+    "time": 215,
+    "action_id": 8,
+    "actions": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 1,
+        "stage_before": "vehicle",
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.02
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "pedestrian",
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.02
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.01,
+    "reward": -0.47000000000000003
+  },
+  {
+    "time": 220,
+    "action_id": 8,
+    "actions": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 1,
+        "stage_before": "to_pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 5.0,
+        "cost_gate": 0.8333333333333334,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 5.0,
+    "switch_cost": 0.0,
+    "reward": -0.63
+  },
+  {
+    "time": 225,
+    "action_id": 9,
+    "actions": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 1,
+        "stage_before": "pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 1,
+        "stage_before": "vehicle",
+        "target_changed": true,
+        "oldest_ped_wait": 1.0,
+        "cost_gate": 0.9666666666666667,
+        "switch_cost": 0.019333333333333334
+      }
+    ],
+    "oldest_ped_wait": 1.0,
+    "switch_cost": 0.004833333333333334,
+    "reward": -0.6548333333333334
+  },
+  {
+    "time": 230,
+    "action_id": 1,
+    "actions": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "pedestrian",
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.02
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 1,
+        "stage_before": "to_pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 6.0,
+        "cost_gate": 0.8,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 6.0,
+    "switch_cost": 0.005,
+    "reward": -0.495
+  },
+  {
+    "time": 235,
+    "action_id": 1,
+    "actions": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 1,
+        "stage_before": "pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.54
+  },
+  {
+    "time": 240,
+    "action_id": 6,
+    "actions": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 1,
+        "stage_before": "vehicle",
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.02
+      },
+      {
+        "site": "C3",
+        "action": 1,
+        "stage_before": "vehicle",
+        "target_changed": true,
+        "oldest_ped_wait": 2.0,
+        "cost_gate": 0.9333333333333333,
+        "switch_cost": 0.018666666666666668
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "pedestrian",
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.02
+      }
+    ],
+    "oldest_ped_wait": 2.0,
+    "switch_cost": 0.014666666666666668,
+    "reward": -0.5546666666666668
+  },
+  {
+    "time": 245,
+    "action_id": 6,
+    "actions": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 1,
+        "stage_before": "to_pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 1,
+        "stage_before": "to_pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 7.0,
+        "cost_gate": 0.7666666666666666,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 7.0,
+    "switch_cost": 0.0,
+    "reward": -0.73
+  },
+  {
+    "time": 250,
+    "action_id": 6,
+    "actions": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 1,
+        "stage_before": "pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 1,
+        "stage_before": "pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.98
+  },
+  {
+    "time": 255,
+    "action_id": 4,
+    "actions": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 1,
+        "stage_before": "pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "pedestrian",
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.02
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 5.0,
+        "cost_gate": 0.8333333333333334,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 5.0,
+    "switch_cost": 0.005,
+    "reward": -0.835
+  },
+  {
+    "time": 260,
+    "action_id": 8,
+    "actions": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 1,
+        "stage_before": "vehicle",
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.02
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "pedestrian",
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.02
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 10.0,
+        "cost_gate": 0.6666666666666667,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 10.0,
+    "switch_cost": 0.01,
+    "reward": -1.06
+  },
+  {
+    "time": 265,
+    "action_id": 8,
+    "actions": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 1,
+        "stage_before": "to_pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 4.0,
+        "cost_gate": 0.8666666666666667,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 15.0,
+        "cost_gate": 0.5,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 15.0,
+    "switch_cost": 0.0,
+    "reward": -1.15
+  },
+  {
+    "time": 270,
+    "action_id": 8,
+    "actions": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 1,
+        "stage_before": "pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 9.0,
+        "cost_gate": 0.7,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 20.0,
+        "cost_gate": 0.33333333333333337,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 20.0,
+    "switch_cost": 0.0,
+    "reward": -1.03
+  },
+  {
+    "time": 275,
+    "action_id": 1,
+    "actions": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "pedestrian",
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.02
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 14.0,
+        "cost_gate": 0.5333333333333333,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 1,
+        "stage_before": "vehicle",
+        "target_changed": true,
+        "oldest_ped_wait": 25.0,
+        "cost_gate": 0.16666666666666663,
+        "switch_cost": 0.0033333333333333327
+      }
+    ],
+    "oldest_ped_wait": 25.0,
+    "switch_cost": 0.005833333333333334,
+    "reward": -0.9358333333333334
+  },
+  {
+    "time": 280,
+    "action_id": 1,
+    "actions": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 19.0,
+        "cost_gate": 0.3666666666666667,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 1,
+        "stage_before": "to_pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 30.0,
+        "cost_gate": 0.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 30.0,
+    "switch_cost": 0.0,
+    "reward": -0.96
+  },
+  {
+    "time": 285,
+    "action_id": 1,
+    "actions": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 24.0,
+        "cost_gate": 0.19999999999999996,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 1,
+        "stage_before": "pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 24.0,
+    "switch_cost": 0.0,
+    "reward": -1.02
+  },
+  {
+    "time": 290,
+    "action_id": 4,
+    "actions": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 1,
+        "stage_before": "vehicle",
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.02
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 29.0,
+        "cost_gate": 0.033333333333333326,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "pedestrian",
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.02
+      }
+    ],
+    "oldest_ped_wait": 29.0,
+    "switch_cost": 0.01,
+    "reward": -1.07
+  },
+  {
+    "time": 295,
+    "action_id": 6,
+    "actions": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 1,
+        "stage_before": "to_pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 1,
+        "stage_before": "vehicle",
+        "target_changed": true,
+        "oldest_ped_wait": 34.0,
+        "cost_gate": 0.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 34.0,
+    "switch_cost": 0.0,
+    "reward": -1.35
+  },
+  {
+    "time": 300,
+    "action_id": 14,
+    "actions": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 1,
+        "stage_before": "vehicle",
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.02
+      },
+      {
+        "site": "C2",
+        "action": 1,
+        "stage_before": "pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 1,
+        "stage_before": "to_pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 39.0,
+        "cost_gate": 0.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 39.0,
+    "switch_cost": 0.005,
+    "reward": -1.035
+  },
+  {
+    "time": 305,
+    "action_id": 14,
+    "actions": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 1,
+        "stage_before": "to_pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 1,
+        "stage_before": "pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 1,
+        "stage_before": "pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.82
+  },
+  {
+    "time": 310,
+    "action_id": 8,
+    "actions": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 1,
+        "stage_before": "pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "pedestrian",
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.02
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "pedestrian",
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.02
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.01,
+    "reward": -0.96
+  },
+  {
+    "time": 315,
+    "action_id": 8,
+    "actions": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 1,
+        "stage_before": "pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -1.05
+  },
+  {
+    "time": 320,
+    "action_id": 8,
+    "actions": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 1,
+        "stage_before": "pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.73
+  },
+  {
+    "time": 325,
+    "action_id": 8,
+    "actions": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 1,
+        "stage_before": "pedestrian",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.46
+  },
+  {
+    "time": 330,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "pedestrian",
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.02
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.005,
+    "reward": -0.355
+  },
+  {
+    "time": 335,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.47
+  },
+  {
+    "time": 340,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "clearance",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.35
+  },
+  {
+    "time": 345,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.23
+  },
+  {
+    "time": 350,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.17
+  },
+  {
+    "time": 355,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.01
+  },
+  {
+    "time": 360,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 365,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 370,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 375,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 380,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 385,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 390,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 395,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 400,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 405,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 410,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 415,
+    "action_id": 0,
+    "actions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "C1",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C2",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C3",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "C4",
+        "action": 0,
+        "stage_before": "vehicle",
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "cost_gate": 1.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  }
+]
