@@ -2,8 +2,9 @@
 # Checkpoint compatibility checks include the network file SHA-256.
 * text=auto eol=lf
 # These XML files already match the supplied checkpoint hashes. Preserve bytes.
-*.xml -text
+*.xml -text whitespace=cr-at-eol
 *.cmd text eol=crlf
 *.pt binary
 *.png binary
 *.gif binary
+*.pdf binary

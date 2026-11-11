@@ -192,5 +192,3 @@ def evaluate(args, *, environment, checkpoint_schema):
             finally:
                 env.close()
     write_json(out / 'evaluation.json', {'model_sha256': sha256(args.model), 'training': agent.metadata, 'results': rows})
-
-
