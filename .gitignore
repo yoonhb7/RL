@@ -45,3 +45,10 @@ gui-screenshot.png
 /experiments/pedlink-dqn/results/new-*/
 /experiments/pedlink-dqn/results/evaluation-*/
 /experiments/pedlink-dqn/results/experiment-*/
+
+# PedLink-Corridor2 local runs
+/experiments/pedlink-corridor2-dqn/results/train-*/episode-*/
+/experiments/pedlink-corridor2-dqn/results/view-*/
+/experiments/pedlink-corridor2-dqn/results/new-*/
+/experiments/pedlink-corridor2-dqn/results/evaluation-*/
+/experiments/pedlink-corridor2-dqn/results/experiment-*/

@@ -1,0 +1,19 @@
+{
+  "agent_count": 1,
+  "junction_count": 2,
+  "crossing_count": 8,
+  "observation_size": 52,
+  "joint_actions": 9,
+  "training_episodes_per_variant": 30,
+  "evaluation_runs": 45,
+  "signal_node_seconds_checked": 54000,
+  "paired_demand_hashes_verified": true,
+  "phase_constraints_verified": true,
+  "pedestrian_crossings_verified": true,
+  "collisions": 0,
+  "teleports": 0,
+  "residuals": [],
+  "gui_matches_headless": true,
+  "recorded_position_replay_matches_evaluation": true,
+  "replay_frames": 71
+}

@@ -1,0 +1,7 @@
+numpy>=1.26,<3
+torch>=2.3,<3
+traci==1.28.0
+sumolib==1.28.0
+eclipse-sumo==1.28.0
+sumo-data==1.28.0
+Pillow>=10

@@ -1,0 +1,3722 @@
+[
+  {
+    "time": 0,
+    "action_id": 0,
+    "actions": [
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 0,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 0,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.02
+  },
+  {
+    "time": 5,
+    "action_id": 0,
+    "actions": [
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 5,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 5,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.06
+  },
+  {
+    "time": 10,
+    "action_id": 0,
+    "actions": [
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 10,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 10,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.05
+  },
+  {
+    "time": 15,
+    "action_id": 0,
+    "actions": [
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 15,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 15,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.1
+  },
+  {
+    "time": 20,
+    "action_id": 0,
+    "actions": [
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 20,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 20,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.16
+  },
+  {
+    "time": 25,
+    "action_id": 0,
+    "actions": [
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 25,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 25,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.21
+  },
+  {
+    "time": 30,
+    "action_id": 0,
+    "actions": [
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 30,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 30,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.31
+  },
+  {
+    "time": 35,
+    "action_id": 5,
+    "actions": [
+      1,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 35,
+        "action": 1,
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 35,
+        "action": 2,
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.38
+  },
+  {
+    "time": 40,
+    "action_id": 5,
+    "actions": [
+      1,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "all_red",
+        "elapsed_before": 1,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "all_red",
+        "elapsed_before": 1,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.31
+  },
+  {
+    "time": 45,
+    "action_id": 5,
+    "actions": [
+      1,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "NS",
+        "elapsed_before": 4,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 4,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.36
+  },
+  {
+    "time": 50,
+    "action_id": 5,
+    "actions": [
+      1,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "NS",
+        "elapsed_before": 9,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 9,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.5
+  },
+  {
+    "time": 55,
+    "action_id": 5,
+    "actions": [
+      1,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "NS",
+        "elapsed_before": 14,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 14,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.61
+  },
+  {
+    "time": 60,
+    "action_id": 5,
+    "actions": [
+      1,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "NS",
+        "elapsed_before": 19,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 19,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.67
+  },
+  {
+    "time": 65,
+    "action_id": 5,
+    "actions": [
+      1,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "NS",
+        "elapsed_before": 24,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 24,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.79
+  },
+  {
+    "time": 70,
+    "action_id": 5,
+    "actions": [
+      1,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "NS",
+        "elapsed_before": 29,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 29,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -1.01
+  },
+  {
+    "time": 75,
+    "action_id": 0,
+    "actions": [
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "NS",
+        "elapsed_before": 34,
+        "action": 0,
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 34,
+        "action": 0,
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -1.13
+  },
+  {
+    "time": 80,
+    "action_id": 0,
+    "actions": [
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "all_red",
+        "elapsed_before": 1,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "clearance",
+        "elapsed_before": 5,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.97
+  },
+  {
+    "time": 85,
+    "action_id": 0,
+    "actions": [
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 4,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "clearance",
+        "elapsed_before": 10,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.67
+  },
+  {
+    "time": 90,
+    "action_id": 0,
+    "actions": [
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 9,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 5,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.53
+  },
+  {
+    "time": 95,
+    "action_id": 0,
+    "actions": [
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 14,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 10,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.52
+  },
+  {
+    "time": 100,
+    "action_id": 0,
+    "actions": [
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 19,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 15,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 4.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 4.0,
+    "switch_cost": 0.0,
+    "reward": -0.64
+  },
+  {
+    "time": 105,
+    "action_id": 0,
+    "actions": [
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 24,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 20,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 9.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 9.0,
+    "switch_cost": 0.0,
+    "reward": -0.77
+  },
+  {
+    "time": 110,
+    "action_id": 3,
+    "actions": [
+      1,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 29,
+        "action": 1,
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 25,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 14.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 14.0,
+    "switch_cost": 0.0,
+    "reward": -0.74
+  },
+  {
+    "time": 115,
+    "action_id": 3,
+    "actions": [
+      1,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "all_red",
+        "elapsed_before": 1,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 30,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 19.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 19.0,
+    "switch_cost": 0.0,
+    "reward": -0.87
+  },
+  {
+    "time": 120,
+    "action_id": 4,
+    "actions": [
+      1,
+      1
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "NS",
+        "elapsed_before": 4,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 35,
+        "action": 1,
+        "target_changed": true,
+        "oldest_ped_wait": 24.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 24.0,
+    "switch_cost": 0.0,
+    "reward": -1.05
+  },
+  {
+    "time": 125,
+    "action_id": 4,
+    "actions": [
+      1,
+      1
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "NS",
+        "elapsed_before": 9,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "all_red",
+        "elapsed_before": 1,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 29.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 29.0,
+    "switch_cost": 0.0,
+    "reward": -0.87
+  },
+  {
+    "time": 130,
+    "action_id": 4,
+    "actions": [
+      1,
+      1
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "NS",
+        "elapsed_before": 14,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "NS",
+        "elapsed_before": 4,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 34.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 34.0,
+    "switch_cost": 0.0,
+    "reward": -0.69
+  },
+  {
+    "time": 135,
+    "action_id": 1,
+    "actions": [
+      0,
+      1
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "NS",
+        "elapsed_before": 19,
+        "action": 0,
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "NS",
+        "elapsed_before": 9,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 39.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 39.0,
+    "switch_cost": 0.0,
+    "reward": -0.84
+  },
+  {
+    "time": 140,
+    "action_id": 1,
+    "actions": [
+      0,
+      1
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "all_red",
+        "elapsed_before": 1,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "NS",
+        "elapsed_before": 14,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 44.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 44.0,
+    "switch_cost": 0.0,
+    "reward": -0.71
+  },
+  {
+    "time": 145,
+    "action_id": 0,
+    "actions": [
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 4,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "NS",
+        "elapsed_before": 19,
+        "action": 0,
+        "target_changed": true,
+        "oldest_ped_wait": 49.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 49.0,
+    "switch_cost": 0.0,
+    "reward": -0.37
+  },
+  {
+    "time": 150,
+    "action_id": 0,
+    "actions": [
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 9,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "all_red",
+        "elapsed_before": 1,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 54.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 54.0,
+    "switch_cost": 0.0,
+    "reward": -0.24
+  },
+  {
+    "time": 155,
+    "action_id": 0,
+    "actions": [
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 14,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 4,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 59.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 59.0,
+    "switch_cost": 0.0,
+    "reward": -0.31
+  },
+  {
+    "time": 160,
+    "action_id": 0,
+    "actions": [
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 19,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 9,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 64.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 64.0,
+    "switch_cost": 0.0,
+    "reward": -0.33
+  },
+  {
+    "time": 165,
+    "action_id": 0,
+    "actions": [
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 24,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 14,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 69.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 69.0,
+    "switch_cost": 0.0,
+    "reward": -0.36
+  },
+  {
+    "time": 170,
+    "action_id": 2,
+    "actions": [
+      0,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 29,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 19,
+        "action": 2,
+        "target_changed": true,
+        "oldest_ped_wait": 74.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 74.0,
+    "switch_cost": 0.0,
+    "reward": -0.48
+  },
+  {
+    "time": 175,
+    "action_id": 2,
+    "actions": [
+      0,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 34,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "all_red",
+        "elapsed_before": 1,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 79.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 79.0,
+    "switch_cost": 0.0,
+    "reward": -0.45
+  },
+  {
+    "time": 180,
+    "action_id": 2,
+    "actions": [
+      0,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 39,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 4,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.79
+  },
+  {
+    "time": 185,
+    "action_id": 5,
+    "actions": [
+      1,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 44,
+        "action": 1,
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 9,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.95
+  },
+  {
+    "time": 190,
+    "action_id": 3,
+    "actions": [
+      1,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "all_red",
+        "elapsed_before": 1,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 14,
+        "action": 0,
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.99
+  },
+  {
+    "time": 195,
+    "action_id": 3,
+    "actions": [
+      1,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "NS",
+        "elapsed_before": 4,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "clearance",
+        "elapsed_before": 5,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -1.26
+  },
+  {
+    "time": 200,
+    "action_id": 3,
+    "actions": [
+      1,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "NS",
+        "elapsed_before": 9,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "clearance",
+        "elapsed_before": 10,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -1.09
+  },
+  {
+    "time": 205,
+    "action_id": 3,
+    "actions": [
+      1,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "NS",
+        "elapsed_before": 14,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 5,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.78
+  },
+  {
+    "time": 210,
+    "action_id": 0,
+    "actions": [
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "NS",
+        "elapsed_before": 19,
+        "action": 0,
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 10,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.67
+  },
+  {
+    "time": 215,
+    "action_id": 0,
+    "actions": [
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "all_red",
+        "elapsed_before": 1,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 15,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.63
+  },
+  {
+    "time": 220,
+    "action_id": 0,
+    "actions": [
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 4,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 20,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.63
+  },
+  {
+    "time": 225,
+    "action_id": 0,
+    "actions": [
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 9,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 5.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 25,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 5.0,
+    "switch_cost": 0.0,
+    "reward": -0.7
+  },
+  {
+    "time": 230,
+    "action_id": 0,
+    "actions": [
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 14,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 10.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 30,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 10.0,
+    "switch_cost": 0.0,
+    "reward": -0.82
+  },
+  {
+    "time": 235,
+    "action_id": 6,
+    "actions": [
+      2,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 19,
+        "action": 2,
+        "target_changed": true,
+        "oldest_ped_wait": 15.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 35,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 15.0,
+    "switch_cost": 0.0,
+    "reward": -0.88
+  },
+  {
+    "time": 240,
+    "action_id": 6,
+    "actions": [
+      2,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "all_red",
+        "elapsed_before": 1,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 20.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 40,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 20.0,
+    "switch_cost": 0.0,
+    "reward": -0.74
+  },
+  {
+    "time": 245,
+    "action_id": 7,
+    "actions": [
+      2,
+      1
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 4,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 45,
+        "action": 1,
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.82
+  },
+  {
+    "time": 250,
+    "action_id": 7,
+    "actions": [
+      2,
+      1
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 9,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "all_red",
+        "elapsed_before": 1,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.8
+  },
+  {
+    "time": 255,
+    "action_id": 7,
+    "actions": [
+      2,
+      1
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 14,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "NS",
+        "elapsed_before": 4,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.61
+  },
+  {
+    "time": 260,
+    "action_id": 1,
+    "actions": [
+      0,
+      1
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 19,
+        "action": 0,
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "NS",
+        "elapsed_before": 9,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.58
+  },
+  {
+    "time": 265,
+    "action_id": 1,
+    "actions": [
+      0,
+      1
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "clearance",
+        "elapsed_before": 5,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "NS",
+        "elapsed_before": 14,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 3.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 3.0,
+    "switch_cost": 0.0,
+    "reward": -0.77
+  },
+  {
+    "time": 270,
+    "action_id": 0,
+    "actions": [
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "clearance",
+        "elapsed_before": 10,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "NS",
+        "elapsed_before": 19,
+        "action": 0,
+        "target_changed": true,
+        "oldest_ped_wait": 8.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 8.0,
+    "switch_cost": 0.0,
+    "reward": -0.61
+  },
+  {
+    "time": 275,
+    "action_id": 0,
+    "actions": [
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 5,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "all_red",
+        "elapsed_before": 1,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 13.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 13.0,
+    "switch_cost": 0.0,
+    "reward": -0.58
+  },
+  {
+    "time": 280,
+    "action_id": 0,
+    "actions": [
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 10,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 4,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 18.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 18.0,
+    "switch_cost": 0.0,
+    "reward": -0.82
+  },
+  {
+    "time": 285,
+    "action_id": 0,
+    "actions": [
+      0,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 15,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 9,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 23.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 23.0,
+    "switch_cost": 0.0,
+    "reward": -0.83
+  },
+  {
+    "time": 290,
+    "action_id": 3,
+    "actions": [
+      1,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 20,
+        "action": 1,
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 14,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 28.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 28.0,
+    "switch_cost": 0.0,
+    "reward": -0.86
+  },
+  {
+    "time": 295,
+    "action_id": 3,
+    "actions": [
+      1,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "all_red",
+        "elapsed_before": 1,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 19,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 33.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 33.0,
+    "switch_cost": 0.0,
+    "reward": -0.8
+  },
+  {
+    "time": 300,
+    "action_id": 3,
+    "actions": [
+      1,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "NS",
+        "elapsed_before": 4,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 24,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 38.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 38.0,
+    "switch_cost": 0.0,
+    "reward": -0.73
+  },
+  {
+    "time": 305,
+    "action_id": 3,
+    "actions": [
+      1,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "NS",
+        "elapsed_before": 9,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 29,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 43.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 43.0,
+    "switch_cost": 0.0,
+    "reward": -0.8
+  },
+  {
+    "time": 310,
+    "action_id": 3,
+    "actions": [
+      1,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "NS",
+        "elapsed_before": 14,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 34,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 48.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 48.0,
+    "switch_cost": 0.0,
+    "reward": -0.92
+  },
+  {
+    "time": 315,
+    "action_id": 2,
+    "actions": [
+      0,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "NS",
+        "elapsed_before": 19,
+        "action": 0,
+        "target_changed": true,
+        "oldest_ped_wait": 1.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 39,
+        "action": 2,
+        "target_changed": true,
+        "oldest_ped_wait": 53.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 53.0,
+    "switch_cost": 0.0,
+    "reward": -1.1
+  },
+  {
+    "time": 320,
+    "action_id": 2,
+    "actions": [
+      0,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "all_red",
+        "elapsed_before": 1,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 6.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "all_red",
+        "elapsed_before": 1,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 58.0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 58.0,
+    "switch_cost": 0.0,
+    "reward": -0.78
+  },
+  {
+    "time": 325,
+    "action_id": 2,
+    "actions": [
+      0,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 4,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 11.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 4,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 11.0,
+    "switch_cost": 0.0,
+    "reward": -0.55
+  },
+  {
+    "time": 330,
+    "action_id": 2,
+    "actions": [
+      0,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 9,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 16.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 9,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 16.0,
+    "switch_cost": 0.0,
+    "reward": -0.55
+  },
+  {
+    "time": 335,
+    "action_id": 2,
+    "actions": [
+      0,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 14,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 21.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 14,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 21.0,
+    "switch_cost": 0.0,
+    "reward": -0.55
+  },
+  {
+    "time": 340,
+    "action_id": 5,
+    "actions": [
+      1,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "EW",
+        "elapsed_before": 19,
+        "action": 1,
+        "target_changed": true,
+        "oldest_ped_wait": 26.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 19,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 26.0,
+    "switch_cost": 0.0,
+    "reward": -0.58
+  },
+  {
+    "time": 345,
+    "action_id": 5,
+    "actions": [
+      1,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "all_red",
+        "elapsed_before": 1,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 31.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 24,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 31.0,
+    "switch_cost": 0.0,
+    "reward": -0.64
+  },
+  {
+    "time": 350,
+    "action_id": 5,
+    "actions": [
+      1,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "NS",
+        "elapsed_before": 4,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 36.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 29,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 36.0,
+    "switch_cost": 0.0,
+    "reward": -0.7
+  },
+  {
+    "time": 355,
+    "action_id": 4,
+    "actions": [
+      1,
+      1
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "NS",
+        "elapsed_before": 9,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 41.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 34,
+        "action": 1,
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 41.0,
+    "switch_cost": 0.0,
+    "reward": -0.7
+  },
+  {
+    "time": 360,
+    "action_id": 4,
+    "actions": [
+      1,
+      1
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "NS",
+        "elapsed_before": 14,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 46.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "clearance",
+        "elapsed_before": 5,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 46.0,
+    "switch_cost": 0.0,
+    "reward": -0.7
+  },
+  {
+    "time": 365,
+    "action_id": 4,
+    "actions": [
+      1,
+      1
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "NS",
+        "elapsed_before": 19,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 51.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "clearance",
+        "elapsed_before": 10,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 51.0,
+    "switch_cost": 0.0,
+    "reward": -0.41
+  },
+  {
+    "time": 370,
+    "action_id": 4,
+    "actions": [
+      1,
+      1
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "NS",
+        "elapsed_before": 24,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 56.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "NS",
+        "elapsed_before": 5,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 56.0,
+    "switch_cost": 0.0,
+    "reward": -0.25
+  },
+  {
+    "time": 375,
+    "action_id": 4,
+    "actions": [
+      1,
+      1
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "NS",
+        "elapsed_before": 29,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 61.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "NS",
+        "elapsed_before": 10,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 61.0,
+    "switch_cost": 0.0,
+    "reward": -0.25
+  },
+  {
+    "time": 380,
+    "action_id": 4,
+    "actions": [
+      1,
+      1
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "NS",
+        "elapsed_before": 34,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 66.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "NS",
+        "elapsed_before": 15,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 66.0,
+    "switch_cost": 0.0,
+    "reward": -0.25
+  },
+  {
+    "time": 385,
+    "action_id": 4,
+    "actions": [
+      1,
+      1
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "NS",
+        "elapsed_before": 39,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 71.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "NS",
+        "elapsed_before": 20,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 71.0,
+    "switch_cost": 0.0,
+    "reward": -0.25
+  },
+  {
+    "time": 390,
+    "action_id": 4,
+    "actions": [
+      1,
+      1
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "NS",
+        "elapsed_before": 44,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 76.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "NS",
+        "elapsed_before": 25,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 76.0,
+    "switch_cost": 0.0,
+    "reward": -0.25
+  },
+  {
+    "time": 395,
+    "action_id": 4,
+    "actions": [
+      1,
+      1
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "NS",
+        "elapsed_before": 49,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 81.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "NS",
+        "elapsed_before": 30,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 81.0,
+    "switch_cost": 0.0,
+    "reward": -0.25
+  },
+  {
+    "time": 400,
+    "action_id": 4,
+    "actions": [
+      1,
+      1
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "NS",
+        "elapsed_before": 54,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 86.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "NS",
+        "elapsed_before": 35,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 86.0,
+    "switch_cost": 0.0,
+    "reward": -0.25
+  },
+  {
+    "time": 405,
+    "action_id": 4,
+    "actions": [
+      1,
+      1
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "NS",
+        "elapsed_before": 59,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 91.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "NS",
+        "elapsed_before": 40,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 91.0,
+    "switch_cost": 0.0,
+    "reward": -0.25
+  },
+  {
+    "time": 410,
+    "action_id": 7,
+    "actions": [
+      2,
+      1
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "NS",
+        "elapsed_before": 64,
+        "action": 2,
+        "target_changed": true,
+        "oldest_ped_wait": 96.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "NS",
+        "elapsed_before": 45,
+        "action": 1,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 96.0,
+    "switch_cost": 0.0,
+    "reward": -0.25
+  },
+  {
+    "time": 415,
+    "action_id": 6,
+    "actions": [
+      2,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "all_red",
+        "elapsed_before": 1,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 101.0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "NS",
+        "elapsed_before": 50,
+        "action": 0,
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 101.0,
+    "switch_cost": 0.0,
+    "reward": -0.17
+  },
+  {
+    "time": 420,
+    "action_id": 6,
+    "actions": [
+      2,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 4,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "all_red",
+        "elapsed_before": 1,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": -0.06
+  },
+  {
+    "time": 425,
+    "action_id": 6,
+    "actions": [
+      2,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 9,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 4,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 430,
+    "action_id": 6,
+    "actions": [
+      2,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 14,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 9,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 435,
+    "action_id": 6,
+    "actions": [
+      2,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 19,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 14,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 440,
+    "action_id": 6,
+    "actions": [
+      2,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 24,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 19,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 445,
+    "action_id": 6,
+    "actions": [
+      2,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 29,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 24,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 450,
+    "action_id": 6,
+    "actions": [
+      2,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 34,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 29,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 455,
+    "action_id": 6,
+    "actions": [
+      2,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 39,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 34,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 460,
+    "action_id": 6,
+    "actions": [
+      2,
+      0
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 44,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 39,
+        "action": 0,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 465,
+    "action_id": 8,
+    "actions": [
+      2,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 49,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "EW",
+        "elapsed_before": 44,
+        "action": 2,
+        "target_changed": true,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 470,
+    "action_id": 8,
+    "actions": [
+      2,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 54,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "all_red",
+        "elapsed_before": 1,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 475,
+    "action_id": 8,
+    "actions": [
+      2,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 59,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 4,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 480,
+    "action_id": 8,
+    "actions": [
+      2,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 64,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 9,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 485,
+    "action_id": 8,
+    "actions": [
+      2,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 69,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 14,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 490,
+    "action_id": 8,
+    "actions": [
+      2,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 74,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 19,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 495,
+    "action_id": 8,
+    "actions": [
+      2,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 79,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 24,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 500,
+    "action_id": 8,
+    "actions": [
+      2,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 84,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 29,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 505,
+    "action_id": 8,
+    "actions": [
+      2,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 89,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 34,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 510,
+    "action_id": 8,
+    "actions": [
+      2,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 94,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 39,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 515,
+    "action_id": 8,
+    "actions": [
+      2,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 99,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 44,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 520,
+    "action_id": 8,
+    "actions": [
+      2,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 104,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 49,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 525,
+    "action_id": 8,
+    "actions": [
+      2,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 109,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 54,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 530,
+    "action_id": 8,
+    "actions": [
+      2,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 114,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 59,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 535,
+    "action_id": 8,
+    "actions": [
+      2,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 119,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 64,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 540,
+    "action_id": 8,
+    "actions": [
+      2,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 124,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 69,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 545,
+    "action_id": 8,
+    "actions": [
+      2,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 129,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 74,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 550,
+    "action_id": 8,
+    "actions": [
+      2,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 134,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 79,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 555,
+    "action_id": 8,
+    "actions": [
+      2,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 139,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 84,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 560,
+    "action_id": 8,
+    "actions": [
+      2,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 144,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 89,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 565,
+    "action_id": 8,
+    "actions": [
+      2,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 149,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 94,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 570,
+    "action_id": 8,
+    "actions": [
+      2,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 154,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 99,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 575,
+    "action_id": 8,
+    "actions": [
+      2,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 159,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 104,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 580,
+    "action_id": 8,
+    "actions": [
+      2,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 164,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 109,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 585,
+    "action_id": 8,
+    "actions": [
+      2,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 169,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 114,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 590,
+    "action_id": 8,
+    "actions": [
+      2,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 174,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 119,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  },
+  {
+    "time": 595,
+    "action_id": 8,
+    "actions": [
+      2,
+      2
+    ],
+    "sites": [
+      {
+        "site": "J0",
+        "stage_before": "PED",
+        "elapsed_before": 179,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      },
+      {
+        "site": "J1",
+        "stage_before": "PED",
+        "elapsed_before": 124,
+        "action": 2,
+        "target_changed": false,
+        "oldest_ped_wait": 0,
+        "switch_cost": 0.0
+      }
+    ],
+    "oldest_ped_wait": 0,
+    "switch_cost": 0.0,
+    "reward": 0.0
+  }
+]

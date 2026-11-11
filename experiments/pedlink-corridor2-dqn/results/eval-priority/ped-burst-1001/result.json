@@ -1,0 +1,45 @@
+{
+  "variant": "priority",
+  "seed": 1001,
+  "profile": "ped-burst",
+  "seconds": 600,
+  "route_sha256": "6e6ea9eef9be5c5b927686929d957c9890b87fc5a0bae88a9022610cbe46bcdb",
+  "switches": 21,
+  "vehicle_stops": 161,
+  "collisions": 0,
+  "teleports": 0,
+  "base_return": -57.72999999999999,
+  "switch_cost_sum": 0.0,
+  "return": -57.72999999999999,
+  "max_continuous_ped_wait_at_decision_s": 52.0,
+  "vehicle": {
+    "scheduled": 120,
+    "departed": 120,
+    "arrived": 120,
+    "remaining": 0,
+    "not_departed": 0,
+    "mean_wait_s": 34.81666666666667,
+    "p95_wait_s": 90.54999999999997,
+    "max_wait_s": 118
+  },
+  "person": {
+    "scheduled": 43,
+    "departed": 43,
+    "arrived": 43,
+    "remaining": 0,
+    "not_departed": 0,
+    "mean_wait_s": 16.372093023255815,
+    "p95_wait_s": 48.8,
+    "max_wait_s": 54
+  },
+  "experiment": "PedLink-Corridor2",
+  "agent_count": 1,
+  "junction_count": 2,
+  "crossing_count": 8,
+  "site_switches": {
+    "J0": 10,
+    "J1": 11
+  },
+  "arrived_pedestrians_crossed": 43,
+  "pedestrians_crossed_multiple": 0
+}
