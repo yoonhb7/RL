@@ -1,0 +1,157 @@
+{
+  "protocol": "trafficbench-plan-v1",
+  "config": {
+    "protocol": "palos2020-demand-benchmark-v1",
+    "scenario": {
+      "arm_lengths_m": {
+        "N": 300,
+        "E": 350,
+        "S": 400,
+        "W": 450
+      },
+      "speed_limit_mps": 13.89,
+      "detector_length_m": 50,
+      "yellow_s": 3,
+      "fixed_green_s": 30,
+      "demand_seconds": 120,
+      "drain_seconds": 60,
+      "right_turn_ratio": 0.2,
+      "direction_shares": {
+        "N": 0.25,
+        "E": 0.25,
+        "S": 0.25,
+        "W": 0.25
+      },
+      "loads_vph": {
+        "low": 450,
+        "medium": 1500,
+        "high": 3000
+      },
+      "route_weight_reference_m": 750
+    },
+    "learning": {
+      "hidden_sizes": [
+        512,
+        256,
+        64
+      ],
+      "learning_rate": 0.0005,
+      "gamma_per_second": 0.9,
+      "batch_size": 32,
+      "replay_capacity": 50000,
+      "learning_starts": 32,
+      "train_every_decisions": 1,
+      "target_update_every_updates": 500,
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.02,
+      "epsilon_decay_decisions": 100,
+      "gradient_clip_norm": 10,
+      "episodes": 1,
+      "device": "auto"
+    },
+    "experiment": {
+      "algorithms": [
+        "dqn",
+        "double",
+        "dueling"
+      ],
+      "rewards": [
+        "wtmin",
+        "asmax",
+        "ttmin",
+        "ctmax",
+        "wctmax",
+        "tmqmax"
+      ],
+      "training_seeds": [
+        11
+      ],
+      "evaluation_seeds": [
+        1001
+      ],
+      "owners": {
+        "low": "A",
+        "medium": "B",
+        "high": "C"
+      }
+    }
+  },
+  "provenance": {
+    "config_sha256": "088d2ffc054a2b92285b21e6f5362f542e86a2ef8b96219192abc8e2d8f6914f",
+    "code_sha256": "36fb92007bbd37ec6e10f5f4f2077f729ea82d5f0bfdc0e9fb1716c776446797",
+    "protocol_sha256": "55fcb81f8f9131850c9cf9296167e9cff1adca06c5121b3f00a034aa92511fc2",
+    "torch": "2.15.0+cpu",
+    "numpy": "2.5.4",
+    "environment_signature": "35f8554da0f5cfb35d5a0c2bde4b4c542a117a81a8c0da65591225e1a84251d4"
+  },
+  "jobs": [
+    {
+      "id": "medium/wtmin/dqn/seed-11",
+      "level": "medium",
+      "reward": "wtmin",
+      "algorithm": "dqn",
+      "training_seed": 11,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/asmax/dqn/seed-11",
+      "level": "medium",
+      "reward": "asmax",
+      "algorithm": "dqn",
+      "training_seed": 11,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/ttmin/dqn/seed-11",
+      "level": "medium",
+      "reward": "ttmin",
+      "algorithm": "dqn",
+      "training_seed": 11,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/ctmax/dqn/seed-11",
+      "level": "medium",
+      "reward": "ctmax",
+      "algorithm": "dqn",
+      "training_seed": 11,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/wctmax/dqn/seed-11",
+      "level": "medium",
+      "reward": "wctmax",
+      "algorithm": "dqn",
+      "training_seed": 11,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/tmqmax/dqn/seed-11",
+      "level": "medium",
+      "reward": "tmqmax",
+      "algorithm": "dqn",
+      "training_seed": 11,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    }
+  ],
+  "job_count": 6,
+  "evaluation_count": 6
+}

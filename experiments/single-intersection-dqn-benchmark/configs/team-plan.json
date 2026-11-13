@@ -1,0 +1,1879 @@
+{
+  "protocol": "trafficbench-plan-v1",
+  "config": {
+    "protocol": "palos2020-demand-benchmark-v1",
+    "scenario": {
+      "arm_lengths_m": {
+        "N": 300,
+        "E": 350,
+        "S": 400,
+        "W": 450
+      },
+      "speed_limit_mps": 13.89,
+      "detector_length_m": 50,
+      "yellow_s": 3,
+      "fixed_green_s": 30,
+      "demand_seconds": 900,
+      "drain_seconds": 300,
+      "right_turn_ratio": 0.2,
+      "direction_shares": {
+        "N": 0.25,
+        "E": 0.25,
+        "S": 0.25,
+        "W": 0.25
+      },
+      "loads_vph": {
+        "low": 450,
+        "medium": 1500,
+        "high": 3000
+      },
+      "route_weight_reference_m": 750
+    },
+    "learning": {
+      "hidden_sizes": [
+        512,
+        256,
+        64
+      ],
+      "learning_rate": 0.0005,
+      "gamma_per_second": 0.9,
+      "batch_size": 32,
+      "replay_capacity": 50000,
+      "learning_starts": 1000,
+      "train_every_decisions": 1,
+      "target_update_every_updates": 500,
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.02,
+      "epsilon_decay_decisions": 50000,
+      "gradient_clip_norm": 10,
+      "episodes": 100,
+      "device": "auto"
+    },
+    "experiment": {
+      "algorithms": [
+        "dqn",
+        "double",
+        "dueling"
+      ],
+      "rewards": [
+        "wtmin",
+        "asmax",
+        "ttmin",
+        "ctmax",
+        "wctmax",
+        "tmqmax"
+      ],
+      "training_seeds": [
+        11,
+        22,
+        33
+      ],
+      "evaluation_seeds": [
+        1001,
+        1002,
+        1003,
+        1004,
+        1005
+      ],
+      "owners": {
+        "low": "A",
+        "medium": "B",
+        "high": "C"
+      }
+    }
+  },
+  "provenance": {
+    "config_sha256": "0dc68d63a93008148a2ac6997ecd77af55de8f1801d4acb2267a71f35172cf0a",
+    "code_sha256": "36fb92007bbd37ec6e10f5f4f2077f729ea82d5f0bfdc0e9fb1716c776446797",
+    "protocol_sha256": "42f94ae5963fdf7e157fc660a0d70b3fd4f9f59d073071ee0c332f044755a414",
+    "torch": "2.15.0+cpu",
+    "numpy": "2.5.4",
+    "environment_signature": "35f8554da0f5cfb35d5a0c2bde4b4c542a117a81a8c0da65591225e1a84251d4"
+  },
+  "jobs": [
+    {
+      "id": "low/wtmin/dqn/seed-11",
+      "level": "low",
+      "reward": "wtmin",
+      "algorithm": "dqn",
+      "training_seed": 11,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/wtmin/dqn/seed-22",
+      "level": "low",
+      "reward": "wtmin",
+      "algorithm": "dqn",
+      "training_seed": 22,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/wtmin/dqn/seed-33",
+      "level": "low",
+      "reward": "wtmin",
+      "algorithm": "dqn",
+      "training_seed": 33,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/wtmin/double/seed-11",
+      "level": "low",
+      "reward": "wtmin",
+      "algorithm": "double",
+      "training_seed": 11,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/wtmin/double/seed-22",
+      "level": "low",
+      "reward": "wtmin",
+      "algorithm": "double",
+      "training_seed": 22,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/wtmin/double/seed-33",
+      "level": "low",
+      "reward": "wtmin",
+      "algorithm": "double",
+      "training_seed": 33,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/wtmin/dueling/seed-11",
+      "level": "low",
+      "reward": "wtmin",
+      "algorithm": "dueling",
+      "training_seed": 11,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/wtmin/dueling/seed-22",
+      "level": "low",
+      "reward": "wtmin",
+      "algorithm": "dueling",
+      "training_seed": 22,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/wtmin/dueling/seed-33",
+      "level": "low",
+      "reward": "wtmin",
+      "algorithm": "dueling",
+      "training_seed": 33,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/asmax/dqn/seed-11",
+      "level": "low",
+      "reward": "asmax",
+      "algorithm": "dqn",
+      "training_seed": 11,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/asmax/dqn/seed-22",
+      "level": "low",
+      "reward": "asmax",
+      "algorithm": "dqn",
+      "training_seed": 22,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/asmax/dqn/seed-33",
+      "level": "low",
+      "reward": "asmax",
+      "algorithm": "dqn",
+      "training_seed": 33,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/asmax/double/seed-11",
+      "level": "low",
+      "reward": "asmax",
+      "algorithm": "double",
+      "training_seed": 11,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/asmax/double/seed-22",
+      "level": "low",
+      "reward": "asmax",
+      "algorithm": "double",
+      "training_seed": 22,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/asmax/double/seed-33",
+      "level": "low",
+      "reward": "asmax",
+      "algorithm": "double",
+      "training_seed": 33,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/asmax/dueling/seed-11",
+      "level": "low",
+      "reward": "asmax",
+      "algorithm": "dueling",
+      "training_seed": 11,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/asmax/dueling/seed-22",
+      "level": "low",
+      "reward": "asmax",
+      "algorithm": "dueling",
+      "training_seed": 22,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/asmax/dueling/seed-33",
+      "level": "low",
+      "reward": "asmax",
+      "algorithm": "dueling",
+      "training_seed": 33,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/ttmin/dqn/seed-11",
+      "level": "low",
+      "reward": "ttmin",
+      "algorithm": "dqn",
+      "training_seed": 11,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/ttmin/dqn/seed-22",
+      "level": "low",
+      "reward": "ttmin",
+      "algorithm": "dqn",
+      "training_seed": 22,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/ttmin/dqn/seed-33",
+      "level": "low",
+      "reward": "ttmin",
+      "algorithm": "dqn",
+      "training_seed": 33,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/ttmin/double/seed-11",
+      "level": "low",
+      "reward": "ttmin",
+      "algorithm": "double",
+      "training_seed": 11,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/ttmin/double/seed-22",
+      "level": "low",
+      "reward": "ttmin",
+      "algorithm": "double",
+      "training_seed": 22,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/ttmin/double/seed-33",
+      "level": "low",
+      "reward": "ttmin",
+      "algorithm": "double",
+      "training_seed": 33,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/ttmin/dueling/seed-11",
+      "level": "low",
+      "reward": "ttmin",
+      "algorithm": "dueling",
+      "training_seed": 11,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/ttmin/dueling/seed-22",
+      "level": "low",
+      "reward": "ttmin",
+      "algorithm": "dueling",
+      "training_seed": 22,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/ttmin/dueling/seed-33",
+      "level": "low",
+      "reward": "ttmin",
+      "algorithm": "dueling",
+      "training_seed": 33,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/ctmax/dqn/seed-11",
+      "level": "low",
+      "reward": "ctmax",
+      "algorithm": "dqn",
+      "training_seed": 11,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/ctmax/dqn/seed-22",
+      "level": "low",
+      "reward": "ctmax",
+      "algorithm": "dqn",
+      "training_seed": 22,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/ctmax/dqn/seed-33",
+      "level": "low",
+      "reward": "ctmax",
+      "algorithm": "dqn",
+      "training_seed": 33,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/ctmax/double/seed-11",
+      "level": "low",
+      "reward": "ctmax",
+      "algorithm": "double",
+      "training_seed": 11,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/ctmax/double/seed-22",
+      "level": "low",
+      "reward": "ctmax",
+      "algorithm": "double",
+      "training_seed": 22,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/ctmax/double/seed-33",
+      "level": "low",
+      "reward": "ctmax",
+      "algorithm": "double",
+      "training_seed": 33,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/ctmax/dueling/seed-11",
+      "level": "low",
+      "reward": "ctmax",
+      "algorithm": "dueling",
+      "training_seed": 11,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/ctmax/dueling/seed-22",
+      "level": "low",
+      "reward": "ctmax",
+      "algorithm": "dueling",
+      "training_seed": 22,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/ctmax/dueling/seed-33",
+      "level": "low",
+      "reward": "ctmax",
+      "algorithm": "dueling",
+      "training_seed": 33,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/wctmax/dqn/seed-11",
+      "level": "low",
+      "reward": "wctmax",
+      "algorithm": "dqn",
+      "training_seed": 11,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/wctmax/dqn/seed-22",
+      "level": "low",
+      "reward": "wctmax",
+      "algorithm": "dqn",
+      "training_seed": 22,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/wctmax/dqn/seed-33",
+      "level": "low",
+      "reward": "wctmax",
+      "algorithm": "dqn",
+      "training_seed": 33,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/wctmax/double/seed-11",
+      "level": "low",
+      "reward": "wctmax",
+      "algorithm": "double",
+      "training_seed": 11,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/wctmax/double/seed-22",
+      "level": "low",
+      "reward": "wctmax",
+      "algorithm": "double",
+      "training_seed": 22,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/wctmax/double/seed-33",
+      "level": "low",
+      "reward": "wctmax",
+      "algorithm": "double",
+      "training_seed": 33,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/wctmax/dueling/seed-11",
+      "level": "low",
+      "reward": "wctmax",
+      "algorithm": "dueling",
+      "training_seed": 11,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/wctmax/dueling/seed-22",
+      "level": "low",
+      "reward": "wctmax",
+      "algorithm": "dueling",
+      "training_seed": 22,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/wctmax/dueling/seed-33",
+      "level": "low",
+      "reward": "wctmax",
+      "algorithm": "dueling",
+      "training_seed": 33,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/tmqmax/dqn/seed-11",
+      "level": "low",
+      "reward": "tmqmax",
+      "algorithm": "dqn",
+      "training_seed": 11,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/tmqmax/dqn/seed-22",
+      "level": "low",
+      "reward": "tmqmax",
+      "algorithm": "dqn",
+      "training_seed": 22,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/tmqmax/dqn/seed-33",
+      "level": "low",
+      "reward": "tmqmax",
+      "algorithm": "dqn",
+      "training_seed": 33,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/tmqmax/double/seed-11",
+      "level": "low",
+      "reward": "tmqmax",
+      "algorithm": "double",
+      "training_seed": 11,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/tmqmax/double/seed-22",
+      "level": "low",
+      "reward": "tmqmax",
+      "algorithm": "double",
+      "training_seed": 22,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/tmqmax/double/seed-33",
+      "level": "low",
+      "reward": "tmqmax",
+      "algorithm": "double",
+      "training_seed": 33,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/tmqmax/dueling/seed-11",
+      "level": "low",
+      "reward": "tmqmax",
+      "algorithm": "dueling",
+      "training_seed": 11,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/tmqmax/dueling/seed-22",
+      "level": "low",
+      "reward": "tmqmax",
+      "algorithm": "dueling",
+      "training_seed": 22,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/tmqmax/dueling/seed-33",
+      "level": "low",
+      "reward": "tmqmax",
+      "algorithm": "dueling",
+      "training_seed": 33,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "medium/wtmin/dqn/seed-11",
+      "level": "medium",
+      "reward": "wtmin",
+      "algorithm": "dqn",
+      "training_seed": 11,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/wtmin/dqn/seed-22",
+      "level": "medium",
+      "reward": "wtmin",
+      "algorithm": "dqn",
+      "training_seed": 22,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/wtmin/dqn/seed-33",
+      "level": "medium",
+      "reward": "wtmin",
+      "algorithm": "dqn",
+      "training_seed": 33,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/wtmin/double/seed-11",
+      "level": "medium",
+      "reward": "wtmin",
+      "algorithm": "double",
+      "training_seed": 11,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/wtmin/double/seed-22",
+      "level": "medium",
+      "reward": "wtmin",
+      "algorithm": "double",
+      "training_seed": 22,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/wtmin/double/seed-33",
+      "level": "medium",
+      "reward": "wtmin",
+      "algorithm": "double",
+      "training_seed": 33,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/wtmin/dueling/seed-11",
+      "level": "medium",
+      "reward": "wtmin",
+      "algorithm": "dueling",
+      "training_seed": 11,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/wtmin/dueling/seed-22",
+      "level": "medium",
+      "reward": "wtmin",
+      "algorithm": "dueling",
+      "training_seed": 22,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/wtmin/dueling/seed-33",
+      "level": "medium",
+      "reward": "wtmin",
+      "algorithm": "dueling",
+      "training_seed": 33,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/asmax/dqn/seed-11",
+      "level": "medium",
+      "reward": "asmax",
+      "algorithm": "dqn",
+      "training_seed": 11,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/asmax/dqn/seed-22",
+      "level": "medium",
+      "reward": "asmax",
+      "algorithm": "dqn",
+      "training_seed": 22,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/asmax/dqn/seed-33",
+      "level": "medium",
+      "reward": "asmax",
+      "algorithm": "dqn",
+      "training_seed": 33,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/asmax/double/seed-11",
+      "level": "medium",
+      "reward": "asmax",
+      "algorithm": "double",
+      "training_seed": 11,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/asmax/double/seed-22",
+      "level": "medium",
+      "reward": "asmax",
+      "algorithm": "double",
+      "training_seed": 22,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/asmax/double/seed-33",
+      "level": "medium",
+      "reward": "asmax",
+      "algorithm": "double",
+      "training_seed": 33,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/asmax/dueling/seed-11",
+      "level": "medium",
+      "reward": "asmax",
+      "algorithm": "dueling",
+      "training_seed": 11,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/asmax/dueling/seed-22",
+      "level": "medium",
+      "reward": "asmax",
+      "algorithm": "dueling",
+      "training_seed": 22,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/asmax/dueling/seed-33",
+      "level": "medium",
+      "reward": "asmax",
+      "algorithm": "dueling",
+      "training_seed": 33,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/ttmin/dqn/seed-11",
+      "level": "medium",
+      "reward": "ttmin",
+      "algorithm": "dqn",
+      "training_seed": 11,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/ttmin/dqn/seed-22",
+      "level": "medium",
+      "reward": "ttmin",
+      "algorithm": "dqn",
+      "training_seed": 22,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/ttmin/dqn/seed-33",
+      "level": "medium",
+      "reward": "ttmin",
+      "algorithm": "dqn",
+      "training_seed": 33,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/ttmin/double/seed-11",
+      "level": "medium",
+      "reward": "ttmin",
+      "algorithm": "double",
+      "training_seed": 11,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/ttmin/double/seed-22",
+      "level": "medium",
+      "reward": "ttmin",
+      "algorithm": "double",
+      "training_seed": 22,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/ttmin/double/seed-33",
+      "level": "medium",
+      "reward": "ttmin",
+      "algorithm": "double",
+      "training_seed": 33,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/ttmin/dueling/seed-11",
+      "level": "medium",
+      "reward": "ttmin",
+      "algorithm": "dueling",
+      "training_seed": 11,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/ttmin/dueling/seed-22",
+      "level": "medium",
+      "reward": "ttmin",
+      "algorithm": "dueling",
+      "training_seed": 22,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/ttmin/dueling/seed-33",
+      "level": "medium",
+      "reward": "ttmin",
+      "algorithm": "dueling",
+      "training_seed": 33,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/ctmax/dqn/seed-11",
+      "level": "medium",
+      "reward": "ctmax",
+      "algorithm": "dqn",
+      "training_seed": 11,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/ctmax/dqn/seed-22",
+      "level": "medium",
+      "reward": "ctmax",
+      "algorithm": "dqn",
+      "training_seed": 22,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/ctmax/dqn/seed-33",
+      "level": "medium",
+      "reward": "ctmax",
+      "algorithm": "dqn",
+      "training_seed": 33,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/ctmax/double/seed-11",
+      "level": "medium",
+      "reward": "ctmax",
+      "algorithm": "double",
+      "training_seed": 11,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/ctmax/double/seed-22",
+      "level": "medium",
+      "reward": "ctmax",
+      "algorithm": "double",
+      "training_seed": 22,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/ctmax/double/seed-33",
+      "level": "medium",
+      "reward": "ctmax",
+      "algorithm": "double",
+      "training_seed": 33,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/ctmax/dueling/seed-11",
+      "level": "medium",
+      "reward": "ctmax",
+      "algorithm": "dueling",
+      "training_seed": 11,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/ctmax/dueling/seed-22",
+      "level": "medium",
+      "reward": "ctmax",
+      "algorithm": "dueling",
+      "training_seed": 22,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/ctmax/dueling/seed-33",
+      "level": "medium",
+      "reward": "ctmax",
+      "algorithm": "dueling",
+      "training_seed": 33,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/wctmax/dqn/seed-11",
+      "level": "medium",
+      "reward": "wctmax",
+      "algorithm": "dqn",
+      "training_seed": 11,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/wctmax/dqn/seed-22",
+      "level": "medium",
+      "reward": "wctmax",
+      "algorithm": "dqn",
+      "training_seed": 22,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/wctmax/dqn/seed-33",
+      "level": "medium",
+      "reward": "wctmax",
+      "algorithm": "dqn",
+      "training_seed": 33,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/wctmax/double/seed-11",
+      "level": "medium",
+      "reward": "wctmax",
+      "algorithm": "double",
+      "training_seed": 11,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/wctmax/double/seed-22",
+      "level": "medium",
+      "reward": "wctmax",
+      "algorithm": "double",
+      "training_seed": 22,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/wctmax/double/seed-33",
+      "level": "medium",
+      "reward": "wctmax",
+      "algorithm": "double",
+      "training_seed": 33,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/wctmax/dueling/seed-11",
+      "level": "medium",
+      "reward": "wctmax",
+      "algorithm": "dueling",
+      "training_seed": 11,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/wctmax/dueling/seed-22",
+      "level": "medium",
+      "reward": "wctmax",
+      "algorithm": "dueling",
+      "training_seed": 22,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/wctmax/dueling/seed-33",
+      "level": "medium",
+      "reward": "wctmax",
+      "algorithm": "dueling",
+      "training_seed": 33,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/tmqmax/dqn/seed-11",
+      "level": "medium",
+      "reward": "tmqmax",
+      "algorithm": "dqn",
+      "training_seed": 11,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/tmqmax/dqn/seed-22",
+      "level": "medium",
+      "reward": "tmqmax",
+      "algorithm": "dqn",
+      "training_seed": 22,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/tmqmax/dqn/seed-33",
+      "level": "medium",
+      "reward": "tmqmax",
+      "algorithm": "dqn",
+      "training_seed": 33,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/tmqmax/double/seed-11",
+      "level": "medium",
+      "reward": "tmqmax",
+      "algorithm": "double",
+      "training_seed": 11,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/tmqmax/double/seed-22",
+      "level": "medium",
+      "reward": "tmqmax",
+      "algorithm": "double",
+      "training_seed": 22,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/tmqmax/double/seed-33",
+      "level": "medium",
+      "reward": "tmqmax",
+      "algorithm": "double",
+      "training_seed": 33,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/tmqmax/dueling/seed-11",
+      "level": "medium",
+      "reward": "tmqmax",
+      "algorithm": "dueling",
+      "training_seed": 11,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/tmqmax/dueling/seed-22",
+      "level": "medium",
+      "reward": "tmqmax",
+      "algorithm": "dueling",
+      "training_seed": 22,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/tmqmax/dueling/seed-33",
+      "level": "medium",
+      "reward": "tmqmax",
+      "algorithm": "dueling",
+      "training_seed": 33,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "high/wtmin/dqn/seed-11",
+      "level": "high",
+      "reward": "wtmin",
+      "algorithm": "dqn",
+      "training_seed": 11,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/wtmin/dqn/seed-22",
+      "level": "high",
+      "reward": "wtmin",
+      "algorithm": "dqn",
+      "training_seed": 22,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/wtmin/dqn/seed-33",
+      "level": "high",
+      "reward": "wtmin",
+      "algorithm": "dqn",
+      "training_seed": 33,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/wtmin/double/seed-11",
+      "level": "high",
+      "reward": "wtmin",
+      "algorithm": "double",
+      "training_seed": 11,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/wtmin/double/seed-22",
+      "level": "high",
+      "reward": "wtmin",
+      "algorithm": "double",
+      "training_seed": 22,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/wtmin/double/seed-33",
+      "level": "high",
+      "reward": "wtmin",
+      "algorithm": "double",
+      "training_seed": 33,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/wtmin/dueling/seed-11",
+      "level": "high",
+      "reward": "wtmin",
+      "algorithm": "dueling",
+      "training_seed": 11,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/wtmin/dueling/seed-22",
+      "level": "high",
+      "reward": "wtmin",
+      "algorithm": "dueling",
+      "training_seed": 22,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/wtmin/dueling/seed-33",
+      "level": "high",
+      "reward": "wtmin",
+      "algorithm": "dueling",
+      "training_seed": 33,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/asmax/dqn/seed-11",
+      "level": "high",
+      "reward": "asmax",
+      "algorithm": "dqn",
+      "training_seed": 11,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/asmax/dqn/seed-22",
+      "level": "high",
+      "reward": "asmax",
+      "algorithm": "dqn",
+      "training_seed": 22,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/asmax/dqn/seed-33",
+      "level": "high",
+      "reward": "asmax",
+      "algorithm": "dqn",
+      "training_seed": 33,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/asmax/double/seed-11",
+      "level": "high",
+      "reward": "asmax",
+      "algorithm": "double",
+      "training_seed": 11,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/asmax/double/seed-22",
+      "level": "high",
+      "reward": "asmax",
+      "algorithm": "double",
+      "training_seed": 22,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/asmax/double/seed-33",
+      "level": "high",
+      "reward": "asmax",
+      "algorithm": "double",
+      "training_seed": 33,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/asmax/dueling/seed-11",
+      "level": "high",
+      "reward": "asmax",
+      "algorithm": "dueling",
+      "training_seed": 11,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/asmax/dueling/seed-22",
+      "level": "high",
+      "reward": "asmax",
+      "algorithm": "dueling",
+      "training_seed": 22,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/asmax/dueling/seed-33",
+      "level": "high",
+      "reward": "asmax",
+      "algorithm": "dueling",
+      "training_seed": 33,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/ttmin/dqn/seed-11",
+      "level": "high",
+      "reward": "ttmin",
+      "algorithm": "dqn",
+      "training_seed": 11,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/ttmin/dqn/seed-22",
+      "level": "high",
+      "reward": "ttmin",
+      "algorithm": "dqn",
+      "training_seed": 22,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/ttmin/dqn/seed-33",
+      "level": "high",
+      "reward": "ttmin",
+      "algorithm": "dqn",
+      "training_seed": 33,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/ttmin/double/seed-11",
+      "level": "high",
+      "reward": "ttmin",
+      "algorithm": "double",
+      "training_seed": 11,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/ttmin/double/seed-22",
+      "level": "high",
+      "reward": "ttmin",
+      "algorithm": "double",
+      "training_seed": 22,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/ttmin/double/seed-33",
+      "level": "high",
+      "reward": "ttmin",
+      "algorithm": "double",
+      "training_seed": 33,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/ttmin/dueling/seed-11",
+      "level": "high",
+      "reward": "ttmin",
+      "algorithm": "dueling",
+      "training_seed": 11,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/ttmin/dueling/seed-22",
+      "level": "high",
+      "reward": "ttmin",
+      "algorithm": "dueling",
+      "training_seed": 22,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/ttmin/dueling/seed-33",
+      "level": "high",
+      "reward": "ttmin",
+      "algorithm": "dueling",
+      "training_seed": 33,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/ctmax/dqn/seed-11",
+      "level": "high",
+      "reward": "ctmax",
+      "algorithm": "dqn",
+      "training_seed": 11,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/ctmax/dqn/seed-22",
+      "level": "high",
+      "reward": "ctmax",
+      "algorithm": "dqn",
+      "training_seed": 22,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/ctmax/dqn/seed-33",
+      "level": "high",
+      "reward": "ctmax",
+      "algorithm": "dqn",
+      "training_seed": 33,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/ctmax/double/seed-11",
+      "level": "high",
+      "reward": "ctmax",
+      "algorithm": "double",
+      "training_seed": 11,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/ctmax/double/seed-22",
+      "level": "high",
+      "reward": "ctmax",
+      "algorithm": "double",
+      "training_seed": 22,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/ctmax/double/seed-33",
+      "level": "high",
+      "reward": "ctmax",
+      "algorithm": "double",
+      "training_seed": 33,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/ctmax/dueling/seed-11",
+      "level": "high",
+      "reward": "ctmax",
+      "algorithm": "dueling",
+      "training_seed": 11,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/ctmax/dueling/seed-22",
+      "level": "high",
+      "reward": "ctmax",
+      "algorithm": "dueling",
+      "training_seed": 22,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/ctmax/dueling/seed-33",
+      "level": "high",
+      "reward": "ctmax",
+      "algorithm": "dueling",
+      "training_seed": 33,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/wctmax/dqn/seed-11",
+      "level": "high",
+      "reward": "wctmax",
+      "algorithm": "dqn",
+      "training_seed": 11,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/wctmax/dqn/seed-22",
+      "level": "high",
+      "reward": "wctmax",
+      "algorithm": "dqn",
+      "training_seed": 22,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/wctmax/dqn/seed-33",
+      "level": "high",
+      "reward": "wctmax",
+      "algorithm": "dqn",
+      "training_seed": 33,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/wctmax/double/seed-11",
+      "level": "high",
+      "reward": "wctmax",
+      "algorithm": "double",
+      "training_seed": 11,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/wctmax/double/seed-22",
+      "level": "high",
+      "reward": "wctmax",
+      "algorithm": "double",
+      "training_seed": 22,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/wctmax/double/seed-33",
+      "level": "high",
+      "reward": "wctmax",
+      "algorithm": "double",
+      "training_seed": 33,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/wctmax/dueling/seed-11",
+      "level": "high",
+      "reward": "wctmax",
+      "algorithm": "dueling",
+      "training_seed": 11,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/wctmax/dueling/seed-22",
+      "level": "high",
+      "reward": "wctmax",
+      "algorithm": "dueling",
+      "training_seed": 22,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/wctmax/dueling/seed-33",
+      "level": "high",
+      "reward": "wctmax",
+      "algorithm": "dueling",
+      "training_seed": 33,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/tmqmax/dqn/seed-11",
+      "level": "high",
+      "reward": "tmqmax",
+      "algorithm": "dqn",
+      "training_seed": 11,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/tmqmax/dqn/seed-22",
+      "level": "high",
+      "reward": "tmqmax",
+      "algorithm": "dqn",
+      "training_seed": 22,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/tmqmax/dqn/seed-33",
+      "level": "high",
+      "reward": "tmqmax",
+      "algorithm": "dqn",
+      "training_seed": 33,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/tmqmax/double/seed-11",
+      "level": "high",
+      "reward": "tmqmax",
+      "algorithm": "double",
+      "training_seed": 11,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/tmqmax/double/seed-22",
+      "level": "high",
+      "reward": "tmqmax",
+      "algorithm": "double",
+      "training_seed": 22,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/tmqmax/double/seed-33",
+      "level": "high",
+      "reward": "tmqmax",
+      "algorithm": "double",
+      "training_seed": 33,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/tmqmax/dueling/seed-11",
+      "level": "high",
+      "reward": "tmqmax",
+      "algorithm": "dueling",
+      "training_seed": 11,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/tmqmax/dueling/seed-22",
+      "level": "high",
+      "reward": "tmqmax",
+      "algorithm": "dueling",
+      "training_seed": 22,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/tmqmax/dueling/seed-33",
+      "level": "high",
+      "reward": "tmqmax",
+      "algorithm": "dueling",
+      "training_seed": 33,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    }
+  ],
+  "job_count": 162,
+  "evaluation_count": 810
+}

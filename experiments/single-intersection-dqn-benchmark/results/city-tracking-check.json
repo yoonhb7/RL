@@ -1,0 +1,10 @@
+{
+  "signal_patterns": [
+    "GGrrGGrr",
+    "yyrryyrr",
+    "rrGGrrGG",
+    "rryyrryy"
+  ],
+  "body_count": 140,
+  "max_shape_error_m": 5.684341886080802e-14
+}

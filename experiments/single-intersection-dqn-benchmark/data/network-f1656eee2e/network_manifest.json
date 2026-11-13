@@ -1,0 +1,19 @@
+{
+  "signature": "f6cb1bd0f8e37e36f42769dfd3670e6b0ecd67c55fc06771df508483c8eb0f46",
+  "sha256": "28a4897d2994dda92085e70e70fb266029d432926c894cad3f6e30903f132964",
+  "command": [
+    "C:\\Users\\Yoon\\Documents\\Codex\\2026-11-10\\dl\\work\\runtime\\sumo\\bin\\netconvert.exe",
+    "--node-files",
+    "C:\\Users\\Yoon\\Documents\\Codex\\2026-11-10\\dl\\outputs\\single-intersection-dqn-benchmark\\data\\network-f1656eee2e\\nodes.nod.xml",
+    "--edge-files",
+    "C:\\Users\\Yoon\\Documents\\Codex\\2026-11-10\\dl\\outputs\\single-intersection-dqn-benchmark\\data\\network-f1656eee2e\\edges.edg.xml",
+    "--connection-files",
+    "C:\\Users\\Yoon\\Documents\\Codex\\2026-11-10\\dl\\outputs\\single-intersection-dqn-benchmark\\data\\network-f1656eee2e\\connections.con.xml",
+    "--output-file",
+    "C:\\Users\\Yoon\\Documents\\Codex\\2026-11-10\\dl\\outputs\\single-intersection-dqn-benchmark\\data\\network-f1656eee2e\\network.net.xml",
+    "--no-turnarounds",
+    "true",
+    "--junctions.corner-detail",
+    "5"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "compared": [
+    "route_sha256",
+    "scheduled",
+    "departed",
+    "arrived",
+    "remaining",
+    "not_departed",
+    "observed_stopped_vehicle_seconds",
+    "pending_vehicle_seconds",
+    "in_network_vehicle_seconds",
+    "co2_g",
+    "raw_return",
+    "signal_switches",
+    "direction_stopped_vehicle_seconds"
+  ],
+  "differences": {},
+  "passed": true
+}

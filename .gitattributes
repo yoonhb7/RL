@@ -8,3 +8,8 @@
 *.png binary
 *.gif binary
 *.pdf binary
+
+# Preserve exact published protocol/model manifest bytes across checkouts.
+experiments/single-intersection-dqn-benchmark/** -text whitespace=cr-at-eol
+# Preserve console transcript whitespace as recorded.
+experiments/single-intersection-dqn-benchmark/results/*.log -whitespace

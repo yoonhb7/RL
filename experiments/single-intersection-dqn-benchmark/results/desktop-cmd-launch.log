@@ -1,0 +1,12 @@
+Single-intersection SUMO simulation (view a trained pilot model)
+1 = LOW, 2 = MEDIUM, 3 = HIGH
+Traffic: medium. SUMO will open automatically.
+If covered by another window, select SUMO on the taskbar or use Alt+Tab.
+Controller: trained Double DQN pilot (no training in this view).
+Checking SUMO native runtime...
+Eclipse SUMO GUI 1.28.0
+Native runtime OK.
+Opening SUMO. No further console input is needed.
+double test=medium/1001: wait=24.47s arrived=244/257 pending=0
+Results: C:\Users\Yoon\Documents\Codex\2026-11-10\dl\outputs\single-intersection-dqn-benchmark\results\view\medium-20261114-002908
+Press any key to continue . . . 

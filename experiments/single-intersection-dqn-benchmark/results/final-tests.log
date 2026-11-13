@@ -1,0 +1,16 @@
+test_all_reward_definitions (test_benchmark.BenchmarkTests.test_all_reward_definitions) ... ok
+test_blocked_vehicles_are_not_mistaken_for_completed_trips (test_benchmark.BenchmarkTests.test_blocked_vehicles_are_not_mistaken_for_completed_trips) ... ok
+test_double_separates_selection_and_evaluation (test_benchmark.BenchmarkTests.test_double_separates_selection_and_evaluation) ... ok
+test_dueling_advantage_offset_does_not_change_q (test_benchmark.BenchmarkTests.test_dueling_advantage_offset_does_not_change_q) ... ok
+test_learning_and_checkpoint_for_four_variants (test_benchmark.BenchmarkTests.test_learning_and_checkpoint_for_four_variants) ... ok
+test_routes_reproducible_sorted_and_independent_of_controller (test_benchmark.BenchmarkTests.test_routes_reproducible_sorted_and_independent_of_controller) ... ok
+test_sumo_yellow_timing_and_vehicle_conservation (test_benchmark.BenchmarkTests.test_sumo_yellow_timing_and_vehicle_conservation) ... ok
+medium/wtmin/double seed=11 episode=1/1 wait=2.04s completion=0.222 updates=28
+double test=low/1001: wait=3.00s arrived=1/4 pending=0
+double test=high/1001: wait=2.38s arrived=4/47 pending=0
+test_train_save_evaluate_full_pipeline (test_benchmark.BenchmarkTests.test_train_save_evaluate_full_pipeline) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 8.212s
+
+OK

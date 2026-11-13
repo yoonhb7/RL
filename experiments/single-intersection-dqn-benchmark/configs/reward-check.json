@@ -1,0 +1,76 @@
+{
+  "protocol": "palos2020-demand-benchmark-v1",
+  "scenario": {
+    "arm_lengths_m": {
+      "N": 300,
+      "E": 350,
+      "S": 400,
+      "W": 450
+    },
+    "speed_limit_mps": 13.89,
+    "detector_length_m": 50,
+    "yellow_s": 3,
+    "fixed_green_s": 30,
+    "demand_seconds": 120,
+    "drain_seconds": 60,
+    "right_turn_ratio": 0.2,
+    "direction_shares": {
+      "N": 0.25,
+      "E": 0.25,
+      "S": 0.25,
+      "W": 0.25
+    },
+    "loads_vph": {
+      "low": 450,
+      "medium": 1500,
+      "high": 3000
+    },
+    "route_weight_reference_m": 750
+  },
+  "learning": {
+    "hidden_sizes": [
+      512,
+      256,
+      64
+    ],
+    "learning_rate": 0.0005,
+    "gamma_per_second": 0.9,
+    "batch_size": 32,
+    "replay_capacity": 50000,
+    "learning_starts": 32,
+    "train_every_decisions": 1,
+    "target_update_every_updates": 500,
+    "epsilon_start": 1.0,
+    "epsilon_end": 0.02,
+    "epsilon_decay_decisions": 100,
+    "gradient_clip_norm": 10,
+    "episodes": 1,
+    "device": "auto"
+  },
+  "experiment": {
+    "algorithms": [
+      "dqn",
+      "double",
+      "dueling"
+    ],
+    "rewards": [
+      "wtmin",
+      "asmax",
+      "ttmin",
+      "ctmax",
+      "wctmax",
+      "tmqmax"
+    ],
+    "training_seeds": [
+      11
+    ],
+    "evaluation_seeds": [
+      1001
+    ],
+    "owners": {
+      "low": "A",
+      "medium": "B",
+      "high": "C"
+    }
+  }
+}

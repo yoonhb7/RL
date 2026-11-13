@@ -1,0 +1,21 @@
+{
+  "algorithm": "double",
+  "reward": "wtmin",
+  "training_level": "medium",
+  "training_seed": 11,
+  "provenance": {
+    "config_sha256": "061772c8774ddf1b713b918bc92c2ae75dceebcf67a4766f32145d36689ed298",
+    "code_sha256": "d34bb1e85207bfcadc7394ecf21aaeb679741ed47d17b2c782ac3e5fda7a41a5",
+    "protocol_sha256": "38a033da9e8a8c0eab6fad711966d03ffdfa9b0a4cfca41fb963839947c29625",
+    "torch": "2.15.0+cpu",
+    "numpy": "2.5.4",
+    "environment_signature": "35f8554da0f5cfb35d5a0c2bde4b4c542a117a81a8c0da65591225e1a84251d4"
+  },
+  "state": "complete",
+  "started_utc": "2026-11-13T14:10:59.314604+00:00",
+  "effective_device": "cpu",
+  "completed_episodes": 6,
+  "decisions": 2972,
+  "updates": 2845,
+  "finished_utc": "2026-11-13T14:11:23.956593+00:00"
+}

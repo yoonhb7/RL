@@ -1,2 +1,2 @@
 @echo off
-call "%~dp0experiments\pedlink-corridor2-dqn\START_SIMULATION.cmd"
+call "%~dp0experiments\single-intersection-dqn-benchmark\START_SIMULATION.cmd" %*

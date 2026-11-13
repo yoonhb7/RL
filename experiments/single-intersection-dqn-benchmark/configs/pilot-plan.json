@@ -1,0 +1,187 @@
+{
+  "protocol": "trafficbench-plan-v1",
+  "config": {
+    "protocol": "palos2020-demand-benchmark-v1",
+    "scenario": {
+      "arm_lengths_m": {
+        "N": 300,
+        "E": 350,
+        "S": 400,
+        "W": 450
+      },
+      "speed_limit_mps": 13.89,
+      "detector_length_m": 50,
+      "yellow_s": 3,
+      "fixed_green_s": 30,
+      "demand_seconds": 600,
+      "drain_seconds": 180,
+      "right_turn_ratio": 0.2,
+      "direction_shares": {
+        "N": 0.25,
+        "E": 0.25,
+        "S": 0.25,
+        "W": 0.25
+      },
+      "loads_vph": {
+        "low": 450,
+        "medium": 1500,
+        "high": 3000
+      },
+      "route_weight_reference_m": 750
+    },
+    "learning": {
+      "hidden_sizes": [
+        512,
+        256,
+        64
+      ],
+      "learning_rate": 0.0005,
+      "gamma_per_second": 0.9,
+      "batch_size": 32,
+      "replay_capacity": 50000,
+      "learning_starts": 128,
+      "train_every_decisions": 1,
+      "target_update_every_updates": 500,
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.02,
+      "epsilon_decay_decisions": 2000,
+      "gradient_clip_norm": 10,
+      "episodes": 6,
+      "device": "auto"
+    },
+    "experiment": {
+      "algorithms": [
+        "dqn",
+        "double",
+        "dueling"
+      ],
+      "rewards": [
+        "wtmin"
+      ],
+      "training_seeds": [
+        11
+      ],
+      "evaluation_seeds": [
+        1001,
+        1002,
+        1003
+      ],
+      "owners": {
+        "low": "A",
+        "medium": "B",
+        "high": "C"
+      }
+    }
+  },
+  "provenance": {
+    "config_sha256": "061772c8774ddf1b713b918bc92c2ae75dceebcf67a4766f32145d36689ed298",
+    "code_sha256": "36fb92007bbd37ec6e10f5f4f2077f729ea82d5f0bfdc0e9fb1716c776446797",
+    "protocol_sha256": "af0fcaf3652ce75997891f5afb617cead302a3307349eb5c71ab6947b166ce1c",
+    "torch": "2.15.0+cpu",
+    "numpy": "2.5.4",
+    "environment_signature": "35f8554da0f5cfb35d5a0c2bde4b4c542a117a81a8c0da65591225e1a84251d4"
+  },
+  "jobs": [
+    {
+      "id": "low/wtmin/dqn/seed-11",
+      "level": "low",
+      "reward": "wtmin",
+      "algorithm": "dqn",
+      "training_seed": 11,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/wtmin/double/seed-11",
+      "level": "low",
+      "reward": "wtmin",
+      "algorithm": "double",
+      "training_seed": 11,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "low/wtmin/dueling/seed-11",
+      "level": "low",
+      "reward": "wtmin",
+      "algorithm": "dueling",
+      "training_seed": 11,
+      "owner": "A",
+      "evaluation_levels": [
+        "low"
+      ]
+    },
+    {
+      "id": "medium/wtmin/dqn/seed-11",
+      "level": "medium",
+      "reward": "wtmin",
+      "algorithm": "dqn",
+      "training_seed": 11,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/wtmin/double/seed-11",
+      "level": "medium",
+      "reward": "wtmin",
+      "algorithm": "double",
+      "training_seed": 11,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "medium/wtmin/dueling/seed-11",
+      "level": "medium",
+      "reward": "wtmin",
+      "algorithm": "dueling",
+      "training_seed": 11,
+      "owner": "B",
+      "evaluation_levels": [
+        "medium"
+      ]
+    },
+    {
+      "id": "high/wtmin/dqn/seed-11",
+      "level": "high",
+      "reward": "wtmin",
+      "algorithm": "dqn",
+      "training_seed": 11,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/wtmin/double/seed-11",
+      "level": "high",
+      "reward": "wtmin",
+      "algorithm": "double",
+      "training_seed": 11,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    },
+    {
+      "id": "high/wtmin/dueling/seed-11",
+      "level": "high",
+      "reward": "wtmin",
+      "algorithm": "dueling",
+      "training_seed": 11,
+      "owner": "C",
+      "evaluation_levels": [
+        "high"
+      ]
+    }
+  ],
+  "job_count": 9,
+  "evaluation_count": 27
+}

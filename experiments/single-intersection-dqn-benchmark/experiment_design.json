@@ -1,0 +1,75 @@
+{
+  "status": "implemented_and_pilot_verified",
+  "basis": "Palos and Huszak, SoftCOM 2020",
+  "current_spec": "README.md / METHOD_AND_REWARDS_KO.md / configs/shared.json",
+  "algorithms": [
+    "dqn",
+    "double",
+    "dueling"
+  ],
+  "optional_algorithms": [
+    "d3qn"
+  ],
+  "rewards": [
+    "wtmin",
+    "asmax",
+    "ttmin",
+    "ctmax",
+    "wctmax",
+    "tmqmax"
+  ],
+  "congestion_vph": {
+    "low": 450,
+    "medium": 1500,
+    "high": 3000
+  },
+  "scope": {
+    "junctions": 1,
+    "agents": 1,
+    "pedestrians": false,
+    "observation_dimensions": 13,
+    "actions": [
+      "hold",
+      "switch"
+    ]
+  },
+  "executed": {
+    "pilot_models": 9,
+    "episodes_per_model": 6,
+    "pilot_policy_evaluations": 27,
+    "baseline_evaluations": 18,
+    "separate_reward_smoke_models": 6,
+    "tests_passed": 8
+  },
+  "formal_plan": {
+    "training_models": 162,
+    "policy_evaluations": 810,
+    "state": "prepared_not_executed"
+  },
+  "limitations": [
+    "Pilot only: medium/high policies not converged.",
+    "Reward operational definitions are documented adaptations, not exact author-code reproduction."
+  ],
+  "pilot_provenance": {
+    "config_sha256": "061772c8774ddf1b713b918bc92c2ae75dceebcf67a4766f32145d36689ed298",
+    "code_sha256": "d34bb1e85207bfcadc7394ecf21aaeb679741ed47d17b2c782ac3e5fda7a41a5",
+    "protocol_sha256": "38a033da9e8a8c0eab6fad711966d03ffdfa9b0a4cfca41fb963839947c29625",
+    "torch": "2.15.0+cpu",
+    "numpy": "2.5.4",
+    "environment_signature": "35f8554da0f5cfb35d5a0c2bde4b4c542a117a81a8c0da65591225e1a84251d4"
+  },
+  "current_runtime_provenance": {
+    "config_sha256": "061772c8774ddf1b713b918bc92c2ae75dceebcf67a4766f32145d36689ed298",
+    "code_sha256": "36fb92007bbd37ec6e10f5f4f2077f729ea82d5f0bfdc0e9fb1716c776446797",
+    "protocol_sha256": "af0fcaf3652ce75997891f5afb617cead302a3307349eb5c71ab6947b166ce1c",
+    "torch": "2.15.0+cpu",
+    "numpy": "2.5.4",
+    "environment_signature": "35f8554da0f5cfb35d5a0c2bde4b4c542a117a81a8c0da65591225e1a84251d4"
+  },
+  "visual_update": {
+    "date": "2026-11-14",
+    "documentation": "CITY_VIEW_KO.md",
+    "physics_check": "results/city-physics-check.json",
+    "tracking_check": "results/city-tracking-check.json"
+  }
+}

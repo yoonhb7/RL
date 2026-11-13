@@ -1,0 +1,8 @@
+# Generated files; the compact published evidence is explicitly tracked.
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+/tmp/
+/results/**
+/data/**

@@ -1,14 +1,12 @@
-# 먼저 읽어주세요
+# RL1114 시작 안내
 
-1. [README: 구현 내용과 빠른 시작](README.md)
-2. [SUMO 설치·재생·학습·평가 안내](docs/SUMO_SIMULATION_GUIDE.md)
-3. [GitHub 구성과 푸시 방법](docs/GITHUB_PUSH_GUIDE.md)
+현재 실험은 **단일 교차로 DQN·보상·저중고 교통량 비교**다.
 
-새 컴퓨터에서는 README에 따라 Python 가상환경과 requirements를 설치하세요.
-환경이 준비되면 `START_SIMULATION.cmd`를 더블클릭해 두 교차로 DQN을 재생할 수 있습니다.
-기본 재생 모델은 `models/corridor2-100ep/model.pt`이며, 새로 학습한
-`results/local/corridor2-train/model.pt`가 있으면 해당 로컬 모델을 우선합니다.
+1. [프로젝트 개요](README.md)와 [설치·실행 안내](experiments/single-intersection-dqn-benchmark/README.md)를 읽는다.
+2. 환경 설치 후 최상위 `START_VIEW.cmd` 또는 `START_SIMULATION.cmd`를 실행하고 1/2/3을 선택한다.
+3. `SHOW_RESULTS.cmd`로 짧은 파일럿의 결과를 확인한다. `START_TRAINING.cmd`는 새 파일럿을 학습한다.
+4. 본 실험 분담은 [팀 실행 안내](experiments/single-intersection-dqn-benchmark/TEAM_HANDOFF_KO.md)를 따른다.
 
-`RUN_HERE.ps1 -Mode Evaluate`의 기본 모델은 초기 검증 모델입니다.
-100회 모델 또는 새 모델을 평가할 때에는 `-ModelPath`를 명시하세요.
-구체적인 명령은 실행 안내서에 있습니다.
+현재 Python 명령은 `experiments/single-intersection-dqn-benchmark`에서 실행한다. 최상위의 옛 `run.py`, `RUN_HERE.ps1`, `TRAIN_TEAM_EXPERIMENT.cmd`는 이전 연구용이다.
+
+포함된 데모는 학습 6에피소드의 실행 확인용 모델이다. 중·고교통량에서는 충분히 수렴하지 않았다. 시연은 재학습하지 않으며 162모델 본 실험은 아직 실행하지 않았다.
