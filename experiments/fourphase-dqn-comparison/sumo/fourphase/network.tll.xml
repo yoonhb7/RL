@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tlLogics>
+  <tlLogic id="center4" type="static" programID="fourphase" offset="0">
+    <phase duration="30" state="GrGrrrrr" />
+    <phase duration="3" state="yryrrrrr" />
+    <phase duration="1" state="rrrrrrrr" />
+    <phase duration="15" state="rGrGrrrr" />
+    <phase duration="3" state="ryryrrrr" />
+    <phase duration="1" state="rrrrrrrr" />
+    <phase duration="30" state="rrrrGrGr" />
+    <phase duration="3" state="rrrryryr" />
+    <phase duration="1" state="rrrrrrrr" />
+    <phase duration="15" state="rrrrrGrG" />
+    <phase duration="3" state="rrrrryry" />
+    <phase duration="1" state="rrrrrrrr" />
+  </tlLogic>
+  <connection from="north_in" to="south_out" fromLane="0" toLane="0" tl="center4" linkIndex="0" />
+  <connection from="north_in" to="east_out" fromLane="1" toLane="1" tl="center4" linkIndex="1" />
+  <connection from="south_in" to="north_out" fromLane="0" toLane="0" tl="center4" linkIndex="2" />
+  <connection from="south_in" to="west_out" fromLane="1" toLane="1" tl="center4" linkIndex="3" />
+  <connection from="east_in" to="west_out" fromLane="0" toLane="0" tl="center4" linkIndex="4" />
+  <connection from="east_in" to="south_out" fromLane="1" toLane="1" tl="center4" linkIndex="5" />
+  <connection from="west_in" to="east_out" fromLane="0" toLane="0" tl="center4" linkIndex="6" />
+  <connection from="west_in" to="north_out" fromLane="1" toLane="1" tl="center4" linkIndex="7" />
+</tlLogics>

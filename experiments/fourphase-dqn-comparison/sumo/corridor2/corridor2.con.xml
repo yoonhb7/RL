@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<connections>
+  <connection from="A_north_in" to="A_south_out" fromLane="0" toLane="0" />
+  <connection from="A_south_in" to="A_north_out" fromLane="0" toLane="0" />
+  <connection from="B_to_A" to="west_out" fromLane="0" toLane="0" />
+  <connection from="west_in" to="A_to_B" fromLane="0" toLane="0" />
+  <connection from="B_north_in" to="B_south_out" fromLane="0" toLane="0" />
+  <connection from="B_south_in" to="B_north_out" fromLane="0" toLane="0" />
+  <connection from="east_in" to="B_to_A" fromLane="0" toLane="0" />
+  <connection from="A_to_B" to="east_out" fromLane="0" toLane="0" />
+</connections>

@@ -1,0 +1,101 @@
+{
+  "split": "validation",
+  "selected_checkpoint": {
+    "episode": 20,
+    "decisions": 4800,
+    "J": 193.4208615951461,
+    "J_by_level": {
+      "low": 25.67107593592215,
+      "medium": 145.79389005136463,
+      "high": 408.7976187981515
+    },
+    "selected": true,
+    "folder": "validation/step_004800",
+    "checkpoint": "best_model.pt",
+    "checkpoint_sha256": "6f242601ce7ee0a54b8b1ac6e7f94414b7ad50c47da647538cb240096038a567",
+    "validation_summary_sha256": "5127c9bd11f707349e1b535423bdc007fc31ce422e9259c7bce3b0e92b4732af",
+    "criterion": "minimum validation J only; earliest checkpoint on ties"
+  },
+  "rows": [
+    {
+      "level": "low",
+      "controller": "fixed",
+      "cases": 3,
+      "J_s_per_due_vehicle": 29.305160304300742,
+      "ATT_completed_s": 114.74006189333842,
+      "AQL_in_vehicles": 10.012129629629628,
+      "throughput_vehicles": 1188.6666666666667,
+      "W_stop_in_vehicle_s": 36043.666666666664,
+      "W_pending_vehicle_s": 34.333333333333336,
+      "unfinished": 42.0,
+      "pending_due": 0.0
+    },
+    {
+      "level": "low",
+      "controller": "dqn",
+      "cases": 3,
+      "J_s_per_due_vehicle": 25.67107593592215,
+      "ATT_completed_s": 112.48829231453827,
+      "AQL_in_vehicles": 8.785,
+      "throughput_vehicles": 1194.3333333333333,
+      "W_stop_in_vehicle_s": 31626.0,
+      "W_pending_vehicle_s": 34.333333333333336,
+      "unfinished": 36.333333333333336,
+      "pending_due": 0.0
+    },
+    {
+      "level": "medium",
+      "controller": "fixed",
+      "cases": 3,
+      "J_s_per_due_vehicle": 32.91802473530352,
+      "ATT_completed_s": 119.49667344625412,
+      "AQL_in_vehicles": 16.584166666666665,
+      "throughput_vehicles": 1764.0,
+      "W_stop_in_vehicle_s": 59703.0,
+      "W_pending_vehicle_s": 85.33333333333333,
+      "unfinished": 49.666666666666664,
+      "pending_due": 0.0
+    },
+    {
+      "level": "medium",
+      "controller": "dqn",
+      "cases": 3,
+      "J_s_per_due_vehicle": 145.79389005136463,
+      "ATT_completed_s": 266.5567749189059,
+      "AQL_in_vehicles": 72.57694444444445,
+      "throughput_vehicles": 1598.3333333333333,
+      "W_stop_in_vehicle_s": 261277.0,
+      "W_pending_vehicle_s": 4277.333333333333,
+      "unfinished": 208.66666666666666,
+      "pending_due": 6.666666666666667
+    },
+    {
+      "level": "high",
+      "controller": "fixed",
+      "cases": 3,
+      "J_s_per_due_vehicle": 43.05161893178404,
+      "ATT_completed_s": 132.13075768331979,
+      "AQL_in_vehicles": 28.604074074074074,
+      "throughput_vehicles": 2297.0,
+      "W_stop_in_vehicle_s": 102974.66666666667,
+      "W_pending_vehicle_s": 171.0,
+      "unfinished": 94.33333333333333,
+      "pending_due": 0.3333333333333333
+    },
+    {
+      "level": "high",
+      "controller": "dqn",
+      "cases": 3,
+      "J_s_per_due_vehicle": 408.7976187981515,
+      "ATT_completed_s": 431.9966337629649,
+      "AQL_in_vehicles": 146.00685185185185,
+      "throughput_vehicles": 1699.0,
+      "W_stop_in_vehicle_s": 525624.6666666666,
+      "W_pending_vehicle_s": 453237.3333333333,
+      "unfinished": 312.0,
+      "pending_due": 380.6666666666667
+    }
+  ],
+  "test_cases_run": 0,
+  "interpretation": "pilot; one trained policy, not final independent test"
+}

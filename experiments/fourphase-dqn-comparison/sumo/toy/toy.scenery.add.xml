@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Illustrative surroundings only: no lanes, crossings, demand or controllers. -->
+<additional>
+    <!-- Paving beside the existing 6.4 m road. All surfaces lie below the road. -->
+    <poly id="visual.paving.ns" color="213,220,212" fill="true" layer="-9"
+          shape="241,0 259,0 259,500 241,500 241,0"/>
+    <poly id="visual.paving.ew" color="213,220,212" fill="true" layer="-9"
+          shape="0,241 500,241 500,259 0,259 0,241"/>
+
+    <!-- Four compact blocks around the junction. Coordinates are synthetic. -->
+    <poly id="visual.lot.nw" color="222,229,219" fill="true" layer="-8"
+          shape="153,269 231,269 231,337 153,337 153,269"/>
+    <poly id="visual.lot.ne" color="222,229,219" fill="true" layer="-8"
+          shape="269,269 347,269 347,337 269,337 269,269"/>
+    <poly id="visual.park.sw" color="207,226,197" fill="true" layer="-8"
+          shape="153,163 231,163 231,231 153,231 153,163"/>
+    <poly id="visual.lot.se" color="224,228,219" fill="true" layer="-8"
+          shape="269,163 347,163 347,231 269,231 269,163"/>
+
+    <poly id="visual.shadow.nw" color="169,183,176" fill="true" layer="-7"
+          shape="170,282 218,282 218,320 170,320 170,282"/>
+    <poly id="visual.building.nw" color="174,193,207" fill="true" layer="-6"
+          shape="167,285 215,285 215,323 167,323 167,285"/>
+    <poly id="visual.roof.nw" color="209,221,229" fill="true" layer="-5"
+          shape="173,292 209,292 209,317 173,317 173,292"/>
+    <poly id="visual.roofunit.nw" color="156,177,191" fill="true" layer="-4"
+          shape="197,300 204,300 204,310 197,310 197,300"/>
+
+    <poly id="visual.shadow.ne" color="169,183,176" fill="true" layer="-7"
+          shape="286,282 334,282 334,320 286,320 286,282"/>
+    <poly id="visual.building.ne" color="211,192,164" fill="true" layer="-6"
+          shape="283,285 331,285 331,323 283,323 283,285"/>
+    <poly id="visual.roof.ne" color="237,222,199" fill="true" layer="-5"
+          shape="289,292 325,292 325,317 289,317 289,292"/>
+    <poly id="visual.roofunit.ne" color="189,170,145" fill="true" layer="-4"
+          shape="294,298 301,298 301,308 294,308 294,298"/>
+
+    <poly id="visual.shadow.se" color="169,183,176" fill="true" layer="-7"
+          shape="286,177 334,177 334,215 286,215 286,177"/>
+    <poly id="visual.building.se" color="187,197,181" fill="true" layer="-6"
+          shape="283,180 331,180 331,218 283,218 283,180"/>
+    <poly id="visual.roof.se" color="220,228,212" fill="true" layer="-5"
+          shape="289,187 325,187 325,212 289,212 289,187"/>
+    <poly id="visual.roofunit.se" color="162,180,158" fill="true" layer="-4"
+          shape="311,194 318,194 318,204 311,204 311,194"/>
+
+    <poly id="visual.park.path.ew" color="232,224,204" fill="true" layer="-6"
+          shape="158,194 226,194 226,199 158,199 158,194"/>
+    <poly id="visual.park.path.ns" color="232,224,204" fill="true" layer="-6"
+          shape="189,168 194,168 194,226 189,226 189,168"/>
+
+    <!-- Center-line markings stop before the signal-controlled junction. -->
+    <poly id="visual.line.n" color="245,209,103" fill="true" layer="1"
+          shape="249.85,264 250.15,264 250.15,500 249.85,500 249.85,264"/>
+    <poly id="visual.line.s" color="245,209,103" fill="true" layer="1"
+          shape="249.85,0 250.15,0 250.15,236 249.85,236 249.85,0"/>
+    <poly id="visual.line.e" color="245,209,103" fill="true" layer="1"
+          shape="264,249.85 500,249.85 500,250.15 264,250.15 264,249.85"/>
+    <poly id="visual.line.w" color="245,209,103" fill="true" layer="1"
+          shape="0,249.85 236,249.85 236,250.15 0,250.15 0,249.85"/>
+
+    <poi id="visual.tree.nw1" x="160" y="278" icon="tree" color="78,133,87" width="8" height="8" layer="-3"/>
+    <poi id="visual.tree.nw2" x="224" y="327" icon="tree" color="89,145,94" width="9" height="9" layer="-3"/>
+    <poi id="visual.tree.ne1" x="276" y="327" icon="tree" color="78,133,87" width="9" height="9" layer="-3"/>
+    <poi id="visual.tree.ne2" x="340" y="278" icon="tree" color="89,145,94" width="8" height="8" layer="-3"/>
+    <poi id="visual.tree.se1" x="276" y="223" icon="tree" color="78,133,87" width="9" height="9" layer="-3"/>
+    <poi id="visual.tree.se2" x="340" y="172" icon="tree" color="89,145,94" width="8" height="8" layer="-3"/>
+    <poi id="visual.tree.sw1" x="168" y="177" icon="tree" color="78,133,87" width="11" height="11" layer="-3"/>
+    <poi id="visual.tree.sw2" x="211" y="177" icon="tree" color="89,145,94" width="10" height="10" layer="-3"/>
+    <poi id="visual.tree.sw3" x="170" y="216" icon="tree" color="89,145,94" width="10" height="10" layer="-3"/>
+    <poi id="visual.tree.sw4" x="212" y="215" icon="tree" color="78,133,87" width="12" height="12" layer="-3"/>
+
+    <!-- ASCII labels also work when the Mac XQuartz font lacks Korean glyphs. -->
+    <poi id="visual.label.n" x="270" y="346" type="NORTH" color="0,0,0,0" width="0.1" height="0.1" layer="10"/>
+    <poi id="visual.label.s" x="230" y="154" type="SOUTH" color="0,0,0,0" width="0.1" height="0.1" layer="10"/>
+    <poi id="visual.label.e" x="350" y="266" type="EAST" color="0,0,0,0" width="0.1" height="0.1" layer="10"/>
+    <poi id="visual.label.w" x="150" y="234" type="WEST" color="0,0,0,0" width="0.1" height="0.1" layer="10"/>
+</additional>

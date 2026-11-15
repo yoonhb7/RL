@@ -1,0 +1,6 @@
+<viewsettings>
+  <scheme name="benchmark">
+    <background backgroundColor="216,226,211"/>
+    <vehicles vehicleMode="0" vehicleQuality="1" vehicle_minSize="0" vehicle_exaggeration="0.01"/>
+  </scheme>
+</viewsettings>

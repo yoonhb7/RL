@@ -1,0 +1,29 @@
+{
+  "level": "medium",
+  "seed": 1001,
+  "requested_vph": 1500,
+  "scheduled": 257,
+  "horizon_seconds": 780,
+  "source_commit": "7fd00d77598da932f6f5130ffc8fd37a8f478492",
+  "network_sha256": "28a4897d2994dda92085e70e70fb266029d432926c894cad3f6e30903f132964",
+  "demand_sha256": "f8fd0290b29298f86e6688be0a42cf82c0a52963fbdf3cd7d9d93d90024b9393",
+  "controller": "native SUMO fixed-time program",
+  "phases": [
+    {
+      "duration": "42",
+      "state": "GGrrGGrr"
+    },
+    {
+      "duration": "3",
+      "state": "yyrryyrr"
+    },
+    {
+      "duration": "42",
+      "state": "rrGGrrGG"
+    },
+    {
+      "duration": "3",
+      "state": "rryyrryy"
+    }
+  ]
+}

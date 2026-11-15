@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewsettings>
+    <scheme name="Four phase research">
+        <background backgroundColor="235,240,231" showGrid="0"/>
+        <edges laneEdgeMode="0" laneShowBorders="1" showLinkDecals="1"
+               showLinkRules="1" hideConnectors="1" widthExaggeration="1"/>
+        <vehicles vehicleMode="0" vehicleQuality="2" vehicle_minSize="1.5"
+                  vehicle_exaggeration="1.3" vehicle_constantSize="0" showBlinker="1"/>
+        <junctions junctionMode="0" showLane2Lane="0" drawShape="1"/>
+    </scheme>
+    <viewport zoom="200" x="500" y="500"/>
+</viewsettings>

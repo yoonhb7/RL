@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<additional>
+  <laneAreaDetector id="det_N" lane="N_in_0" pos="-50" length="50" freq="781" file="detector-output.xml" />
+  <laneAreaDetector id="det_E" lane="E_in_0" pos="-50" length="50" freq="781" file="detector-output.xml" />
+  <laneAreaDetector id="det_S" lane="S_in_0" pos="-50" length="50" freq="781" file="detector-output.xml" />
+  <laneAreaDetector id="det_W" lane="W_in_0" pos="-50" length="50" freq="781" file="detector-output.xml" />
+</additional>

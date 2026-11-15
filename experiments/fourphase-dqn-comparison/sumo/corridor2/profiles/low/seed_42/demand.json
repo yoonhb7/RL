@@ -1,0 +1,27 @@
+{
+  "seed": 42,
+  "profile": "low",
+  "vehicle_count": 332,
+  "vehicles_by_origin": {
+    "west": 66,
+    "east": 54,
+    "A_north": 63,
+    "A_south": 43,
+    "B_north": 55,
+    "B_south": 51
+  },
+  "segments": [
+    {
+      "begin": 0,
+      "end": 900,
+      "rates": {
+        "west": 240,
+        "east": 240,
+        "A_north": 240,
+        "A_south": 240,
+        "B_north": 240,
+        "B_south": 240
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<edges>
+  <edge from="west" to="A" id="west_in" numLanes="1" speed="13.89" />
+  <edge from="A" to="west" id="west_out" numLanes="1" speed="13.89" />
+  <edge from="east" to="B" id="east_in" numLanes="1" speed="13.89" />
+  <edge from="B" to="east" id="east_out" numLanes="1" speed="13.89" />
+  <edge from="A" to="B" id="A_to_B" numLanes="1" speed="13.89" />
+  <edge from="B" to="A" id="B_to_A" numLanes="1" speed="13.89" />
+  <edge from="A_north" to="A" id="A_north_in" numLanes="1" speed="13.89" />
+  <edge from="A" to="A_north" id="A_north_out" numLanes="1" speed="13.89" />
+  <edge from="A_south" to="A" id="A_south_in" numLanes="1" speed="13.89" />
+  <edge from="A" to="A_south" id="A_south_out" numLanes="1" speed="13.89" />
+  <edge from="B_north" to="B" id="B_north_in" numLanes="1" speed="13.89" />
+  <edge from="B" to="B_north" id="B_north_out" numLanes="1" speed="13.89" />
+  <edge from="B_south" to="B" id="B_south_in" numLanes="1" speed="13.89" />
+  <edge from="B" to="B_south" id="B_south_out" numLanes="1" speed="13.89" />
+</edges>

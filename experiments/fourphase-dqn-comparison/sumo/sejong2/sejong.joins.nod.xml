@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nodes>
+  <join id="hwayang" nodes="414685242 8952652939" type="traffic_light" tl="hwayang" tlType="static" reset="true" />
+  <join id="childrens_park" nodes="8952652961 9040117935 9040117936 9040117937" type="traffic_light" tl="childrens_park" tlType="static" reset="true" />
+</nodes>

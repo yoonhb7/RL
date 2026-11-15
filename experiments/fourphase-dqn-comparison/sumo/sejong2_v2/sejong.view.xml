@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewsettings>
+    <scheme name="Sejong roads">
+        <background backgroundColor="235,240,231" showGrid="0"/>
+        <edges laneEdgeMode="0" laneShowBorders="1" showLinkDecals="1"
+               showLinkRules="1" hideConnectors="1" widthExaggeration="1">
+            <colorScheme name="uniform">
+                <entry color="58,68,79" name="road"/>
+                <entry color="216,221,215" name="sidewalk"/>
+            </colorScheme>
+        </edges>
+        <vehicles vehicleMode="5" vehicleQuality="2" vehicle_minSize="2"
+                  vehicle_exaggeration="1.35" vehicle_constantSize="0" showBlinker="1"/>
+        <junctions junctionMode="0" drawShape="1" showLane2Lane="0">
+            <colorScheme name="uniform"><entry color="58,68,79"/></colorScheme>
+        </junctions>
+        <pois poiName_show="0" poiType_show="0"/>
+        <polys polyName_show="0"/>
+    </scheme>
+</viewsettings>

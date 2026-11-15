@@ -1,0 +1,395 @@
+<?xml version='1.0' encoding='utf-8'?>
+<osm version="0.6" generator="RL Term Project OSM subset" attribution="OpenStreetMap contributors" license="https://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="414683275" version="1" lat="37.5482763" lon="127.0675055" />
+  <node id="414685242" version="1" lat="37.5480112" lon="127.0704657" />
+  <node id="436821890" version="1" lat="37.5463519" lon="127.0762230" />
+  <node id="436821893" version="1" lat="37.5466844" lon="127.0755679" />
+  <node id="436821905" version="1" lat="37.5476959" lon="127.0723769" />
+  <node id="436821909" version="1" lat="37.5477451" lon="127.0721780" />
+  <node id="436821916" version="1" lat="37.5481693" lon="127.0688027" />
+  <node id="436832670" version="1" lat="37.5469283" lon="127.0739955" />
+  <node id="436832675" version="1" lat="37.5502236" lon="127.0759189" />
+  <node id="436840908" version="1" lat="37.5492157" lon="127.0708247" />
+  <node id="436840909" version="1" lat="37.5506170" lon="127.0711233" />
+  <node id="1168013959" version="1" lat="37.5490241" lon="127.0752248" />
+  <node id="1168014029" version="1" lat="37.5500542" lon="127.0710221" />
+  <node id="1859287189" version="1" lat="37.5459356" lon="127.0733878" />
+  <node id="1859287269" version="1" lat="37.5470224" lon="127.0748591" />
+  <node id="1859641520" version="1" lat="37.5456691" lon="127.0706616" />
+  <node id="1859641522" version="1" lat="37.5462553" lon="127.0703093" />
+  <node id="1859641524" version="1" lat="37.5465677" lon="127.0701674" />
+  <node id="2123390894" version="1" lat="37.5468598" lon="127.0752317" />
+  <node id="3846107122" version="1" lat="37.5469110" lon="127.0738476" />
+  <node id="3846107123" version="1" lat="37.5481404" lon="127.0690838" />
+  <node id="3846107126" version="1" lat="37.5456018" lon="127.0707041" />
+  <node id="3846107130" version="1" lat="37.5468478" lon="127.0702213" />
+  <node id="3846107150" version="1" lat="37.5458135" lon="127.0705578" />
+  <node id="3846108067" version="1" lat="37.5452972" lon="127.0709436" />
+  <node id="3846108196" version="1" lat="37.5471441" lon="127.0702810" />
+  <node id="3846711616" version="1" lat="37.5480929" lon="127.0695308" />
+  <node id="3846711622" version="1" lat="37.5494219" lon="127.0708732" />
+  <node id="3846711630" version="1" lat="37.5488429" lon="127.0707241" />
+  <node id="3846712457" version="1" lat="37.5478643" lon="127.0714216" />
+  <node id="3846712476" version="1" lat="37.5497177" lon="127.0709429" />
+  <node id="4179185416" version="1" lat="37.5474811" lon="127.0703611" />
+  <node id="7856245568" version="1" lat="37.5473537" lon="127.0737411" />
+  <node id="7856245606" version="1" lat="37.5482744" lon="127.0677615" />
+  <node id="7856245660" version="1" lat="37.5471905" lon="127.0743387" />
+  <node id="7856245663" version="1" lat="37.5474387" lon="127.0742132" />
+  <node id="7856245674" version="1" lat="37.5470590" lon="127.0747637" />
+  <node id="7856245675" version="1" lat="37.5471876" lon="127.0746224" />
+  <node id="7856245684" version="1" lat="37.5479214" lon="127.0704480" />
+  <node id="8547367105" version="1" lat="37.5449259" lon="127.0729103" />
+  <node id="8952652924" version="1" lat="37.5483735" lon="127.0675663" />
+  <node id="8952652925" version="1" lat="37.5482642" lon="127.0688205" />
+  <node id="8952652926" version="1" lat="37.5481501" lon="127.0699516" />
+  <node id="8952652927" version="1" lat="37.5479767" lon="127.0712699" />
+  <node id="8952652928" version="1" lat="37.5479423" lon="127.0716006" />
+  <node id="8952652929" version="1" lat="37.5478417" lon="127.0721511" />
+  <node id="8952652930" version="1" lat="37.5475982" lon="127.0731120" />
+  <node id="8952652931" version="1" lat="37.5474100" lon="127.0738449" />
+  <node id="8952652937" version="1" lat="37.5483709" lon="127.0677930" />
+  <node id="8952652938" version="1" lat="37.5481860" lon="127.0695386" />
+  <node id="8952652939" version="1" lat="37.5480867" lon="127.0704909" />
+  <node id="8952652942" version="1" lat="37.5474282" lon="127.0737737" />
+  <node id="8952652943" version="1" lat="37.5469495" lon="127.0752051" />
+  <node id="8952652944" version="1" lat="37.5467479" lon="127.0756266" />
+  <node id="8952652945" version="1" lat="37.5464088" lon="127.0762569" />
+  <node id="8952652957" version="1" lat="37.5469811" lon="127.0751305" />
+  <node id="8952652961" version="1" lat="37.5473397" lon="127.0741205" />
+  <node id="8952652962" version="1" lat="37.5476429" lon="127.0744899" />
+  <node id="8952652963" version="1" lat="37.5491244" lon="127.0753864" />
+  <node id="8952652966" version="1" lat="37.5501799" lon="127.0760056" />
+  <node id="8952652977" version="1" lat="37.5473995" lon="127.0743289" />
+  <node id="8952652978" version="1" lat="37.5471401" lon="127.0747546" />
+  <node id="9040085292" version="1" lat="37.5469257" lon="127.0750914" />
+  <node id="9040117934" version="1" lat="37.5469640" lon="127.0738717" />
+  <node id="9040117935" version="1" lat="37.5472708" lon="127.0740581" />
+  <node id="9040117936" version="1" lat="37.5472339" lon="127.0741928" />
+  <node id="9040117937" version="1" lat="37.5473027" lon="127.0742503" />
+  <node id="9040117970" version="1" lat="37.5472660" lon="127.0743741" />
+  <node id="9579639860" version="1" lat="37.5471705" lon="127.0741336" />
+  <node id="9579639861" version="1" lat="37.5471969" lon="127.0739991" />
+  <node id="9579639879" version="1" lat="37.5449893" lon="127.0729403" />
+  <node id="9584243092" version="1" lat="37.5483463" lon="127.0681243" />
+  <node id="9584243093" version="1" lat="37.5482415" lon="127.0681359" />
+  <node id="9604558031" version="1" lat="37.5483671" lon="127.0674186" />
+  <node id="9622890705" version="1" lat="37.5478216" lon="127.0744790" />
+  <node id="9622890706" version="1" lat="37.5479756" lon="127.0745957" />
+  <node id="9622890707" version="1" lat="37.5491561" lon="127.0753006" />
+  <node id="9622890712" version="1" lat="37.5503696" lon="127.0760062" />
+  <node id="9622890713" version="1" lat="37.5505183" lon="127.0760822" />
+  <node id="9622890714" version="1" lat="37.5503504" lon="127.0761091" />
+  <node id="9622890715" version="1" lat="37.5504530" lon="127.0761640" />
+  <node id="10173007393" version="1" lat="37.5463828" lon="127.0702552" />
+  <node id="10173007394" version="1" lat="37.5466362" lon="127.0701764" />
+  <node id="10173007399" version="1" lat="37.5459689" lon="127.0704599" />
+  <node id="10684626036" version="1" lat="37.5461243" lon="127.0703745" />
+  <node id="10684626037" version="1" lat="37.5465314" lon="127.0701990" />
+  <node id="10696426350" version="1" lat="37.5478136" lon="127.0717745" />
+  <node id="10696426351" version="1" lat="37.5477814" lon="127.0719778" />
+  <node id="11328905677" version="1" lat="37.5460216" lon="127.0735578" />
+  <node id="11347988050" version="1" lat="37.5480198" lon="127.0703671" />
+  <node id="11348018079" version="1" lat="37.5480993" lon="127.0703835" />
+  <node id="11348018116" version="1" lat="37.5477101" lon="127.0726702" />
+  <node id="11348018127" version="1" lat="37.5476319" lon="127.0726330" />
+  <node id="11348018136" version="1" lat="37.5481744" lon="127.0705183" />
+  <node id="11348018143" version="1" lat="37.5457195" lon="127.0732855" />
+  <node id="11366032309" version="1" lat="37.5463516" lon="127.0737171" />
+  <node id="14004493490" version="1" lat="37.5473182" lon="127.0738769" />
+  <node id="14004493495" version="1" lat="37.5475042" lon="127.0742586" />
+  <node id="14004539002" version="1" lat="37.5472391" lon="127.0744593" />
+  <way id="218837465" version="1">
+    <nd ref="414683275" />
+    <nd ref="7856245606" />
+    <nd ref="9584243093" />
+    <nd ref="436821916" />
+    <nd ref="3846107123" />
+    <nd ref="3846711616" />
+    <nd ref="11347988050" />
+    <nd ref="414685242" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="maxspeed" v="50" />
+    <tag k="name" v="광나루로" />
+    <tag k="name:en" v="Gwangnaru-ro" />
+    <tag k="name:ko" v="광나루로" />
+    <tag k="name:ko-Latn" v="Gwangnaru-ro" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way id="218870944" version="1">
+    <nd ref="414685242" />
+    <nd ref="3846712457" />
+    <nd ref="10696426350" />
+    <nd ref="10696426351" />
+    <nd ref="436821909" />
+    <nd ref="436821905" />
+    <nd ref="11348018127" />
+    <nd ref="7856245568" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="maxspeed" v="50" />
+    <tag k="name" v="광나루로" />
+    <tag k="name:en" v="Gwangnaru-ro" />
+    <tag k="name:ko" v="광나루로" />
+    <tag k="name:ko-Latn" v="Gwangnaru-ro" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way id="967697622" version="1">
+    <nd ref="8952652961" />
+    <nd ref="8952652931" />
+    <nd ref="8952652942" />
+    <nd ref="8952652930" />
+    <nd ref="11348018116" />
+    <nd ref="8952652929" />
+    <nd ref="8952652928" />
+    <nd ref="8952652927" />
+    <nd ref="8952652939" />
+    <nd ref="11348018079" />
+    <nd ref="8952652926" />
+    <nd ref="8952652938" />
+    <nd ref="8952652925" />
+    <nd ref="9584243092" />
+    <nd ref="8952652937" />
+    <nd ref="8952652924" />
+    <nd ref="9604558031" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="maxspeed" v="50" />
+    <tag k="name" v="광나루로" />
+    <tag k="name:en" v="Gwangnaru-ro" />
+    <tag k="name:ko" v="광나루로" />
+    <tag k="name:ko-Latn" v="Gwangnaru-ro" />
+    <tag k="oneway" v="yes" />
+    <tag k="surface" v="asphalt" />
+  </way>
+  <way id="175357606" version="1">
+    <nd ref="414685242" />
+    <nd ref="8952652939" />
+    <nd ref="11348018136" />
+    <nd ref="3846711630" />
+    <nd ref="436840908" />
+    <nd ref="3846711622" />
+    <nd ref="3846712476" />
+    <nd ref="1168014029" />
+    <nd ref="436840909" />
+    <tag k="highway" v="tertiary" />
+    <tag k="lanes" v="2" />
+    <tag k="maxspeed" v="30" />
+    <tag k="name" v="군자로" />
+    <tag k="name:en" v="Gunja-ro" />
+    <tag k="name:ko" v="군자로" />
+    <tag k="name:ko-Latn" v="Gunja-ro" />
+    <tag k="name:zh" v="君子路" />
+  </way>
+  <way id="37400386" version="1">
+    <nd ref="414685242" />
+    <nd ref="7856245684" />
+    <nd ref="4179185416" />
+    <nd ref="3846108196" />
+    <nd ref="3846107130" />
+    <nd ref="10173007394" />
+    <nd ref="1859641524" />
+    <nd ref="10684626037" />
+    <nd ref="10173007393" />
+    <nd ref="1859641522" />
+    <nd ref="10684626036" />
+    <nd ref="10173007399" />
+    <nd ref="3846107150" />
+    <nd ref="1859641520" />
+    <nd ref="3846107126" />
+    <nd ref="3846108067" />
+    <tag k="highway" v="residential" />
+    <tag k="lanes" v="2" />
+    <tag k="maxspeed" v="30" />
+    <tag k="name" v="군자로" />
+    <tag k="name:en" v="Gunja-ro" />
+    <tag k="name:ko" v="군자로" />
+    <tag k="name:ko-Latn" v="Gunja-ro" />
+  </way>
+  <way id="976906300" version="1">
+    <nd ref="7856245568" />
+    <nd ref="14004493490" />
+    <nd ref="9040117935" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="maxspeed" v="50" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way id="976906303" version="1">
+    <nd ref="8952652961" />
+    <nd ref="9040117935" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="maxspeed" v="50" />
+    <tag k="name" v="능동로" />
+    <tag k="name:en" v="Neungdong-ro" />
+    <tag k="name:ko" v="능동로" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way id="976906304" version="1">
+    <nd ref="9040117936" />
+    <nd ref="9040117937" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="maxspeed" v="50" />
+    <tag k="name" v="능동로" />
+    <tag k="name:en" v="Neungdong-ro" />
+    <tag k="name:ko" v="능동로" />
+    <tag k="oneway" v="yes" />
+    <tag k="surface" v="asphalt" />
+  </way>
+  <way id="976906305" version="1">
+    <nd ref="9040117937" />
+    <nd ref="8952652961" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="maxspeed" v="50" />
+    <tag k="name" v="광나루로" />
+    <tag k="name:en" v="Gwangnaru-ro" />
+    <tag k="name:ja" v="クァンナル路" />
+    <tag k="name:ko" v="광나루로" />
+    <tag k="name:ko-Latn" v="Gwangnaru-ro" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way id="967697625" version="1">
+    <nd ref="7856245663" />
+    <nd ref="8952652961" />
+    <tag k="foot" v="no" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="maxspeed" v="50" />
+    <tag k="name" v="능동로" />
+    <tag k="name:en" v="Neungdong-ro" />
+    <tag k="name:ko" v="능동로" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way id="396816938" version="1">
+    <nd ref="9622890713" />
+    <nd ref="9622890712" />
+    <nd ref="436832675" />
+    <nd ref="9622890707" />
+    <nd ref="1168013959" />
+    <nd ref="9622890706" />
+    <nd ref="9622890705" />
+    <nd ref="14004493495" />
+    <nd ref="7856245663" />
+    <tag k="foot" v="no" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="maxspeed" v="50" />
+    <tag k="name" v="능동로" />
+    <tag k="name:en" v="Neungdong-ro" />
+    <tag k="name:ko" v="능동로" />
+    <tag k="name:zh" v="陵东路" />
+    <tag k="oneway" v="yes" />
+    <tag k="surface" v="asphalt" />
+  </way>
+  <way id="967697627" version="1">
+    <nd ref="9040117937" />
+    <nd ref="8952652977" />
+    <nd ref="8952652962" />
+    <nd ref="8952652963" />
+    <nd ref="8952652966" />
+    <nd ref="9622890714" />
+    <nd ref="9622890715" />
+    <tag k="foot" v="no" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="maxspeed" v="50" />
+    <tag k="name" v="능동로" />
+    <tag k="name:en" v="Neungdong-ro" />
+    <tag k="name:ko" v="능동로" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way id="976906299" version="1">
+    <nd ref="9040117935" />
+    <nd ref="9579639861" />
+    <nd ref="9040117934" />
+    <nd ref="3846107122" />
+    <nd ref="1859287189" />
+    <nd ref="11348018143" />
+    <nd ref="9579639879" />
+    <nd ref="8547367105" />
+    <tag k="cycleway:right" v="separate" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="3" />
+    <tag k="maxspeed" v="50" />
+    <tag k="name" v="능동로" />
+    <tag k="name:en" v="Neungdong-ro" />
+    <tag k="name:ko" v="능동로" />
+    <tag k="oneway" v="yes" />
+    <tag k="sidewalk" v="separate" />
+  </way>
+  <way id="1221495341" version="1">
+    <nd ref="11328905677" />
+    <nd ref="11366032309" />
+    <nd ref="436832670" />
+    <nd ref="9579639860" />
+    <nd ref="9040117936" />
+    <tag k="cycleway:right" v="separate" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="4" />
+    <tag k="maxspeed" v="50" />
+    <tag k="name" v="능동로" />
+    <tag k="name:en" v="Neungdong-ro" />
+    <tag k="name:ko" v="능동로" />
+    <tag k="oneway" v="yes" />
+    <tag k="sidewalk" v="separate" />
+    <tag k="surface" v="asphalt" />
+    <tag k="turn:lanes" v="left|through|through|right" />
+  </way>
+  <way id="976906301" version="1">
+    <nd ref="9040117936" />
+    <nd ref="7856245660" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="maxspeed" v="50" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way id="976906285" version="1">
+    <nd ref="7856245660" />
+    <nd ref="7856245674" />
+    <nd ref="1859287269" />
+    <nd ref="9040085292" />
+    <nd ref="2123390894" />
+    <nd ref="436821893" />
+    <nd ref="436821890" />
+    <tag k="bicycle" v="use_sidepath" />
+    <tag k="foot" v="no" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="maxspeed" v="50" />
+    <tag k="name" v="광나루로" />
+    <tag k="name:en" v="Gwangnaru-ro" />
+    <tag k="name:ja" v="クァンナル路" />
+    <tag k="name:ko" v="광나루로" />
+    <tag k="name:ko-Latn" v="Gwangnaru-ro" />
+    <tag k="oneway" v="yes" />
+    <tag k="sidewalk" v="both" />
+  </way>
+  <way id="976906284" version="1">
+    <nd ref="8952652945" />
+    <nd ref="8952652944" />
+    <nd ref="8952652943" />
+    <nd ref="8952652957" />
+    <nd ref="8952652978" />
+    <nd ref="7856245675" />
+    <nd ref="14004539002" />
+    <nd ref="9040117970" />
+    <nd ref="9040117937" />
+    <tag k="bicycle" v="use_sidepath" />
+    <tag k="cycleway" v="separate" />
+    <tag k="foot" v="no" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="maxspeed" v="50" />
+    <tag k="name" v="광나루로" />
+    <tag k="name:en" v="Gwangnaru-ro" />
+    <tag k="name:ja" v="クァンナル路" />
+    <tag k="name:ko" v="광나루로" />
+    <tag k="name:ko-Latn" v="Gwangnaru-ro" />
+    <tag k="oneway" v="yes" />
+    <tag k="sidewalk" v="separate" />
+  </way>
+</osm>

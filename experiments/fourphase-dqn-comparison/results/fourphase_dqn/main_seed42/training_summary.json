@@ -1,0 +1,32 @@
+{
+  "status": "completed",
+  "algorithm": "dqn",
+  "seed": 42,
+  "requested_episodes": 200,
+  "planned_decisions": 48000,
+  "episodes_completed": 200,
+  "best_validation_J": 32.78629908924333,
+  "python": "3.10.12",
+  "packages": {
+    "torch": "2.9.1+cpu",
+    "numpy": "2.2.6",
+    "gymnasium": "1.4.0",
+    "traci": "1.28.0",
+    "eclipse-sumo": "1.28.0"
+  },
+  "parameter_count": 5186,
+  "test_cases_run": 0,
+  "training_level_counts": {
+    "low": 67,
+    "medium": 67,
+    "high": 66
+  },
+  "epsilon_reaches_final_at_decision": 33600.0,
+  "best_validation_decisions": 48000,
+  "selected_checkpoint": "best_model.pt",
+  "actual_decisions": 48000,
+  "optimizer_updates": 47000,
+  "target_copies": 96,
+  "replay_size": 48000,
+  "elapsed_wall_seconds": 1016.577134446241
+}

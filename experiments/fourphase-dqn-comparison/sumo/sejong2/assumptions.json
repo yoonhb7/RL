@@ -1,0 +1,319 @@
+{
+  "data_status": "OSM geometry with synthetic operational assumptions",
+  "junctions": [
+    {
+      "id": "hwayang",
+      "name": "화양삼거리",
+      "osm_nodes": [
+        "414685242",
+        "8952652939"
+      ],
+      "offset_seconds": 0,
+      "longitude": 127.07047829999999,
+      "latitude": 37.548048949999995
+    },
+    {
+      "id": "childrens_park",
+      "name": "어린이대공원역 교차로",
+      "osm_nodes": [
+        "8952652961",
+        "9040117935",
+        "9040117936",
+        "9040117937"
+      ],
+      "offset_seconds": 15,
+      "longitude": 127.074155425,
+      "latitude": 37.547286775
+    }
+  ],
+  "way_parameters": [
+    {
+      "way_id": "218837465",
+      "name": "광나루로",
+      "source_tags": {
+        "highway": "secondary",
+        "name": "광나루로",
+        "name:en": "Gwangnaru-ro",
+        "name:ko": "광나루로",
+        "name:ko-Latn": "Gwangnaru-ro",
+        "oneway": "yes"
+      },
+      "assumed": {
+        "lanes": "2",
+        "maxspeed_kmh": "50"
+      }
+    },
+    {
+      "way_id": "218870944",
+      "name": "광나루로",
+      "source_tags": {
+        "highway": "secondary",
+        "name": "광나루로",
+        "name:en": "Gwangnaru-ro",
+        "name:ko": "광나루로",
+        "name:ko-Latn": "Gwangnaru-ro",
+        "oneway": "yes"
+      },
+      "assumed": {
+        "lanes": "2",
+        "maxspeed_kmh": "50"
+      }
+    },
+    {
+      "way_id": "967697622",
+      "name": "광나루로",
+      "source_tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "광나루로",
+        "name:en": "Gwangnaru-ro",
+        "name:ko": "광나루로",
+        "name:ko-Latn": "Gwangnaru-ro",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "assumed": {
+        "maxspeed_kmh": "50"
+      }
+    },
+    {
+      "way_id": "175357606",
+      "name": "군자로",
+      "source_tags": {
+        "highway": "tertiary",
+        "name": "군자로",
+        "name:en": "Gunja-ro",
+        "name:ko": "군자로",
+        "name:ko-Latn": "Gunja-ro",
+        "name:zh": "君子路"
+      },
+      "assumed": {
+        "lanes": "2",
+        "maxspeed_kmh": "30"
+      }
+    },
+    {
+      "way_id": "37400386",
+      "name": "군자로",
+      "source_tags": {
+        "highway": "residential",
+        "name": "군자로",
+        "name:en": "Gunja-ro",
+        "name:ko": "군자로",
+        "name:ko-Latn": "Gunja-ro"
+      },
+      "assumed": {
+        "lanes": "2",
+        "maxspeed_kmh": "30"
+      }
+    },
+    {
+      "way_id": "976906300",
+      "name": "",
+      "source_tags": {
+        "highway": "secondary",
+        "oneway": "yes"
+      },
+      "assumed": {
+        "lanes": "2",
+        "maxspeed_kmh": "50"
+      }
+    },
+    {
+      "way_id": "976906303",
+      "name": "능동로",
+      "source_tags": {
+        "highway": "secondary",
+        "name": "능동로",
+        "name:en": "Neungdong-ro",
+        "name:ko": "능동로",
+        "oneway": "yes"
+      },
+      "assumed": {
+        "lanes": "2",
+        "maxspeed_kmh": "50"
+      }
+    },
+    {
+      "way_id": "976906304",
+      "name": "능동로",
+      "source_tags": {
+        "highway": "secondary",
+        "name": "능동로",
+        "name:en": "Neungdong-ro",
+        "name:ko": "능동로",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "assumed": {
+        "lanes": "2",
+        "maxspeed_kmh": "50"
+      }
+    },
+    {
+      "way_id": "976906305",
+      "name": "광나루로",
+      "source_tags": {
+        "highway": "secondary",
+        "name": "광나루로",
+        "name:en": "Gwangnaru-ro",
+        "name:ja": "クァンナル路",
+        "name:ko": "광나루로",
+        "name:ko-Latn": "Gwangnaru-ro",
+        "oneway": "yes"
+      },
+      "assumed": {
+        "lanes": "2",
+        "maxspeed_kmh": "50"
+      }
+    },
+    {
+      "way_id": "967697625",
+      "name": "능동로",
+      "source_tags": {
+        "foot": "no",
+        "highway": "secondary",
+        "name": "능동로",
+        "name:en": "Neungdong-ro",
+        "name:ko": "능동로",
+        "oneway": "yes"
+      },
+      "assumed": {
+        "lanes": "2",
+        "maxspeed_kmh": "50"
+      }
+    },
+    {
+      "way_id": "396816938",
+      "name": "능동로",
+      "source_tags": {
+        "foot": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "능동로",
+        "name:en": "Neungdong-ro",
+        "name:ko": "능동로",
+        "name:zh": "陵东路",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "assumed": {
+        "maxspeed_kmh": "50"
+      }
+    },
+    {
+      "way_id": "967697627",
+      "name": "능동로",
+      "source_tags": {
+        "foot": "no",
+        "highway": "secondary",
+        "name": "능동로",
+        "name:en": "Neungdong-ro",
+        "name:ko": "능동로",
+        "oneway": "yes"
+      },
+      "assumed": {
+        "lanes": "2",
+        "maxspeed_kmh": "50"
+      }
+    },
+    {
+      "way_id": "976906299",
+      "name": "능동로",
+      "source_tags": {
+        "cycleway:right": "separate",
+        "highway": "secondary",
+        "lanes": "3",
+        "name": "능동로",
+        "name:en": "Neungdong-ro",
+        "name:ko": "능동로",
+        "oneway": "yes",
+        "sidewalk": "separate"
+      },
+      "assumed": {
+        "maxspeed_kmh": "50"
+      }
+    },
+    {
+      "way_id": "1221495341",
+      "name": "능동로",
+      "source_tags": {
+        "cycleway:right": "separate",
+        "highway": "secondary",
+        "lanes": "4",
+        "name": "능동로",
+        "name:en": "Neungdong-ro",
+        "name:ko": "능동로",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "left|through|through|right"
+      },
+      "assumed": {
+        "maxspeed_kmh": "50"
+      }
+    },
+    {
+      "way_id": "976906301",
+      "name": "",
+      "source_tags": {
+        "highway": "secondary",
+        "oneway": "yes"
+      },
+      "assumed": {
+        "lanes": "2",
+        "maxspeed_kmh": "50"
+      }
+    },
+    {
+      "way_id": "976906285",
+      "name": "광나루로",
+      "source_tags": {
+        "bicycle": "use_sidepath",
+        "foot": "no",
+        "highway": "secondary",
+        "name": "광나루로",
+        "name:en": "Gwangnaru-ro",
+        "name:ja": "クァンナル路",
+        "name:ko": "광나루로",
+        "name:ko-Latn": "Gwangnaru-ro",
+        "oneway": "yes",
+        "sidewalk": "both"
+      },
+      "assumed": {
+        "lanes": "2",
+        "maxspeed_kmh": "50"
+      }
+    },
+    {
+      "way_id": "976906284",
+      "name": "광나루로",
+      "source_tags": {
+        "bicycle": "use_sidepath",
+        "cycleway": "separate",
+        "foot": "no",
+        "highway": "secondary",
+        "name": "광나루로",
+        "name:en": "Gwangnaru-ro",
+        "name:ja": "クァンナル路",
+        "name:ko": "광나루로",
+        "name:ko-Latn": "Gwangnaru-ro",
+        "oneway": "yes",
+        "sidewalk": "separate"
+      },
+      "assumed": {
+        "lanes": "2",
+        "maxspeed_kmh": "50"
+      }
+    }
+  ],
+  "limitations": [
+    "현장 방문·계수·촬영을 하지 않았다.",
+    "OSM 도로 형상·진행 방향·기록된 차로 수를 사용하지만 실제 교통 운영 재현을 검증하지 않았다.",
+    "분리된 차도 교차점을 두 개의 신호교차로로 묶고 선택한 17개 도로 외의 골목·보행자·버스 정류장은 제외한다.",
+    "신호 설치 여부·현시·시간·Offset은 실제 운영값으로 확인되지 않았고 이 실험에서는 가정한다.",
+    "차로 수 누락값, 속도, 유입량과 OD 가중치는 가정이며 현장 관측값이 아니다.",
+    "회전은 netconvert가 추론한 연결을 사용한다. 실제 회전 금지·시간대 규제와 다를 수 있다.",
+    "일부 OD가 연결되지 않으면 원래 유입률은 유지하고 도달 가능한 목적지 가중치를 재정규화하여 기록한다."
+  ]
+}

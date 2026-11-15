@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tlLogics>
+  <tlLogic id="childrens_park" type="static" programID="0" offset="15">
+    <phase duration="30" state="GGGGGrrrrrrrrrrrr" />
+    <phase duration="3" state="yyyyyrrrrrrrrrrrr" />
+    <phase duration="3" state="rrrrrrrrrrrrrrrrr" />
+    <phase duration="30" state="rrrrrGGGGrrrrrrrr" />
+    <phase duration="3" state="rrrrryyyyrrrrrrrr" />
+    <phase duration="3" state="rrrrrrrrrrrrrrrrr" />
+    <phase duration="30" state="rrrrrrrrrGGGGrrrr" />
+    <phase duration="3" state="rrrrrrrrryyyyrrrr" />
+    <phase duration="3" state="rrrrrrrrrrrrrrrrr" />
+    <phase duration="30" state="rrrrrrrrrrrrrGGGG" />
+    <phase duration="3" state="rrrrrrrrrrrrryyyy" />
+    <phase duration="3" state="rrrrrrrrrrrrrrrrr" />
+  </tlLogic>
+  <tlLogic id="hwayang" type="static" programID="0" offset="0">
+    <phase duration="30" state="GGGrrrrrrrrrrr" />
+    <phase duration="3" state="yyyrrrrrrrrrrr" />
+    <phase duration="3" state="rrrrrrrrrrrrrr" />
+    <phase duration="30" state="rrrGGGGrrrrrrr" />
+    <phase duration="3" state="rrryyyyrrrrrrr" />
+    <phase duration="3" state="rrrrrrrrrrrrrr" />
+    <phase duration="30" state="rrrrrrrGGGrrrr" />
+    <phase duration="3" state="rrrrrrryyyrrrr" />
+    <phase duration="3" state="rrrrrrrrrrrrrr" />
+    <phase duration="30" state="rrrrrrrrrrGGGG" />
+    <phase duration="3" state="rrrrrrrrrryyyy" />
+    <phase duration="3" state="rrrrrrrrrrrrrr" />
+  </tlLogic>
+</tlLogics>

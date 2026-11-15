@@ -1,0 +1,3 @@
+# Preserve frozen SUMO inputs and checkpoint metadata across platforms.
+* -text
+*.pt -filter -diff -merge -text

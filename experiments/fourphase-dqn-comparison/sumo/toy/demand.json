@@ -1,0 +1,24 @@
+{
+  "seed": 42,
+  "generation": "seeded exponential interarrival times, explicit vehicles",
+  "vehicle_count": 433,
+  "vehicles_by_approach": {
+    "north": 133,
+    "south": 121,
+    "east": 79,
+    "west": 100
+  },
+  "config": {
+    "seed": 42,
+    "duration_seconds": 1200,
+    "warmup_seconds": 120,
+    "demand_end_seconds": 1080,
+    "step_length_seconds": 1,
+    "flow_vehicles_per_hour": {
+      "north": 450,
+      "south": 450,
+      "east": 300,
+      "west": 300
+    }
+  }
+}

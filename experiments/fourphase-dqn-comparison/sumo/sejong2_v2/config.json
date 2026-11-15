@@ -1,0 +1,152 @@
+{
+  "scenario": "sejong2_osm_preliminary",
+  "description": "화양삼거리–어린이대공원역: OSM 기반 도로 부분망과 가정 교통량·고정신호",
+  "osm_source": "data/osm/sejong_2026-11-11.osm.xml",
+  "osm_sha256": "cca2002a0c788c9373c7c469bbf1b5ab86c4b9ef04249e2bc4b46fb4a0173328",
+  "osm_url": "https://api.openstreetmap.org/api/0.6/map?bbox=127.066,37.540,127.080,37.557",
+  "download_date": "2026-11-11",
+  "clip_bbox_lon_lat": [
+    127.0673,
+    37.5448,
+    127.077,
+    37.5504
+  ],
+  "selected_ways": {
+    "218837465": "arterial",
+    "218870944": "arterial",
+    "967697622": "arterial",
+    "175357606": "side",
+    "37400386": "side",
+    "976906300": "arterial",
+    "976906303": "arterial",
+    "976906304": "arterial",
+    "976906305": "arterial",
+    "967697625": "arterial",
+    "396816938": "arterial",
+    "967697627": "arterial",
+    "976906299": "arterial",
+    "1221495341": "arterial",
+    "976906301": "arterial",
+    "976906285": "arterial",
+    "976906284": "arterial"
+  },
+  "missing_lane_defaults": {
+    "arterial_oneway": 2,
+    "side_two_way_total": 2
+  },
+  "assumed_speed_kmh": {
+    "arterial": 50,
+    "side": 30
+  },
+  "junctions": [
+    {
+      "id": "hwayang",
+      "name": "화양삼거리",
+      "osm_nodes": [
+        "414685242",
+        "8952652939"
+      ],
+      "offset_seconds": 0
+    },
+    {
+      "id": "childrens_park",
+      "name": "어린이대공원역 교차로",
+      "osm_nodes": [
+        "8952652961",
+        "9040117935",
+        "9040117936",
+        "9040117937"
+      ],
+      "offset_seconds": 15
+    }
+  ],
+  "ports": {
+    "west": {
+      "incoming_way": "218837465",
+      "outgoing_way": "967697622",
+      "vehicles_per_hour": 600
+    },
+    "east": {
+      "incoming_way": "976906284",
+      "outgoing_way": "976906285",
+      "vehicles_per_hour": 600
+    },
+    "hwayang_north": {
+      "incoming_way": "175357606",
+      "outgoing_way": "175357606",
+      "vehicles_per_hour": 180
+    },
+    "hwayang_south": {
+      "incoming_way": "37400386",
+      "outgoing_way": "37400386",
+      "vehicles_per_hour": 90
+    },
+    "park_north": {
+      "incoming_way": "396816938",
+      "outgoing_way": "967697627",
+      "vehicles_per_hour": 450
+    },
+    "park_south": {
+      "incoming_way": "1221495341",
+      "outgoing_way": "976906299",
+      "vehicles_per_hour": 450
+    }
+  },
+  "destination_weights": {
+    "west": {
+      "east": 0.65,
+      "hwayang_north": 0.1,
+      "hwayang_south": 0.05,
+      "park_north": 0.1,
+      "park_south": 0.1
+    },
+    "east": {
+      "west": 0.65,
+      "hwayang_north": 0.1,
+      "hwayang_south": 0.05,
+      "park_north": 0.1,
+      "park_south": 0.1
+    },
+    "hwayang_north": {
+      "west": 0.35,
+      "east": 0.45,
+      "hwayang_south": 0.2
+    },
+    "hwayang_south": {
+      "west": 0.35,
+      "east": 0.45,
+      "hwayang_north": 0.2
+    },
+    "park_north": {
+      "west": 0.4,
+      "east": 0.2,
+      "park_south": 0.4
+    },
+    "park_south": {
+      "west": 0.4,
+      "east": 0.2,
+      "park_north": 0.4
+    }
+  },
+  "seed": 42,
+  "duration_seconds": 1200,
+  "warmup_seconds": 120,
+  "demand_end_seconds": 1080,
+  "step_length_seconds": 1,
+  "signals": {
+    "layout": "incoming",
+    "green_seconds": 30,
+    "left_green_seconds": 10,
+    "yellow_seconds": 3,
+    "all_red_seconds": 3
+  },
+  "limitations": [
+    "현장 방문·계수·촬영을 하지 않았다.",
+    "OSM 도로 형상·진행 방향·기록된 차로 수를 사용하지만 실제 교통 운영 재현을 검증하지 않았다.",
+    "분리된 차도 교차점을 두 개의 신호교차로로 묶고 선택한 17개 도로 외의 골목·보행자·버스 정류장은 제외한다.",
+    "신호 설치 여부·현시·시간·Offset은 실제 운영값으로 확인되지 않았고 이 실험에서는 가정한다.",
+    "차로 수 누락값, 속도, 유입량과 OD 가중치는 가정이며 현장 관측값이 아니다.",
+    "회전은 netconvert가 추론한 연결을 사용한다. 실제 회전 금지·시간대 규제와 다를 수 있다.",
+    "일부 OD가 연결되지 않으면 원래 유입률은 유지하고 도달 가능한 목적지 가중치를 재정규화하여 기록한다."
+  ]
+}

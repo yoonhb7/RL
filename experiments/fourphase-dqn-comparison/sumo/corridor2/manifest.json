@@ -1,0 +1,128 @@
+{
+  "kind": "synthetic_corridor2",
+  "settings": {
+    "name": "synthetic_corridor2",
+    "seed": 42,
+    "junction_spacing_m": 350,
+    "boundary_length_m": 250,
+    "speed_m_s": 13.89,
+    "duration_seconds": 1200,
+    "warmup_seconds": 120,
+    "demand_end_seconds": 900,
+    "step_length_seconds": 1,
+    "decision_interval_seconds": 5,
+    "min_green_seconds": 10,
+    "max_green_seconds": 60,
+    "vehicle_space_meters": 7.5,
+    "fixed_green_seconds": 30,
+    "fixed_offset_B_seconds": 25,
+    "queue_hysteresis_vehicles": 2,
+    "profiles": {
+      "low": [
+        {
+          "begin": 0,
+          "end": 900,
+          "rates": {
+            "west": 240,
+            "east": 240,
+            "A_north": 240,
+            "A_south": 240,
+            "B_north": 240,
+            "B_south": 240
+          }
+        }
+      ],
+      "balanced": [
+        {
+          "begin": 0,
+          "end": 900,
+          "rates": {
+            "west": 450,
+            "east": 450,
+            "A_north": 450,
+            "A_south": 450,
+            "B_north": 450,
+            "B_south": 450
+          }
+        }
+      ],
+      "high": [
+        {
+          "begin": 0,
+          "end": 900,
+          "rates": {
+            "west": 650,
+            "east": 650,
+            "A_north": 650,
+            "A_south": 650,
+            "B_north": 650,
+            "B_south": 650
+          }
+        }
+      ],
+      "unbalanced": [
+        {
+          "begin": 0,
+          "end": 900,
+          "rates": {
+            "west": 650,
+            "east": 200,
+            "A_north": 300,
+            "A_south": 150,
+            "B_north": 300,
+            "B_south": 150
+          }
+        }
+      ],
+      "changing": [
+        {
+          "begin": 0,
+          "end": 450,
+          "rates": {
+            "west": 650,
+            "east": 200,
+            "A_north": 150,
+            "A_south": 150,
+            "B_north": 150,
+            "B_south": 150
+          }
+        },
+        {
+          "begin": 450,
+          "end": 900,
+          "rates": {
+            "west": 200,
+            "east": 650,
+            "A_north": 150,
+            "A_south": 150,
+            "B_north": 150,
+            "B_south": 150
+          }
+        }
+      ]
+    }
+  },
+  "command": [
+    "/home/oper/osh/RL Term Project/.venv/bin/netconvert",
+    "--node-files",
+    "/home/oper/osh/RL Term Project/sumo/corridor2/corridor2.nod.xml",
+    "--edge-files",
+    "/home/oper/osh/RL Term Project/sumo/corridor2/corridor2.edg.xml",
+    "--connection-files",
+    "/home/oper/osh/RL Term Project/sumo/corridor2/corridor2.con.xml",
+    "--tllogic-files",
+    "/home/oper/osh/RL Term Project/sumo/corridor2/corridor2.tll.xml",
+    "--no-turnarounds",
+    "true",
+    "--output-file",
+    "/home/oper/osh/RL Term Project/sumo/corridor2/corridor2.net.xml"
+  ],
+  "status": "built_not_simulated",
+  "sha256": {
+    "corridor2.net.xml": "efec1312ef3b18acc7fbe2effea4f9e3bfde836792f3d420e1cfb6b8100d432a",
+    "corridor2.sumocfg": "b70a7936e31ef21d67eadadcc4b8ca0c71e1b9fa68b6f275c15d3d3935af53ba",
+    "corridor2.gui.sumocfg": "060020359f24ff178615ae77e37df124cb60265ad45a6c9bace6878d6509c335",
+    "corridor2.rou.xml": "98c9e86ce36cb7ac6e284164de3241a1fd2244176bc55d6217b730f479db94f2",
+    "corridor2.view.xml": "681e71efef6a22706e27c1386d19e2eda26dd56a3eaaa600221ecfe19dd6d511"
+  }
+}

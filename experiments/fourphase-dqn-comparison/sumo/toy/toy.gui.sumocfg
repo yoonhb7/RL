@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Visual entry point. Keep the simulation options in sync with toy.sumocfg. -->
+<configuration>
+    <input>
+        <net-file value="toy.net.xml"/>
+        <route-files value="toy.rou.xml"/>
+        <additional-files value="toy.scenery.add.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="1200"/>
+        <step-length value="1"/>
+    </time>
+    <processing>
+        <time-to-teleport value="-1"/>
+        <collision.check-junctions value="true"/>
+    </processing>
+    <random_number>
+        <seed value="42"/>
+    </random_number>
+    <gui_only>
+        <gui-settings-file value="toy.view.xml"/>
+    </gui_only>
+</configuration>

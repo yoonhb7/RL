@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<routes>
+  <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="13.89" tau="1" />
+  <route id="N_S" edges="N_in S_out" />
+  <route id="N_W" edges="N_in W_out" />
+  <route id="E_W" edges="E_in W_out" />
+  <route id="E_N" edges="E_in N_out" />
+  <route id="S_N" edges="S_in N_out" />
+  <route id="S_E" edges="S_in E_out" />
+  <route id="W_E" edges="W_in E_out" />
+  <route id="W_S" edges="W_in S_out" />
+  <vehicle id="N_000000" type="car" route="N_S" depart="6.636" departLane="0" departSpeed="max" color="1,0.3,0.3" />
+  <vehicle id="S_000001" type="car" route="S_N" depart="9.766" departLane="0" departSpeed="max" color="1,0.7,0" />
+  <vehicle id="N_000002" type="car" route="N_S" depart="14.842" departLane="0" departSpeed="max" color="1,0.3,0.3" />
+  <vehicle id="E_000003" type="car" route="E_N" depart="37.869" departLane="0" departSpeed="max" color="0.2,0.6,1" />
+  <vehicle id="S_000004" type="car" route="S_N" depart="52.808" departLane="0" departSpeed="max" color="1,0.7,0" />
+  <vehicle id="W_000005" type="car" route="W_S" depart="54.651" departLane="0" departSpeed="max" color="0.2,0.8,0.4" />
+  <vehicle id="W_000006" type="car" route="W_E" depart="56.320" departLane="0" departSpeed="max" color="0.2,0.8,0.4" />
+  <vehicle id="S_000007" type="car" route="S_N" depart="57.655" departLane="0" departSpeed="max" color="1,0.7,0" />
+  <vehicle id="N_000008" type="car" route="N_S" depart="77.810" departLane="0" departSpeed="max" color="1,0.3,0.3" />
+  <vehicle id="N_000009" type="car" route="N_S" depart="78.053" departLane="0" departSpeed="max" color="1,0.3,0.3" />
+  <vehicle id="S_000010" type="car" route="S_E" depart="85.470" departLane="0" departSpeed="max" color="1,0.7,0" />
+  <vehicle id="N_000011" type="car" route="N_S" depart="85.519" departLane="0" departSpeed="max" color="1,0.3,0.3" />
+  <vehicle id="W_000012" type="car" route="W_S" depart="93.892" departLane="0" departSpeed="max" color="0.2,0.8,0.4" />
+  <vehicle id="N_000013" type="car" route="N_S" depart="109.561" departLane="0" departSpeed="max" color="1,0.3,0.3" />
+  <vehicle id="N_000014" type="car" route="N_W" depart="119.239" departLane="0" departSpeed="max" color="1,0.3,0.3" />
+  <vehicle id="N_000015" type="car" route="N_S" depart="123.953" departLane="0" departSpeed="max" color="1,0.3,0.3" />
+  <vehicle id="N_000016" type="car" route="N_S" depart="126.435" departLane="0" departSpeed="max" color="1,0.3,0.3" />
+  <vehicle id="E_000017" type="car" route="E_W" depart="172.858" departLane="0" departSpeed="max" color="0.2,0.6,1" />
+  <vehicle id="S_000018" type="car" route="S_E" depart="178.146" departLane="0" departSpeed="max" color="1,0.7,0" />
+  <vehicle id="E_000019" type="car" route="E_W" depart="186.042" departLane="0" departSpeed="max" color="0.2,0.6,1" />
+  <vehicle id="S_000020" type="car" route="S_N" depart="196.561" departLane="0" departSpeed="max" color="1,0.7,0" />
+  <vehicle id="W_000021" type="car" route="W_E" depart="198.834" departLane="0" departSpeed="max" color="0.2,0.8,0.4" />
+  <vehicle id="N_000022" type="car" route="N_S" depart="200.559" departLane="0" departSpeed="max" color="1,0.3,0.3" />
+  <vehicle id="N_000023" type="car" route="N_S" depart="202.349" departLane="0" departSpeed="max" color="1,0.3,0.3" />
+  <vehicle id="W_000024" type="car" route="W_S" depart="209.054" departLane="0" departSpeed="max" color="0.2,0.8,0.4" />
+  <vehicle id="S_000025" type="car" route="S_N" depart="209.445" departLane="0" departSpeed="max" color="1,0.7,0" />
+  <vehicle id="S_000026" type="car" route="S_N" depart="210.280" departLane="0" departSpeed="max" color="1,0.7,0" />
+  <vehicle id="N_000027" type="car" route="N_S" depart="219.388" departLane="0" departSpeed="max" color="1,0.3,0.3" />
+  <vehicle id="S_000028" type="car" route="S_N" depart="226.267" departLane="0" departSpeed="max" color="1,0.7,0" />
+  <vehicle id="E_000029" type="car" route="E_W" depart="231.395" departLane="0" departSpeed="max" color="0.2,0.6,1" />
+  <vehicle id="N_000030" type="car" route="N_W" depart="236.473" departLane="0" departSpeed="max" color="1,0.3,0.3" />
+  <vehicle id="E_000031" type="car" route="E_W" depart="240.122" departLane="0" departSpeed="max" color="0.2,0.6,1" />
+  <vehicle id="N_000032" type="car" route="N_S" depart="240.479" departLane="0" departSpeed="max" color="1,0.3,0.3" />
+  <vehicle id="W_000033" type="car" route="W_S" depart="242.319" departLane="0" departSpeed="max" color="0.2,0.8,0.4" />
+  <vehicle id="E_000034" type="car" route="E_W" depart="248.949" departLane="0" departSpeed="max" color="0.2,0.6,1" />
+  <vehicle id="N_000035" type="car" route="N_S" depart="250.323" departLane="0" departSpeed="max" color="1,0.3,0.3" />
+  <vehicle id="N_000036" type="car" route="N_W" depart="260.332" departLane="0" departSpeed="max" color="1,0.3,0.3" />
+  <vehicle id="E_000037" type="car" route="E_N" depart="263.173" departLane="0" departSpeed="max" color="0.2,0.6,1" />
+  <vehicle id="W_000038" type="car" route="W_E" depart="274.544" departLane="0" departSpeed="max" color="0.2,0.8,0.4" />
+  <vehicle id="N_000039" type="car" route="N_S" depart="285.157" departLane="0" departSpeed="max" color="1,0.3,0.3" />
+  <vehicle id="N_000040" type="car" route="N_S" depart="292.226" departLane="0" departSpeed="max" color="1,0.3,0.3" />
+  <vehicle id="W_000041" type="car" route="W_E" depart="294.823" departLane="0" departSpeed="max" color="0.2,0.8,0.4" />
+  <vehicle id="W_000042" type="car" route="W_E" depart="304.475" departLane="0" departSpeed="max" color="0.2,0.8,0.4" />
+  <vehicle id="W_000043" type="car" route="W_E" depart="308.341" departLane="0" departSpeed="max" color="0.2,0.8,0.4" />
+  <vehicle id="E_000044" type="car" route="E_W" depart="310.330" departLane="0" departSpeed="max" color="0.2,0.6,1" />
+  <vehicle id="E_000045" type="car" route="E_W" depart="335.355" departLane="0" departSpeed="max" color="0.2,0.6,1" />
+  <vehicle id="N_000046" type="car" route="N_S" depart="340.101" departLane="0" departSpeed="max" color="1,0.3,0.3" />
+  <vehicle id="E_000047" type="car" route="E_W" depart="349.359" departLane="0" departSpeed="max" color="0.2,0.6,1" />
+  <vehicle id="N_000048" type="car" route="N_S" depart="367.951" departLane="0" departSpeed="max" color="1,0.3,0.3" />
+  <vehicle id="N_000049" type="car" route="N_S" depart="368.656" departLane="0" departSpeed="max" color="1,0.3,0.3" />
+  <vehicle id="W_000050" type="car" route="W_E" depart="393.051" departLane="0" departSpeed="max" color="0.2,0.8,0.4" />
+  <vehicle id="N_000051" type="car" route="N_S" depart="393.208" departLane="0" departSpeed="max" color="1,0.3,0.3" />
+  <vehicle id="E_000052" type="car" route="E_W" depart="393.260" departLane="0" departSpeed="max" color="0.2,0.6,1" />
+  <vehicle id="W_000053" type="car" route="W_E" depart="404.137" departLane="0" departSpeed="max" color="0.2,0.8,0.4" />
+  <vehicle id="E_000054" type="car" route="E_W" depart="415.648" departLane="0" departSpeed="max" color="0.2,0.6,1" />
+  <vehicle id="E_000055" type="car" route="E_N" depart="426.765" departLane="0" departSpeed="max" color="0.2,0.6,1" />
+  <vehicle id="S_000056" type="car" route="S_N" depart="426.830" departLane="0" departSpeed="max" color="1,0.7,0" />
+  <vehicle id="N_000057" type="car" route="N_S" depart="445.213" departLane="0" departSpeed="max" color="1,0.3,0.3" />
+  <vehicle id="W_000058" type="car" route="W_E" depart="447.015" departLane="0" departSpeed="max" color="0.2,0.8,0.4" />
+  <vehicle id="N_000059" type="car" route="N_S" depart="456.881" departLane="0" departSpeed="max" color="1,0.3,0.3" />
+  <vehicle id="N_000060" type="car" route="N_S" depart="459.871" departLane="0" departSpeed="max" color="1,0.3,0.3" />
+  <vehicle id="W_000061" type="car" route="W_E" depart="460.478" departLane="0" departSpeed="max" color="0.2,0.8,0.4" />
+  <vehicle id="E_000062" type="car" route="E_W" depart="463.947" departLane="0" departSpeed="max" color="0.2,0.6,1" />
+  <vehicle id="W_000063" type="car" route="W_E" depart="476.760" departLane="0" departSpeed="max" color="0.2,0.8,0.4" />
+  <vehicle id="N_000064" type="car" route="N_S" depart="477.897" departLane="0" departSpeed="max" color="1,0.3,0.3" />
+  <vehicle id="E_000065" type="car" route="E_W" depart="480.537" departLane="0" departSpeed="max" color="0.2,0.6,1" />
+  <vehicle id="N_000066" type="car" route="N_W" depart="481.899" departLane="0" departSpeed="max" color="1,0.3,0.3" />
+  <vehicle id="S_000067" type="car" route="S_N" depart="487.203" departLane="0" departSpeed="max" color="1,0.7,0" />
+  <vehicle id="W_000068" type="car" route="W_E" depart="488.038" departLane="0" departSpeed="max" color="0.2,0.8,0.4" />
+  <vehicle id="E_000069" type="car" route="E_W" depart="488.092" departLane="0" departSpeed="max" color="0.2,0.6,1" />
+  <vehicle id="W_000070" type="car" route="W_E" depart="531.866" departLane="0" departSpeed="max" color="0.2,0.8,0.4" />
+  <vehicle id="S_000071" type="car" route="S_N" depart="537.042" departLane="0" departSpeed="max" color="1,0.7,0" />
+  <vehicle id="N_000072" type="car" route="N_S" depart="539.906" departLane="0" departSpeed="max" color="1,0.3,0.3" />
+  <vehicle id="W_000073" type="car" route="W_E" depart="542.365" departLane="0" departSpeed="max" color="0.2,0.8,0.4" />
+  <vehicle id="S_000074" type="car" route="S_N" depart="552.007" departLane="0" departSpeed="max" color="1,0.7,0" />
+  <vehicle id="E_000075" type="car" route="E_W" depart="555.229" departLane="0" departSpeed="max" color="0.2,0.6,1" />
+  <vehicle id="S_000076" type="car" route="S_N" depart="578.323" departLane="0" departSpeed="max" color="1,0.7,0" />
+  <vehicle id="N_000077" type="car" route="N_S" depart="585.350" departLane="0" departSpeed="max" color="1,0.3,0.3" />
+  <vehicle id="S_000078" type="car" route="S_E" depart="586.516" departLane="0" departSpeed="max" color="1,0.7,0" />
+</routes>

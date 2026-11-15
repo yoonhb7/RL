@@ -1,0 +1,856 @@
+{
+  "schema_version": 1,
+  "kind": "fourphase_masked_dqn_v1",
+  "algorithm": "dqn",
+  "config": {
+    "algorithm": "dqn",
+    "episodes": 20,
+    "seed": 42,
+    "learning_rate": 0.0005,
+    "gamma": 0.99,
+    "buffer_size": 50000,
+    "batch_size": 32,
+    "learning_starts": 1000,
+    "target_update_decisions": 500,
+    "epsilon_initial": 1.0,
+    "epsilon_final": 0.05,
+    "epsilon_fraction": 0.7,
+    "validation_every_episodes": 20,
+    "hidden_sizes": [
+      64,
+      64
+    ],
+    "torch_threads": 1,
+    "train_demand_seed_start": 10000,
+    "validation_demand_seeds": [
+      20000,
+      20001,
+      20002
+    ],
+    "test_demand_seeds": [
+      30000,
+      30001,
+      30002,
+      30003,
+      30004
+    ],
+    "device": "cpu"
+  },
+  "env_settings": {
+    "schema_version": 1,
+    "duration_seconds": 3600,
+    "step_length_seconds": 1,
+    "decision_interval_seconds": 15,
+    "yellow_seconds": 3,
+    "all_red_seconds": 1,
+    "min_green_seconds": 11,
+    "max_green_seconds": 60,
+    "fixed_green_seconds": [
+      30,
+      15,
+      30,
+      15
+    ],
+    "arm_length_m": 500.0,
+    "speed_m_s": 13.8888888889,
+    "vehicle_length_m": 5.0,
+    "vehicle_min_gap_m": 2.5,
+    "left_turn_probability": 0.25,
+    "demand_extension_seconds": 60,
+    "pilot_seed": 42,
+    "demand_rates_veh_h": {
+      "low": 1200,
+      "medium": 1800,
+      "high": 2400
+    },
+    "demand_status": "pilot candidates; levels require fixed-time calibration",
+    "task": "continuing_with_external_time_limit",
+    "reward": "negative_mean_incoming_halting_count_over_15_seconds",
+    "observation": "8_scaled_queues_4_green_one_hot_1_green_age; no clipping"
+  },
+  "cases": {
+    "train": [
+      {
+        "id": "episode_0001",
+        "level": "medium",
+        "demand_seed": 10000,
+        "sumo_seed": 10000,
+        "folder": "scenarios/train/episode_0001",
+        "scheduled_due": 1760,
+        "episode": 1,
+        "sha256": {
+          "demand.json": "ef1150bf8902bf6e3847dbe4450ebd260760869ca524e66c9cf6e4810da856c0",
+          "demand.rou.xml": "c6266b429b7b119b353c0ac2d9aafc1a1f607821265684a84a4654059a876cb2",
+          "run.sumocfg": "6c9a26aaf145df9af2b5bc752caacb1a53fd9f9bee86a203e52f1bc5347dc185",
+          "view.sumocfg": "926d09ce19c1c9c524868ea35970cd444cb563fe5c9f8b6826cc00bef37f7bec"
+        }
+      },
+      {
+        "id": "episode_0002",
+        "level": "high",
+        "demand_seed": 10001,
+        "sumo_seed": 10001,
+        "folder": "scenarios/train/episode_0002",
+        "scheduled_due": 2316,
+        "episode": 2,
+        "sha256": {
+          "demand.json": "2b52ea4e5134193101f0674f20d29542d684c8e706bc719ad7beaee8b6ee0471",
+          "demand.rou.xml": "4e619fb45c5280b377428d6482c11b0b3c4ee47325a139bbbe4037505ac970fd",
+          "run.sumocfg": "2dd0d6335951ea9c2cf7635cff6875d9a71778a36d7ff6f981bdc8de6d40c64d",
+          "view.sumocfg": "3ccea5da1e1dd7778616d8116927ce2722075effc4e18d8195d2a106c1fb7840"
+        }
+      },
+      {
+        "id": "episode_0003",
+        "level": "high",
+        "demand_seed": 10002,
+        "sumo_seed": 10002,
+        "folder": "scenarios/train/episode_0003",
+        "scheduled_due": 2388,
+        "episode": 3,
+        "sha256": {
+          "demand.json": "7b99942219c2fdf3e21cc8cf98a44dfdea1ebe5d13f87c0e556c867988778eae",
+          "demand.rou.xml": "c2d4e04369bfdba675757eda535d552cba9700f9f148b111e3dd4bb0ab985045",
+          "run.sumocfg": "99855746d9ea53ced5d1687215ee261b838226f7225dc0b383cea26ead8d8af5",
+          "view.sumocfg": "4a4a73d4212ccc4b9617b22b4cf64f728aee62cefbbf1af3ecf2e2f0a8a6b6c7"
+        }
+      },
+      {
+        "id": "episode_0004",
+        "level": "medium",
+        "demand_seed": 10003,
+        "sumo_seed": 10003,
+        "folder": "scenarios/train/episode_0004",
+        "scheduled_due": 1848,
+        "episode": 4,
+        "sha256": {
+          "demand.json": "ad7e8179596d0a2685c3cbab1788daefeb7c2be402cefdf919141e7f3d6cda9f",
+          "demand.rou.xml": "19f6050916cab56c062a966f06a5f000331241a99e8b3828efc9ebee2c07b244",
+          "run.sumocfg": "5497c2021aa8e6ca9336ec254c7a3be9a5645b36db1b1cbb048f820ee3551ed3",
+          "view.sumocfg": "d25d2381baa389923e6e98d41284e2d430994e9a3eaccb75b2307e3de5ff1681"
+        }
+      },
+      {
+        "id": "episode_0005",
+        "level": "low",
+        "demand_seed": 10004,
+        "sumo_seed": 10004,
+        "folder": "scenarios/train/episode_0005",
+        "scheduled_due": 1163,
+        "episode": 5,
+        "sha256": {
+          "demand.json": "8ae6c32e51ce76f9069dbbfa7e0ed93d1a32ac31b2c17299d01583868b6d5c02",
+          "demand.rou.xml": "bbd554f44c7c2822f2caaad25c9188c54910f73cbde7027ee9d434159f7b0654",
+          "run.sumocfg": "1eb4ed1152b820d0becb2a275b787fd5ebdaa508e7f0eea7b8b7ce0b56bd8eac",
+          "view.sumocfg": "d65721c0ac21984ea8b706609f9588b3c249cb95bb08a57c6c6173bb64624803"
+        }
+      },
+      {
+        "id": "episode_0006",
+        "level": "medium",
+        "demand_seed": 10005,
+        "sumo_seed": 10005,
+        "folder": "scenarios/train/episode_0006",
+        "scheduled_due": 1781,
+        "episode": 6,
+        "sha256": {
+          "demand.json": "e45e0890c2cefea1c901570dcbaf13981caa5672fcc69368647aad3fa0ee4ce1",
+          "demand.rou.xml": "4b177ca0ef2500e7d0335ebbd97be44860b305064c36a1b88e9ba4e95396f130",
+          "run.sumocfg": "cb9526c98b1b6d7e6630fe70be0435acec4d2224e760e745afe8a20ed718ee97",
+          "view.sumocfg": "f286edba9eb6ad7874c1c1b7e81d5883444f77346f623356921f0a13a810beba"
+        }
+      },
+      {
+        "id": "episode_0007",
+        "level": "low",
+        "demand_seed": 10006,
+        "sumo_seed": 10006,
+        "folder": "scenarios/train/episode_0007",
+        "scheduled_due": 1246,
+        "episode": 7,
+        "sha256": {
+          "demand.json": "8472a9ac7782c9f80e01058a41b56b20dca106eabae47fe3496718fd81d08525",
+          "demand.rou.xml": "6fd8f62fc639a5bbb53fb0cf99bb7b7ffad94b68252bc1c1ab26bd8be8337cdc",
+          "run.sumocfg": "db8272f4fa42632a323dfd10b2d2dc89ca1890e92bb86168a24fba712f04a276",
+          "view.sumocfg": "72269535d6ecfc2f1aeb8b01cf146ee9eeeb9f582c0600257eb127ebc4909cef"
+        }
+      },
+      {
+        "id": "episode_0008",
+        "level": "low",
+        "demand_seed": 10007,
+        "sumo_seed": 10007,
+        "folder": "scenarios/train/episode_0008",
+        "scheduled_due": 1104,
+        "episode": 8,
+        "sha256": {
+          "demand.json": "56b71955fe49f7d6b0206e779eb6f5a6d0a8d207fbc10021bae509916f0a08be",
+          "demand.rou.xml": "08a0a260c05c4a300b39944aa7e6d01f98f9ec9776439920a5da234c2aac9239",
+          "run.sumocfg": "6b7e049747236975c6ea702674a6f654bfb34e50b60065476d51ea5b3d5560cf",
+          "view.sumocfg": "450822dfff093c5028a13136ec923539572d201c85adf20ce9a213fa64fd3b6c"
+        }
+      },
+      {
+        "id": "episode_0009",
+        "level": "low",
+        "demand_seed": 10008,
+        "sumo_seed": 10008,
+        "folder": "scenarios/train/episode_0009",
+        "scheduled_due": 1248,
+        "episode": 9,
+        "sha256": {
+          "demand.json": "5787f8bd143dd9f1a4b79d8b0a67ac0c538f513a379218ed0d9ba3668a1c6cb5",
+          "demand.rou.xml": "718c64b09f27f987f3b0420c85827ea0a1974f8c122557996ad53e5d928032a5",
+          "run.sumocfg": "061da7404ed59e36014ed1c78b5b5dd1cec568d386dd4e87451d09623ad913c9",
+          "view.sumocfg": "a790e8c73b96a8701cf3cdb3a8adaa5b1c7ba3f16cf78dd41513c69c74fab42c"
+        }
+      },
+      {
+        "id": "episode_0010",
+        "level": "low",
+        "demand_seed": 10009,
+        "sumo_seed": 10009,
+        "folder": "scenarios/train/episode_0010",
+        "scheduled_due": 1209,
+        "episode": 10,
+        "sha256": {
+          "demand.json": "116bb611755670b0f1ca35eabac37f6705b6f5b27ae809bbebb5d8139cd80e6d",
+          "demand.rou.xml": "5ed31253a7766b068d5403b4dc6c42e1e648edb43168192a89a509f8a63ff8c5",
+          "run.sumocfg": "ea9740bd4fcd5a63048ebae4c03d24925b21f8a53d954d2e8cdadf5ef85e15d6",
+          "view.sumocfg": "c5d238a2f4899dc494fbf512ce9f45dcd22b92a2a76cb229b939594fd6b43f5d"
+        }
+      },
+      {
+        "id": "episode_0011",
+        "level": "high",
+        "demand_seed": 10010,
+        "sumo_seed": 10010,
+        "folder": "scenarios/train/episode_0011",
+        "scheduled_due": 2414,
+        "episode": 11,
+        "sha256": {
+          "demand.json": "5aa003c18ea98a45cb110b89b4721031f7d9f74ff68ad15d9a57073551dcdeee",
+          "demand.rou.xml": "8dd7b1bf72212b53a3c9d21d7bbdc430ff1bda798f82bdf24989bf229dacb68b",
+          "run.sumocfg": "32a85cfddf74b88dc4607c2d76ac8be85a975420e7a153b8f551344dfdcf1efd",
+          "view.sumocfg": "0ddf93fc76b9203d560b40fb302cfd6c74a12c1fdfb336f423624b512a37a517"
+        }
+      },
+      {
+        "id": "episode_0012",
+        "level": "medium",
+        "demand_seed": 10011,
+        "sumo_seed": 10011,
+        "folder": "scenarios/train/episode_0012",
+        "scheduled_due": 1788,
+        "episode": 12,
+        "sha256": {
+          "demand.json": "91a98622e3f7a841fb6d8a3477f0708254a400b8edd2d560c9ef02444d1d0594",
+          "demand.rou.xml": "b38358defeec8027bdd7bd29b7c6322c5e76dc44de950cfde0caf132762490e5",
+          "run.sumocfg": "b025dce8ae368b19a2e946d799574387cee9e11997aa824c3500791721de3dda",
+          "view.sumocfg": "0d99e39dbc1ce476d6718c79dc2c557c79169306134e00f2568ba228bcff612f"
+        }
+      },
+      {
+        "id": "episode_0013",
+        "level": "medium",
+        "demand_seed": 10012,
+        "sumo_seed": 10012,
+        "folder": "scenarios/train/episode_0013",
+        "scheduled_due": 1834,
+        "episode": 13,
+        "sha256": {
+          "demand.json": "c3a381fe58279ec67cc44d683626453398cc445f290076f7ebf5dfd6f05d4106",
+          "demand.rou.xml": "c128152d2f01502816afdf45848de3068c92c8ce65f00ad3efc7177c7ba64ffe",
+          "run.sumocfg": "c4534e47b87947dc468da14fb3e0cc35c4bb9d5859889ccff4c698be129be832",
+          "view.sumocfg": "73cbd497484ab5cf982f795d5e13f8d69b611d4e36e7be324482fc666310baab"
+        }
+      },
+      {
+        "id": "episode_0014",
+        "level": "high",
+        "demand_seed": 10013,
+        "sumo_seed": 10013,
+        "folder": "scenarios/train/episode_0014",
+        "scheduled_due": 2360,
+        "episode": 14,
+        "sha256": {
+          "demand.json": "66fb969a7824e41238d53a522dbbb8da8513e37d5e4f583d0c2e43c08bf223bf",
+          "demand.rou.xml": "5a9c527adf479cdafd376c7bfaaa57f8f210aac49498cf372bc7d97f3c0109fc",
+          "run.sumocfg": "916c3580369d09eba1f860f7af5de6306b7035cd89c0820a17092ebf52daf8f4",
+          "view.sumocfg": "79db92a0356be18597b0a7a56a9d80799f09ffb5f7362118b942fc1ee5b94d91"
+        }
+      },
+      {
+        "id": "episode_0015",
+        "level": "high",
+        "demand_seed": 10014,
+        "sumo_seed": 10014,
+        "folder": "scenarios/train/episode_0015",
+        "scheduled_due": 2390,
+        "episode": 15,
+        "sha256": {
+          "demand.json": "24669db00d2d282350c0311d733f5b3fdafcfc7d5a6f5ea3863bed9261be8f98",
+          "demand.rou.xml": "bcf7b261f523ee50d322a085a048e3fef07e52bb57afca87c14e64600a2758e4",
+          "run.sumocfg": "617507dddf230ec473bce3ec6fa087a58805f8e6e9c7b8ba15e2540836ef529c",
+          "view.sumocfg": "bb15264581b9db9cfc0d44cb1e139f030b350ec70a8351b3a14059c59618253f"
+        }
+      },
+      {
+        "id": "episode_0016",
+        "level": "medium",
+        "demand_seed": 10015,
+        "sumo_seed": 10015,
+        "folder": "scenarios/train/episode_0016",
+        "scheduled_due": 1850,
+        "episode": 16,
+        "sha256": {
+          "demand.json": "36ae3eab7e18cd2029ac6555e443f72bc39b523ffd730efa6d8ed3a594b0c65d",
+          "demand.rou.xml": "c5e1c7a10f353cf42352ccd5ac9c0b267136e74360b9229f12b688c6ec1adadb",
+          "run.sumocfg": "62e29ebdac8055496448b8c168cf5c0479c723826b2f7be9ab8794e86df8496c",
+          "view.sumocfg": "46d5a3d3b8e3ee02957624a6c908012b6247dff78c7dd2981d6b15ea43b55fc4"
+        }
+      },
+      {
+        "id": "episode_0017",
+        "level": "medium",
+        "demand_seed": 10016,
+        "sumo_seed": 10016,
+        "folder": "scenarios/train/episode_0017",
+        "scheduled_due": 1774,
+        "episode": 17,
+        "sha256": {
+          "demand.json": "b3ee9ca821b5eeee09bf9dd745668e7312c9c64dc33c2a80062d297bff9c9e77",
+          "demand.rou.xml": "661e97d5301c1e74e62e16ecb00395b9f83db75d26daf959364c06b432351764",
+          "run.sumocfg": "bb6d30de139099dec6f5dcdee83b267d5937ba82a33bd69480443a69c2c963bf",
+          "view.sumocfg": "c0a1e07d6d5e839b3a92683cfcb91a47922a3da6c6b54f499ed56a42101ecf6e"
+        }
+      },
+      {
+        "id": "episode_0018",
+        "level": "high",
+        "demand_seed": 10017,
+        "sumo_seed": 10017,
+        "folder": "scenarios/train/episode_0018",
+        "scheduled_due": 2443,
+        "episode": 18,
+        "sha256": {
+          "demand.json": "26a35f371d01043113a7aed1edcdb607f2e914ae91a259c7b6bf8bbd270c6bfc",
+          "demand.rou.xml": "fe71560b2d02c10ce37fb233ecfde6ebdc4d5b33469dea9d9b834f814fbe554f",
+          "run.sumocfg": "3d60efb089e5c2c951f6ee02c9c47f96c8b0fe2880b0d2de781bb336872a32af",
+          "view.sumocfg": "0761bb4c0dd49894014ec4f0abd24c9ccd46b0d79d490bc805b2223686dc88be"
+        }
+      },
+      {
+        "id": "episode_0019",
+        "level": "low",
+        "demand_seed": 10018,
+        "sumo_seed": 10018,
+        "folder": "scenarios/train/episode_0019",
+        "scheduled_due": 1217,
+        "episode": 19,
+        "sha256": {
+          "demand.json": "73732bfd17892f96a148ae682b4daea0c1361467bf6d19b5dd22c3fc7a8d99e0",
+          "demand.rou.xml": "5a91515dd85b30a2ad8ce559705e3f3a1e934fb270c485ca06108aabd4705f9f",
+          "run.sumocfg": "ff5846ba5e337653459865efb8ef20bc4d31a3985b1fa2023a4d7edc087d804e",
+          "view.sumocfg": "a766ebe1c18a02ed8357c3bbe4b9247f105a0649f38aa8c6f65547f7c3ebe1c0"
+        }
+      },
+      {
+        "id": "episode_0020",
+        "level": "low",
+        "demand_seed": 10019,
+        "sumo_seed": 10019,
+        "folder": "scenarios/train/episode_0020",
+        "scheduled_due": 1172,
+        "episode": 20,
+        "sha256": {
+          "demand.json": "8d55e2477ca52eb297589cbd9eba36c5c54e32c88c5eed71cc49beeacd352ce1",
+          "demand.rou.xml": "cbdf132dd46deba18da45e0be13ac32ef47f8e73ddf214bb20d90f2a0c5bd3c7",
+          "run.sumocfg": "ef405dd8c0d0a85845524abba70c3fd6140bf3b43a80029425b3e64440da4bc8",
+          "view.sumocfg": "c6c636cf0e0d57d89a5cbbfac00773cf8dede03cbe525d38ec62c14bcb9a9898"
+        }
+      }
+    ],
+    "validation": [
+      {
+        "id": "low_seed_20000",
+        "level": "low",
+        "demand_seed": 20000,
+        "sumo_seed": 20000,
+        "folder": "scenarios/validation/low_seed_20000",
+        "scheduled_due": 1162,
+        "episode": null,
+        "sha256": {
+          "demand.json": "b862fe897e21986b90162e5876f50a21540f7b471922f5c9bdf50e0fd06b6860",
+          "demand.rou.xml": "809544c37d9c8194165ca2fff9bdf7d972970aa1a8397c9aa97130c00e4c138f",
+          "run.sumocfg": "dd9035013a8849cd300e4d7c7b1c2bbc8a14d96dd57107bb66fd3fada7e6acf1",
+          "view.sumocfg": "41efd3d98930f0f3cf7280d4b07e6301cd6b84abe3bcd986dbc39a2043ebbb05"
+        }
+      },
+      {
+        "id": "low_seed_20001",
+        "level": "low",
+        "demand_seed": 20001,
+        "sumo_seed": 20001,
+        "folder": "scenarios/validation/low_seed_20001",
+        "scheduled_due": 1233,
+        "episode": null,
+        "sha256": {
+          "demand.json": "1d546217789bb0a5932d4467ccfd91b94e39b0847e0a290934dbe03e2be7f757",
+          "demand.rou.xml": "113ff6eeab975d973f04a68833a52c82fcd3158d7278b8135272245bde05816e",
+          "run.sumocfg": "27f356ee5bc0f7bc7d873ae86e90a943c814bff8b88bc237a51a67be236a7703",
+          "view.sumocfg": "84fac5f699ac2d2b78d4b18f560d2122fa2f7e76f7363ebecfc3224efb424026"
+        }
+      },
+      {
+        "id": "low_seed_20002",
+        "level": "low",
+        "demand_seed": 20002,
+        "sumo_seed": 20002,
+        "folder": "scenarios/validation/low_seed_20002",
+        "scheduled_due": 1297,
+        "episode": null,
+        "sha256": {
+          "demand.json": "1312d3d8ae1b72bb5bb74c9dcbabcfe85c1ebbdb8af8cdefa1b6c6f58b1e702b",
+          "demand.rou.xml": "af31b481f055e5881279e6b6a9f8952b75a4939ef778d7eb9781e47b4ae7d4d3",
+          "run.sumocfg": "20414b4107270426bd4aa2fa2fcaac0605e73e803c4e259d89615409dea0b9db",
+          "view.sumocfg": "b1a6c0718762138fd67ca66d89c1160fbd3e2bde2e8226b16ec4b2ec41e02601"
+        }
+      },
+      {
+        "id": "medium_seed_20000",
+        "level": "medium",
+        "demand_seed": 20000,
+        "sumo_seed": 20000,
+        "folder": "scenarios/validation/medium_seed_20000",
+        "scheduled_due": 1748,
+        "episode": null,
+        "sha256": {
+          "demand.json": "c1794a9d9ea7995856eb41434f0b79ede29a4135d86d91a7ce7446153a526345",
+          "demand.rou.xml": "77d38b410d96485b6e90ce561a633bbba4f0fc189bfd02f1cb009926b93e7665",
+          "run.sumocfg": "dd9035013a8849cd300e4d7c7b1c2bbc8a14d96dd57107bb66fd3fada7e6acf1",
+          "view.sumocfg": "41efd3d98930f0f3cf7280d4b07e6301cd6b84abe3bcd986dbc39a2043ebbb05"
+        }
+      },
+      {
+        "id": "medium_seed_20001",
+        "level": "medium",
+        "demand_seed": 20001,
+        "sumo_seed": 20001,
+        "folder": "scenarios/validation/medium_seed_20001",
+        "scheduled_due": 1808,
+        "episode": null,
+        "sha256": {
+          "demand.json": "fc2662a0c4ac4f91016afdb51f02ba094045c4f619c00533f3040080d272404e",
+          "demand.rou.xml": "e0b9926a1572bd6fb709bf90e083876a96099db9943b8c9f48a4a4e99719da56",
+          "run.sumocfg": "27f356ee5bc0f7bc7d873ae86e90a943c814bff8b88bc237a51a67be236a7703",
+          "view.sumocfg": "84fac5f699ac2d2b78d4b18f560d2122fa2f7e76f7363ebecfc3224efb424026"
+        }
+      },
+      {
+        "id": "medium_seed_20002",
+        "level": "medium",
+        "demand_seed": 20002,
+        "sumo_seed": 20002,
+        "folder": "scenarios/validation/medium_seed_20002",
+        "scheduled_due": 1885,
+        "episode": null,
+        "sha256": {
+          "demand.json": "db32fe47a0adfcc1af66fcb19ad25be02e6ef1bdb6263c2c32447e00a87108cc",
+          "demand.rou.xml": "f4a96c910d501918b33ec95eb9fa1cfc891e86d17493258d33867e5795f03fc8",
+          "run.sumocfg": "20414b4107270426bd4aa2fa2fcaac0605e73e803c4e259d89615409dea0b9db",
+          "view.sumocfg": "b1a6c0718762138fd67ca66d89c1160fbd3e2bde2e8226b16ec4b2ec41e02601"
+        }
+      },
+      {
+        "id": "high_seed_20000",
+        "level": "high",
+        "demand_seed": 20000,
+        "sumo_seed": 20000,
+        "folder": "scenarios/validation/high_seed_20000",
+        "scheduled_due": 2342,
+        "episode": null,
+        "sha256": {
+          "demand.json": "4e069e9081fc719fbc61abe417628072006a4fa3a7e76627e26adb198163d062",
+          "demand.rou.xml": "6343559a9e4886a1ea7449e399d47c07d4a7539faa04604a87bb5a37ccf1fb98",
+          "run.sumocfg": "dd9035013a8849cd300e4d7c7b1c2bbc8a14d96dd57107bb66fd3fada7e6acf1",
+          "view.sumocfg": "41efd3d98930f0f3cf7280d4b07e6301cd6b84abe3bcd986dbc39a2043ebbb05"
+        }
+      },
+      {
+        "id": "high_seed_20001",
+        "level": "high",
+        "demand_seed": 20001,
+        "sumo_seed": 20001,
+        "folder": "scenarios/validation/high_seed_20001",
+        "scheduled_due": 2372,
+        "episode": null,
+        "sha256": {
+          "demand.json": "3339086ce58af6c525f33ae79965b45e557ea573a1692014bf26329343e6d074",
+          "demand.rou.xml": "62cc197ad6bc7ebcf1a4cd1fe09ba8a10adff46a28caba871c80e59a60b90130",
+          "run.sumocfg": "27f356ee5bc0f7bc7d873ae86e90a943c814bff8b88bc237a51a67be236a7703",
+          "view.sumocfg": "84fac5f699ac2d2b78d4b18f560d2122fa2f7e76f7363ebecfc3224efb424026"
+        }
+      },
+      {
+        "id": "high_seed_20002",
+        "level": "high",
+        "demand_seed": 20002,
+        "sumo_seed": 20002,
+        "folder": "scenarios/validation/high_seed_20002",
+        "scheduled_due": 2461,
+        "episode": null,
+        "sha256": {
+          "demand.json": "60f85e8300377a106505ec2829dbc73098c7cc1695464c022cf92c2455acaf82",
+          "demand.rou.xml": "a44bf7d4cf0a0e2266ab03e58907c602fc03c9ac56573b42c6b707c4e9c7a264",
+          "run.sumocfg": "20414b4107270426bd4aa2fa2fcaac0605e73e803c4e259d89615409dea0b9db",
+          "view.sumocfg": "b1a6c0718762138fd67ca66d89c1160fbd3e2bde2e8226b16ec4b2ec41e02601"
+        }
+      }
+    ],
+    "test": [
+      {
+        "id": "low_seed_30000",
+        "level": "low",
+        "demand_seed": 30000,
+        "sumo_seed": 30000,
+        "folder": "scenarios/test/low_seed_30000",
+        "scheduled_due": 1241,
+        "episode": null,
+        "sha256": {
+          "demand.json": "c33ee947249ba0751b851cc83856f3c306ac2ff1c75d89ac175151666403252e",
+          "demand.rou.xml": "09113ccfc47af0e5e3bdcb7525630f87240029beb5b1f0525a2923fbf9941998",
+          "run.sumocfg": "cd0e186e06bc978e4df2cd594c7aa4f66224b756865f152901b6ea12c82d262f",
+          "view.sumocfg": "7e3f5f284b2f4666e7c01a098e44c8cd019de8c9855729ca77ea2dd27c215bbc"
+        }
+      },
+      {
+        "id": "low_seed_30001",
+        "level": "low",
+        "demand_seed": 30001,
+        "sumo_seed": 30001,
+        "folder": "scenarios/test/low_seed_30001",
+        "scheduled_due": 1188,
+        "episode": null,
+        "sha256": {
+          "demand.json": "f2002bf2d4cd370d97b1881892297f5264d9fde249ccd380fccf4c2cfe99b88a",
+          "demand.rou.xml": "9ab0f5f3abd7fc2809877094456c67a2911d384b529573940526c1d1877d4ce0",
+          "run.sumocfg": "3d2daf1ac5ca0d1e985466d6a776729657ec7e1b62ce536a5a9f6f690412f59a",
+          "view.sumocfg": "0f66fb3aca5e62372cbd7a929c043f0646e8e4a3210febe0b5575abccc06300a"
+        }
+      },
+      {
+        "id": "low_seed_30002",
+        "level": "low",
+        "demand_seed": 30002,
+        "sumo_seed": 30002,
+        "folder": "scenarios/test/low_seed_30002",
+        "scheduled_due": 1184,
+        "episode": null,
+        "sha256": {
+          "demand.json": "63d8465120e3291fcf2065af935dd18839e459c518972550225726d1a2049da4",
+          "demand.rou.xml": "54c07735823640d5abfb0ebef495c1755b944f45b65c492b78b7d67907ab6f41",
+          "run.sumocfg": "68e4dfe584d0d1ded24d5edb9fae06382ffdc9e9518b58f385542244bd5609f8",
+          "view.sumocfg": "5d888308b1a354126cd4372cb376ab5742789f668080067a686e06c455afeb2a"
+        }
+      },
+      {
+        "id": "low_seed_30003",
+        "level": "low",
+        "demand_seed": 30003,
+        "sumo_seed": 30003,
+        "folder": "scenarios/test/low_seed_30003",
+        "scheduled_due": 1203,
+        "episode": null,
+        "sha256": {
+          "demand.json": "841e2ccb1da9540e747286c6965c2e21f03212266c0325f027422c478b906e29",
+          "demand.rou.xml": "3d9219e6bfabf35cd38b68a5aa4a065e88746ee1a09f515e2bf945f9dab7a317",
+          "run.sumocfg": "89b257d4969dd3236eedf9eefcf83dfbb87d8096d1e4f20019529745b5b11725",
+          "view.sumocfg": "a250469062d3edc31353aa00063d3aa8511393a412a5754d581692ef460773b5"
+        }
+      },
+      {
+        "id": "low_seed_30004",
+        "level": "low",
+        "demand_seed": 30004,
+        "sumo_seed": 30004,
+        "folder": "scenarios/test/low_seed_30004",
+        "scheduled_due": 1114,
+        "episode": null,
+        "sha256": {
+          "demand.json": "1f1f7bf446428432ea34cbd4375ed668723131273bbbf194fde23d2675aadd40",
+          "demand.rou.xml": "d42f88ac9622a89f44189229de2454bbf920c9e0498eecc245060c2729c56970",
+          "run.sumocfg": "b4cc24a41d684dcc4da12a8b6fcb09f6a2228921aa07d34cfb94ae72f42fa2be",
+          "view.sumocfg": "ba9d0dcfc0a9a15238237aed21c2aebef6fad4566c20402f8afd50e44d045cb9"
+        }
+      },
+      {
+        "id": "medium_seed_30000",
+        "level": "medium",
+        "demand_seed": 30000,
+        "sumo_seed": 30000,
+        "folder": "scenarios/test/medium_seed_30000",
+        "scheduled_due": 1848,
+        "episode": null,
+        "sha256": {
+          "demand.json": "8843d7adc93424959c607fa10d6c37488bafa5879d03d178cd2574e7ffdc2165",
+          "demand.rou.xml": "982cb6bd262e0440a35049ef3a2ba1da2dc35ffbd8fd7d509e531b3997cc3841",
+          "run.sumocfg": "cd0e186e06bc978e4df2cd594c7aa4f66224b756865f152901b6ea12c82d262f",
+          "view.sumocfg": "7e3f5f284b2f4666e7c01a098e44c8cd019de8c9855729ca77ea2dd27c215bbc"
+        }
+      },
+      {
+        "id": "medium_seed_30001",
+        "level": "medium",
+        "demand_seed": 30001,
+        "sumo_seed": 30001,
+        "folder": "scenarios/test/medium_seed_30001",
+        "scheduled_due": 1798,
+        "episode": null,
+        "sha256": {
+          "demand.json": "f2e6e4650208765f2c5280b2cdbcef3fa7d86db12ddb053bce3a434533385beb",
+          "demand.rou.xml": "644aaae446d29bb7e2f58f00dc1849a32483716a67392095a52703d76f6364df",
+          "run.sumocfg": "3d2daf1ac5ca0d1e985466d6a776729657ec7e1b62ce536a5a9f6f690412f59a",
+          "view.sumocfg": "0f66fb3aca5e62372cbd7a929c043f0646e8e4a3210febe0b5575abccc06300a"
+        }
+      },
+      {
+        "id": "medium_seed_30002",
+        "level": "medium",
+        "demand_seed": 30002,
+        "sumo_seed": 30002,
+        "folder": "scenarios/test/medium_seed_30002",
+        "scheduled_due": 1771,
+        "episode": null,
+        "sha256": {
+          "demand.json": "4832f04d2d4c552c364b0fe89cb672057563ab908fce485d06ecbdc7828abb0d",
+          "demand.rou.xml": "a2f9dac482a9e65089ae752b23eb767cbb86da0b5a9abf1d57c7b08c4adbecda",
+          "run.sumocfg": "68e4dfe584d0d1ded24d5edb9fae06382ffdc9e9518b58f385542244bd5609f8",
+          "view.sumocfg": "5d888308b1a354126cd4372cb376ab5742789f668080067a686e06c455afeb2a"
+        }
+      },
+      {
+        "id": "medium_seed_30003",
+        "level": "medium",
+        "demand_seed": 30003,
+        "sumo_seed": 30003,
+        "folder": "scenarios/test/medium_seed_30003",
+        "scheduled_due": 1802,
+        "episode": null,
+        "sha256": {
+          "demand.json": "0c24d6b63d0f3ab2c1330e0d2b22ffd7712ccfd34360369222c944a6dea6a468",
+          "demand.rou.xml": "ea766352487d7e5af9d791cb5cbf94e92ac4b241e2e26063d51d38530413db0e",
+          "run.sumocfg": "89b257d4969dd3236eedf9eefcf83dfbb87d8096d1e4f20019529745b5b11725",
+          "view.sumocfg": "a250469062d3edc31353aa00063d3aa8511393a412a5754d581692ef460773b5"
+        }
+      },
+      {
+        "id": "medium_seed_30004",
+        "level": "medium",
+        "demand_seed": 30004,
+        "sumo_seed": 30004,
+        "folder": "scenarios/test/medium_seed_30004",
+        "scheduled_due": 1731,
+        "episode": null,
+        "sha256": {
+          "demand.json": "655a3dade6e0b055262da9e9388702cdfa90e41d97db691b1c8256d33e73e3bf",
+          "demand.rou.xml": "4cb0cde26da6e8bbf43b29a6e88021656ae26b329ea2b20c661749d290776c57",
+          "run.sumocfg": "b4cc24a41d684dcc4da12a8b6fcb09f6a2228921aa07d34cfb94ae72f42fa2be",
+          "view.sumocfg": "ba9d0dcfc0a9a15238237aed21c2aebef6fad4566c20402f8afd50e44d045cb9"
+        }
+      },
+      {
+        "id": "high_seed_30000",
+        "level": "high",
+        "demand_seed": 30000,
+        "sumo_seed": 30000,
+        "folder": "scenarios/test/high_seed_30000",
+        "scheduled_due": 2491,
+        "episode": null,
+        "sha256": {
+          "demand.json": "84fde738b8e482a9ccd407c1583376e13db4cde452f2cede39353d79fa99c189",
+          "demand.rou.xml": "08dfa0f775e1e9da6585d41483137fe6a53facf409e86c688064e819bc923f9c",
+          "run.sumocfg": "cd0e186e06bc978e4df2cd594c7aa4f66224b756865f152901b6ea12c82d262f",
+          "view.sumocfg": "7e3f5f284b2f4666e7c01a098e44c8cd019de8c9855729ca77ea2dd27c215bbc"
+        }
+      },
+      {
+        "id": "high_seed_30001",
+        "level": "high",
+        "demand_seed": 30001,
+        "sumo_seed": 30001,
+        "folder": "scenarios/test/high_seed_30001",
+        "scheduled_due": 2420,
+        "episode": null,
+        "sha256": {
+          "demand.json": "c356f255f5425ab9da9598ddad84214fa66ac83d3704bd2b8ab0b40f2c611116",
+          "demand.rou.xml": "a600d4c7ed9baf08188c09dfa3e146535ff34b2ea8a0c32a5984283cc81464ec",
+          "run.sumocfg": "3d2daf1ac5ca0d1e985466d6a776729657ec7e1b62ce536a5a9f6f690412f59a",
+          "view.sumocfg": "0f66fb3aca5e62372cbd7a929c043f0646e8e4a3210febe0b5575abccc06300a"
+        }
+      },
+      {
+        "id": "high_seed_30002",
+        "level": "high",
+        "demand_seed": 30002,
+        "sumo_seed": 30002,
+        "folder": "scenarios/test/high_seed_30002",
+        "scheduled_due": 2358,
+        "episode": null,
+        "sha256": {
+          "demand.json": "70285c9c1f2feab0f7265eb8fcfa1c68ecd7d11c123ae0be0102577283d98cc1",
+          "demand.rou.xml": "22c4c4c24cc42e3be9f5df5ef20d183ce1e6b0cba5a880513e3b18e890dc245d",
+          "run.sumocfg": "68e4dfe584d0d1ded24d5edb9fae06382ffdc9e9518b58f385542244bd5609f8",
+          "view.sumocfg": "5d888308b1a354126cd4372cb376ab5742789f668080067a686e06c455afeb2a"
+        }
+      },
+      {
+        "id": "high_seed_30003",
+        "level": "high",
+        "demand_seed": 30003,
+        "sumo_seed": 30003,
+        "folder": "scenarios/test/high_seed_30003",
+        "scheduled_due": 2416,
+        "episode": null,
+        "sha256": {
+          "demand.json": "53e3ecd79e54eaebbe3e092436aefcbe5d57e79cdfe180f97a3147337a8b985f",
+          "demand.rou.xml": "2d536a89fb8ac4dbc30647414e728cf2139caa137dd6a98d33a64295f20863cd",
+          "run.sumocfg": "89b257d4969dd3236eedf9eefcf83dfbb87d8096d1e4f20019529745b5b11725",
+          "view.sumocfg": "a250469062d3edc31353aa00063d3aa8511393a412a5754d581692ef460773b5"
+        }
+      },
+      {
+        "id": "high_seed_30004",
+        "level": "high",
+        "demand_seed": 30004,
+        "sumo_seed": 30004,
+        "folder": "scenarios/test/high_seed_30004",
+        "scheduled_due": 2300,
+        "episode": null,
+        "sha256": {
+          "demand.json": "ebe9c8904a49697672ca14404ecacbd705675328e265c59886a464b03bf03d3d",
+          "demand.rou.xml": "46e89629a7d5f295f3c1ee3826e9993607058f3a6cd9c6763aefea5073954b31",
+          "run.sumocfg": "b4cc24a41d684dcc4da12a8b6fcb09f6a2228921aa07d34cfb94ae72f42fa2be",
+          "view.sumocfg": "ba9d0dcfc0a9a15238237aed21c2aebef6fad4566c20402f8afd50e44d045cb9"
+        }
+      }
+    ]
+  },
+  "episode_order": [
+    {
+      "episode": 1,
+      "level": "medium",
+      "demand_seed": 10000
+    },
+    {
+      "episode": 2,
+      "level": "high",
+      "demand_seed": 10001
+    },
+    {
+      "episode": 3,
+      "level": "high",
+      "demand_seed": 10002
+    },
+    {
+      "episode": 4,
+      "level": "medium",
+      "demand_seed": 10003
+    },
+    {
+      "episode": 5,
+      "level": "low",
+      "demand_seed": 10004
+    },
+    {
+      "episode": 6,
+      "level": "medium",
+      "demand_seed": 10005
+    },
+    {
+      "episode": 7,
+      "level": "low",
+      "demand_seed": 10006
+    },
+    {
+      "episode": 8,
+      "level": "low",
+      "demand_seed": 10007
+    },
+    {
+      "episode": 9,
+      "level": "low",
+      "demand_seed": 10008
+    },
+    {
+      "episode": 10,
+      "level": "low",
+      "demand_seed": 10009
+    },
+    {
+      "episode": 11,
+      "level": "high",
+      "demand_seed": 10010
+    },
+    {
+      "episode": 12,
+      "level": "medium",
+      "demand_seed": 10011
+    },
+    {
+      "episode": 13,
+      "level": "medium",
+      "demand_seed": 10012
+    },
+    {
+      "episode": 14,
+      "level": "high",
+      "demand_seed": 10013
+    },
+    {
+      "episode": 15,
+      "level": "high",
+      "demand_seed": 10014
+    },
+    {
+      "episode": 16,
+      "level": "medium",
+      "demand_seed": 10015
+    },
+    {
+      "episode": 17,
+      "level": "medium",
+      "demand_seed": 10016
+    },
+    {
+      "episode": 18,
+      "level": "high",
+      "demand_seed": 10017
+    },
+    {
+      "episode": 19,
+      "level": "low",
+      "demand_seed": 10018
+    },
+    {
+      "episode": 20,
+      "level": "low",
+      "demand_seed": 10019
+    }
+  ],
+  "training_level_counts": {
+    "medium": 7,
+    "high": 6,
+    "low": 7
+  },
+  "observation_size": 13,
+  "actions": {
+    "0": "hold",
+    "1": "next_phase"
+  },
+  "source_manifest_sha256": "0a5aaac5939623868cc61ad1a90bfedb9c2ee711dfbcb898900c8d72ead21c8e",
+  "network_sha256": "5973ba5a2ca050fa714d1ae77025ac7036832e26deb7790f45eace70f0fdb8b7",
+  "view_sha256": "8c7388d0833f0bc0e524e29a9401dec6b64086832a8078cea37dee9598e6f201",
+  "selection": "minimum equally weighted validation J; earliest checkpoint on ties",
+  "test_use": "reserved; never simulated or scored by the training command"
+}

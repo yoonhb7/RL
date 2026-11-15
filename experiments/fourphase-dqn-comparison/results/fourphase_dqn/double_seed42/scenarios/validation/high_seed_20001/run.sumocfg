@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configuration>
+  <input>
+    <net-file value="../../../network.net.xml" />
+    <route-files value="demand.rou.xml" />
+  </input>
+  <time>
+    <begin value="0" />
+    <end value="3600" />
+    <step-length value="1" />
+  </time>
+  <processing>
+    <max-depart-delay value="-1" />
+    <time-to-teleport value="-1" />
+    <collision.action value="warn" />
+    <collision.check-junctions value="true" />
+  </processing>
+  <random_number>
+    <seed value="20001" />
+  </random_number>
+</configuration>

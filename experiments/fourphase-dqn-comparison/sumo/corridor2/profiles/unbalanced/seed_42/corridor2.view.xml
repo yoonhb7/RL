@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewsettings>
+    <scheme name="RL Traffic">
+        <opengl dither="1" antialiase="1"/>
+        <background backgroundColor="235,240,231" showGrid="0"/>
+        <edges laneEdgeMode="0" scaleMode="0" laneShowBorders="1"
+               showLinkDecals="1" showLinkRules="1" hideConnectors="1"
+               widthExaggeration="1" minSize="0" showDirection="0">
+            <colorScheme name="uniform">
+                <entry color="58,68,79" name="road"/>
+                <entry color="216,221,215" name="sidewalk"/>
+                <entry color="170,95,75" name="bike lane"/>
+                <entry color="0,0,0,0" name="green verge"/>
+                <entry color="150,200,220" name="waterway"/>
+                <entry color="80,80,80" name="no passenger"/>
+                <entry color="220,70,70" name="closed"/>
+                <entry color="100,150,100" name="connector"/>
+            </colorScheme>
+        </edges>
+        <!-- Fleet colors are assigned by the server-side presentation observer. -->
+        <vehicles vehicleMode="0" vehicleQuality="2" vehicle_minSize="2.5"
+                  vehicle_exaggeration="1.45" vehicle_constantSize="0"
+                  showBlinker="1" scaleLength="1"/>
+        <junctions junctionMode="0" showLane2Lane="0" drawShape="1"
+                   drawCrossingsAndWalkingareas="1"
+                   junction_minSize="0" junction_exaggeration="1">
+            <colorScheme name="uniform">
+                <entry color="58,68,79"/>
+                <entry color="150,200,220" name="waterway"/>
+            </colorScheme>
+        </junctions>
+        <pois poi_minSize="0" poi_exaggeration="1" poi_constantSize="0"
+              poiName_show="0" poiType_show="0" poiType_size="20"
+              poiType_color="234,242,250" poiType_bgColor="19,32,51,0"
+              poiType_constantSize="1"/>
+        <polys poly_minSize="0" poly_exaggeration="1"
+               poly_constantSize="0" polyName_show="0"/>
+    </scheme>
+    <!-- SUMO 1.28 vehicle modes: 10=waiting time (seconds), 8=speed (m/s).
+         Each scheme repeats the common view properties so a mode switch also
+         preserves road styling, decorations, and dashboard text. -->
+    <scheme name="RL Waiting">
+        <opengl dither="1" antialiase="1"/>
+        <background backgroundColor="235,240,231" showGrid="0"/>
+        <edges laneEdgeMode="0" scaleMode="0" laneShowBorders="1"
+               showLinkDecals="1" showLinkRules="1" hideConnectors="1"
+               widthExaggeration="1" minSize="0" showDirection="0">
+            <colorScheme name="uniform">
+                <entry color="58,68,79" name="road"/>
+                <entry color="216,221,215" name="sidewalk"/>
+                <entry color="170,95,75" name="bike lane"/>
+                <entry color="0,0,0,0" name="green verge"/>
+                <entry color="150,200,220" name="waterway"/>
+                <entry color="80,80,80" name="no passenger"/>
+                <entry color="220,70,70" name="closed"/>
+                <entry color="100,150,100" name="connector"/>
+            </colorScheme>
+        </edges>
+        <vehicles vehicleMode="10" vehicleQuality="2" vehicle_minSize="2.5"
+                  vehicle_exaggeration="1.45" vehicle_constantSize="0" showBlinker="1" scaleLength="1">
+            <colorScheme name="by waiting time" interpolated="1">
+                <entry color="56,189,248" threshold="0"/>
+                <entry color="45,212,191" threshold="5"/>
+                <entry color="251,191,36" threshold="15"/>
+                <entry color="251,113,133" threshold="30"/>
+                <entry color="225,29,72" threshold="60"/>
+            </colorScheme>
+        </vehicles>
+        <junctions junctionMode="0" showLane2Lane="0" drawShape="1" drawCrossingsAndWalkingareas="1"
+                   junction_minSize="0" junction_exaggeration="1">
+            <colorScheme name="uniform"><entry color="58,68,79"/><entry color="150,200,220" name="waterway"/></colorScheme>
+        </junctions>
+        <pois poi_minSize="0" poi_exaggeration="1" poi_constantSize="0"
+              poiName_show="0" poiType_show="0" poiType_size="20"
+              poiType_color="234,242,250" poiType_bgColor="19,32,51,0" poiType_constantSize="1"/>
+        <polys poly_minSize="0" poly_exaggeration="1" poly_constantSize="0" polyName_show="0"/>
+    </scheme>
+    <scheme name="RL Speed">
+        <opengl dither="1" antialiase="1"/>
+        <background backgroundColor="235,240,231" showGrid="0"/>
+        <edges laneEdgeMode="0" scaleMode="0" laneShowBorders="1"
+               showLinkDecals="1" showLinkRules="1" hideConnectors="1"
+               widthExaggeration="1" minSize="0" showDirection="0">
+            <colorScheme name="uniform">
+                <entry color="58,68,79" name="road"/>
+                <entry color="216,221,215" name="sidewalk"/>
+                <entry color="170,95,75" name="bike lane"/>
+                <entry color="0,0,0,0" name="green verge"/>
+                <entry color="150,200,220" name="waterway"/>
+                <entry color="80,80,80" name="no passenger"/>
+                <entry color="220,70,70" name="closed"/>
+                <entry color="100,150,100" name="connector"/>
+            </colorScheme>
+        </edges>
+        <vehicles vehicleMode="8" vehicleQuality="2" vehicle_minSize="2.5"
+                  vehicle_exaggeration="1.45" vehicle_constantSize="0" showBlinker="1" scaleLength="1">
+            <colorScheme name="by speed" interpolated="1">
+                <entry color="251,113,133" threshold="0"/>
+                <entry color="251,191,36" threshold="2.78"/>
+                <entry color="45,212,191" threshold="8.33"/>
+                <entry color="56,189,248" threshold="13.89"/>
+            </colorScheme>
+        </vehicles>
+        <junctions junctionMode="0" showLane2Lane="0" drawShape="1" drawCrossingsAndWalkingareas="1"
+                   junction_minSize="0" junction_exaggeration="1">
+            <colorScheme name="uniform"><entry color="58,68,79"/><entry color="150,200,220" name="waterway"/></colorScheme>
+        </junctions>
+        <pois poi_minSize="0" poi_exaggeration="1" poi_constantSize="0"
+              poiName_show="0" poiType_show="0" poiType_size="20"
+              poiType_color="234,242,250" poiType_bgColor="19,32,51,0" poiType_constantSize="1"/>
+        <polys poly_minSize="0" poly_exaggeration="1" poly_constantSize="0" polyName_show="0"/>
+    </scheme>
+    <viewport zoom="210" x="250" y="250"/>
+</viewsettings>

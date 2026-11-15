@@ -1,0 +1,10 @@
+{"episode": 20, "decisions": 4800, "J": 193.4208615951461, "J_by_level": {"low": 25.67107593592215, "medium": 145.79389005136463, "high": 408.7976187981515}, "selected": true, "folder": "validation/step_004800"}
+{"episode": 40, "decisions": 9600, "J": 193.4208615951461, "J_by_level": {"low": 25.67107593592215, "medium": 145.79389005136463, "high": 408.7976187981515}, "selected": false, "folder": "validation/step_009600"}
+{"episode": 60, "decisions": 14400, "J": 193.4208615951461, "J_by_level": {"low": 25.67107593592215, "medium": 145.79389005136463, "high": 408.7976187981515}, "selected": false, "folder": "validation/step_014400"}
+{"episode": 80, "decisions": 19200, "J": 193.4208615951461, "J_by_level": {"low": 25.67107593592215, "medium": 145.79389005136463, "high": 408.7976187981515}, "selected": false, "folder": "validation/step_019200"}
+{"episode": 100, "decisions": 24000, "J": 193.4208615951461, "J_by_level": {"low": 25.67107593592215, "medium": 145.79389005136463, "high": 408.7976187981515}, "selected": false, "folder": "validation/step_024000"}
+{"episode": 120, "decisions": 28800, "J": 193.4208615951461, "J_by_level": {"low": 25.67107593592215, "medium": 145.79389005136463, "high": 408.7976187981515}, "selected": false, "folder": "validation/step_028800"}
+{"episode": 140, "decisions": 33600, "J": 187.50165602136818, "J_by_level": {"low": 30.022631281774594, "medium": 134.71991728487265, "high": 397.7624194974573}, "selected": true, "folder": "validation/step_033600"}
+{"episode": 160, "decisions": 38400, "J": 34.4666536597996, "J_by_level": {"low": 29.036558683916763, "medium": 32.168218754413054, "high": 42.19518354106897}, "selected": true, "folder": "validation/step_038400"}
+{"episode": 180, "decisions": 43200, "J": 35.50170278249231, "J_by_level": {"low": 28.723010582956622, "medium": 32.603351761160376, "high": 45.17874600335994}, "selected": false, "folder": "validation/step_043200"}
+{"episode": 200, "decisions": 48000, "J": 33.833221897778586, "J_by_level": {"low": 25.08103114712215, "medium": 30.17218068104889, "high": 46.24645386516472}, "selected": true, "folder": "validation/step_048000"}

@@ -1,0 +1,95 @@
+{
+  "repository": "https://github.com/yoonhb7/RL",
+  "branch": "RL1114",
+  "commit": "7fd00d77598da932f6f5130ffc8fd37a8f478492",
+  "retrieved_date": "2026-11-14",
+  "scope": "SUMO network, display, vehicle generator and preview only; no agent, checkpoint, training or reward code",
+  "source_directory": "experiments/single-intersection-dqn-benchmark/",
+  "status": "copied_and_hash_checked_not_executed",
+  "files": [
+    {
+      "local": "sumo/rl1114_city/network/network.net.xml",
+      "source": "experiments/single-intersection-dqn-benchmark/data/network-f1656eee2e/network.net.xml",
+      "git_blob_sha1": "45f1a78bdcfa2331258ac9639a200195cf5c73b3",
+      "sha256": "28a4897d2994dda92085e70e70fb266029d432926c894cad3f6e30903f132964",
+      "byte_identical": true
+    },
+    {
+      "local": "sumo/rl1114_city/network/nodes.nod.xml",
+      "source": "experiments/single-intersection-dqn-benchmark/data/network-f1656eee2e/nodes.nod.xml",
+      "git_blob_sha1": "4a274c809660ee026b02168564b7efa83df72296",
+      "sha256": "fad10f49739294ae53235cb9a900f7b38c0f07e2953b81642bf2a0cb7376cacc",
+      "byte_identical": true
+    },
+    {
+      "local": "sumo/rl1114_city/network/edges.edg.xml",
+      "source": "experiments/single-intersection-dqn-benchmark/data/network-f1656eee2e/edges.edg.xml",
+      "git_blob_sha1": "37893464d4c332c5200425e7677032d8f950ecb9",
+      "sha256": "549b16bb4c0361c71c319a0319fe27870d5fe6d4599f98ccb01b90c546322e38",
+      "byte_identical": true
+    },
+    {
+      "local": "sumo/rl1114_city/network/connections.con.xml",
+      "source": "experiments/single-intersection-dqn-benchmark/data/network-f1656eee2e/connections.con.xml",
+      "git_blob_sha1": "ca8f96f2c4401cb818ae9baea8bc26102f7055ec",
+      "sha256": "a037d7e8732803e61fc442ec90b7bcab64c09710697592f092acbdb52fb80ecb",
+      "byte_identical": true
+    },
+    {
+      "local": "sumo/rl1114_city/network/network_manifest.json",
+      "source": "experiments/single-intersection-dqn-benchmark/data/network-f1656eee2e/network_manifest.json",
+      "git_blob_sha1": "987c82ababb7453244d55881772ecfaa3ee81b61",
+      "sha256": "a8eea428c4d130750f09b11499c3cc9da193f48c2c840ff3d6063dbbe00b3416",
+      "byte_identical": true
+    },
+    {
+      "local": "sumo/rl1114_city/gui.xml",
+      "source": "experiments/single-intersection-dqn-benchmark/configs/gui.xml",
+      "git_blob_sha1": "a47c9ed817a1b325ed064e7ddb56e8f25ae329d5",
+      "sha256": "08ef145a7f0bff8197fbbd3c14ba64ad460cc9df569c9bac93504aaa20616a5e",
+      "byte_identical": true
+    },
+    {
+      "local": "sumo/rl1114_city/source/CITY_VIEW_KO.md",
+      "source": "experiments/single-intersection-dqn-benchmark/CITY_VIEW_KO.md",
+      "git_blob_sha1": "2c06d9f27f7cf6511d0139ca53a42dc6f1769487",
+      "sha256": "6909fbead4f332d6ad9494b9d591283277e521574abad8d5d181c4e9456e5cd9",
+      "byte_identical": true
+    },
+    {
+      "local": "sumo/rl1114_city/preview/original.png",
+      "source": "experiments/single-intersection-dqn-benchmark/results/city-live-view/high-demand-1001/simulation.png",
+      "git_blob_sha1": "70b95528f48b893b2f46c02a74c7b233bca3806e",
+      "sha256": "ba1ae716c9b6f9c51f391ad90edfb48028bb23038abbc30fc2821dfd3d3367ba",
+      "byte_identical": true
+    },
+    {
+      "local": "sumo/rl1114_city/preview/original.svg",
+      "source": "experiments/single-intersection-dqn-benchmark/results/city-live-view/high-demand-1001/simulation.svg",
+      "git_blob_sha1": "3a831be6b1c8f149f7aca6d3c4c04c7f7fca374d",
+      "sha256": "0db7bec01d24804c13fe92eff5756dd62273bc5525bd20ad11ddb0185103f9b3",
+      "byte_identical": true
+    },
+    {
+      "local": "src/traffic/rl1114_scene/appearance.py",
+      "source": "experiments/single-intersection-dqn-benchmark/trafficbench/appearance.py",
+      "git_blob_sha1": "b350b104be148f7fe48c034634587d10a391e91f",
+      "sha256": "4fc424bec61608fef7d8d4df0ba2dc90c2ae1e81eecb83c5590f6d026c188cdb",
+      "byte_identical": true
+    },
+    {
+      "local": "src/traffic/rl1114_scene/scenario.py",
+      "source": "experiments/single-intersection-dqn-benchmark/trafficbench/scenario.py",
+      "git_blob_sha1": "f82aaebb5d8f062815e38bea46d4d7feda699a23",
+      "sha256": "8e836b4cf23a764f7cb8c192fd933f36c8bc35a467420b3379c7dd6c9452c411",
+      "byte_identical": true
+    }
+  ],
+  "adaptations": [
+    "Environment-only common.py helpers and persistent Mac TraCI viewer added locally.",
+    "scene_settings.json contains only the scenario from configs/pilot.json, plus provenance and seed.",
+    "Native network fixed-time program is used for this viewer: green 42s, yellow 3s; the upstream learned policy is not imported.",
+    "Camera framing is adjusted for viewing the city; display polygons are copied unchanged.",
+    "Input preparation uses the unmodified upstream prepare_demand function; preparation has not been run."
+  ]
+}

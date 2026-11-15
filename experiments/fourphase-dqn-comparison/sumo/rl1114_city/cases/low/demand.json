@@ -1,0 +1,486 @@
+{
+  "key": "41958b4425209cb668e688c4bc0d2b9fd450fe3415f51aa27db073dda4df2039",
+  "level": "low",
+  "seed": 1001,
+  "split": "eval",
+  "requested_vph": 450,
+  "scheduled": 79,
+  "realized_vph": 474.0,
+  "vehicles": {
+    "N_000000": {
+      "depart": 6.636,
+      "origin": "N",
+      "destination": "S",
+      "route_length_m": 700
+    },
+    "S_000001": {
+      "depart": 9.766,
+      "origin": "S",
+      "destination": "N",
+      "route_length_m": 700
+    },
+    "N_000002": {
+      "depart": 14.842,
+      "origin": "N",
+      "destination": "S",
+      "route_length_m": 700
+    },
+    "E_000003": {
+      "depart": 37.869,
+      "origin": "E",
+      "destination": "N",
+      "route_length_m": 650
+    },
+    "S_000004": {
+      "depart": 52.808,
+      "origin": "S",
+      "destination": "N",
+      "route_length_m": 700
+    },
+    "W_000005": {
+      "depart": 54.651,
+      "origin": "W",
+      "destination": "S",
+      "route_length_m": 850
+    },
+    "W_000006": {
+      "depart": 56.32,
+      "origin": "W",
+      "destination": "E",
+      "route_length_m": 800
+    },
+    "S_000007": {
+      "depart": 57.655,
+      "origin": "S",
+      "destination": "N",
+      "route_length_m": 700
+    },
+    "N_000008": {
+      "depart": 77.81,
+      "origin": "N",
+      "destination": "S",
+      "route_length_m": 700
+    },
+    "N_000009": {
+      "depart": 78.053,
+      "origin": "N",
+      "destination": "S",
+      "route_length_m": 700
+    },
+    "S_000010": {
+      "depart": 85.47,
+      "origin": "S",
+      "destination": "E",
+      "route_length_m": 750
+    },
+    "N_000011": {
+      "depart": 85.519,
+      "origin": "N",
+      "destination": "S",
+      "route_length_m": 700
+    },
+    "W_000012": {
+      "depart": 93.892,
+      "origin": "W",
+      "destination": "S",
+      "route_length_m": 850
+    },
+    "N_000013": {
+      "depart": 109.561,
+      "origin": "N",
+      "destination": "S",
+      "route_length_m": 700
+    },
+    "N_000014": {
+      "depart": 119.239,
+      "origin": "N",
+      "destination": "W",
+      "route_length_m": 750
+    },
+    "N_000015": {
+      "depart": 123.953,
+      "origin": "N",
+      "destination": "S",
+      "route_length_m": 700
+    },
+    "N_000016": {
+      "depart": 126.435,
+      "origin": "N",
+      "destination": "S",
+      "route_length_m": 700
+    },
+    "E_000017": {
+      "depart": 172.858,
+      "origin": "E",
+      "destination": "W",
+      "route_length_m": 800
+    },
+    "S_000018": {
+      "depart": 178.146,
+      "origin": "S",
+      "destination": "E",
+      "route_length_m": 750
+    },
+    "E_000019": {
+      "depart": 186.042,
+      "origin": "E",
+      "destination": "W",
+      "route_length_m": 800
+    },
+    "S_000020": {
+      "depart": 196.561,
+      "origin": "S",
+      "destination": "N",
+      "route_length_m": 700
+    },
+    "W_000021": {
+      "depart": 198.834,
+      "origin": "W",
+      "destination": "E",
+      "route_length_m": 800
+    },
+    "N_000022": {
+      "depart": 200.559,
+      "origin": "N",
+      "destination": "S",
+      "route_length_m": 700
+    },
+    "N_000023": {
+      "depart": 202.349,
+      "origin": "N",
+      "destination": "S",
+      "route_length_m": 700
+    },
+    "W_000024": {
+      "depart": 209.054,
+      "origin": "W",
+      "destination": "S",
+      "route_length_m": 850
+    },
+    "S_000025": {
+      "depart": 209.445,
+      "origin": "S",
+      "destination": "N",
+      "route_length_m": 700
+    },
+    "S_000026": {
+      "depart": 210.28,
+      "origin": "S",
+      "destination": "N",
+      "route_length_m": 700
+    },
+    "N_000027": {
+      "depart": 219.388,
+      "origin": "N",
+      "destination": "S",
+      "route_length_m": 700
+    },
+    "S_000028": {
+      "depart": 226.267,
+      "origin": "S",
+      "destination": "N",
+      "route_length_m": 700
+    },
+    "E_000029": {
+      "depart": 231.395,
+      "origin": "E",
+      "destination": "W",
+      "route_length_m": 800
+    },
+    "N_000030": {
+      "depart": 236.473,
+      "origin": "N",
+      "destination": "W",
+      "route_length_m": 750
+    },
+    "E_000031": {
+      "depart": 240.122,
+      "origin": "E",
+      "destination": "W",
+      "route_length_m": 800
+    },
+    "N_000032": {
+      "depart": 240.479,
+      "origin": "N",
+      "destination": "S",
+      "route_length_m": 700
+    },
+    "W_000033": {
+      "depart": 242.319,
+      "origin": "W",
+      "destination": "S",
+      "route_length_m": 850
+    },
+    "E_000034": {
+      "depart": 248.949,
+      "origin": "E",
+      "destination": "W",
+      "route_length_m": 800
+    },
+    "N_000035": {
+      "depart": 250.323,
+      "origin": "N",
+      "destination": "S",
+      "route_length_m": 700
+    },
+    "N_000036": {
+      "depart": 260.332,
+      "origin": "N",
+      "destination": "W",
+      "route_length_m": 750
+    },
+    "E_000037": {
+      "depart": 263.173,
+      "origin": "E",
+      "destination": "N",
+      "route_length_m": 650
+    },
+    "W_000038": {
+      "depart": 274.544,
+      "origin": "W",
+      "destination": "E",
+      "route_length_m": 800
+    },
+    "N_000039": {
+      "depart": 285.157,
+      "origin": "N",
+      "destination": "S",
+      "route_length_m": 700
+    },
+    "N_000040": {
+      "depart": 292.226,
+      "origin": "N",
+      "destination": "S",
+      "route_length_m": 700
+    },
+    "W_000041": {
+      "depart": 294.823,
+      "origin": "W",
+      "destination": "E",
+      "route_length_m": 800
+    },
+    "W_000042": {
+      "depart": 304.475,
+      "origin": "W",
+      "destination": "E",
+      "route_length_m": 800
+    },
+    "W_000043": {
+      "depart": 308.341,
+      "origin": "W",
+      "destination": "E",
+      "route_length_m": 800
+    },
+    "E_000044": {
+      "depart": 310.33,
+      "origin": "E",
+      "destination": "W",
+      "route_length_m": 800
+    },
+    "E_000045": {
+      "depart": 335.355,
+      "origin": "E",
+      "destination": "W",
+      "route_length_m": 800
+    },
+    "N_000046": {
+      "depart": 340.101,
+      "origin": "N",
+      "destination": "S",
+      "route_length_m": 700
+    },
+    "E_000047": {
+      "depart": 349.359,
+      "origin": "E",
+      "destination": "W",
+      "route_length_m": 800
+    },
+    "N_000048": {
+      "depart": 367.951,
+      "origin": "N",
+      "destination": "S",
+      "route_length_m": 700
+    },
+    "N_000049": {
+      "depart": 368.656,
+      "origin": "N",
+      "destination": "S",
+      "route_length_m": 700
+    },
+    "W_000050": {
+      "depart": 393.051,
+      "origin": "W",
+      "destination": "E",
+      "route_length_m": 800
+    },
+    "N_000051": {
+      "depart": 393.208,
+      "origin": "N",
+      "destination": "S",
+      "route_length_m": 700
+    },
+    "E_000052": {
+      "depart": 393.26,
+      "origin": "E",
+      "destination": "W",
+      "route_length_m": 800
+    },
+    "W_000053": {
+      "depart": 404.137,
+      "origin": "W",
+      "destination": "E",
+      "route_length_m": 800
+    },
+    "E_000054": {
+      "depart": 415.648,
+      "origin": "E",
+      "destination": "W",
+      "route_length_m": 800
+    },
+    "E_000055": {
+      "depart": 426.765,
+      "origin": "E",
+      "destination": "N",
+      "route_length_m": 650
+    },
+    "S_000056": {
+      "depart": 426.83,
+      "origin": "S",
+      "destination": "N",
+      "route_length_m": 700
+    },
+    "N_000057": {
+      "depart": 445.213,
+      "origin": "N",
+      "destination": "S",
+      "route_length_m": 700
+    },
+    "W_000058": {
+      "depart": 447.015,
+      "origin": "W",
+      "destination": "E",
+      "route_length_m": 800
+    },
+    "N_000059": {
+      "depart": 456.881,
+      "origin": "N",
+      "destination": "S",
+      "route_length_m": 700
+    },
+    "N_000060": {
+      "depart": 459.871,
+      "origin": "N",
+      "destination": "S",
+      "route_length_m": 700
+    },
+    "W_000061": {
+      "depart": 460.478,
+      "origin": "W",
+      "destination": "E",
+      "route_length_m": 800
+    },
+    "E_000062": {
+      "depart": 463.947,
+      "origin": "E",
+      "destination": "W",
+      "route_length_m": 800
+    },
+    "W_000063": {
+      "depart": 476.76,
+      "origin": "W",
+      "destination": "E",
+      "route_length_m": 800
+    },
+    "N_000064": {
+      "depart": 477.897,
+      "origin": "N",
+      "destination": "S",
+      "route_length_m": 700
+    },
+    "E_000065": {
+      "depart": 480.537,
+      "origin": "E",
+      "destination": "W",
+      "route_length_m": 800
+    },
+    "N_000066": {
+      "depart": 481.899,
+      "origin": "N",
+      "destination": "W",
+      "route_length_m": 750
+    },
+    "S_000067": {
+      "depart": 487.203,
+      "origin": "S",
+      "destination": "N",
+      "route_length_m": 700
+    },
+    "W_000068": {
+      "depart": 488.038,
+      "origin": "W",
+      "destination": "E",
+      "route_length_m": 800
+    },
+    "E_000069": {
+      "depart": 488.092,
+      "origin": "E",
+      "destination": "W",
+      "route_length_m": 800
+    },
+    "W_000070": {
+      "depart": 531.866,
+      "origin": "W",
+      "destination": "E",
+      "route_length_m": 800
+    },
+    "S_000071": {
+      "depart": 537.042,
+      "origin": "S",
+      "destination": "N",
+      "route_length_m": 700
+    },
+    "N_000072": {
+      "depart": 539.906,
+      "origin": "N",
+      "destination": "S",
+      "route_length_m": 700
+    },
+    "W_000073": {
+      "depart": 542.365,
+      "origin": "W",
+      "destination": "E",
+      "route_length_m": 800
+    },
+    "S_000074": {
+      "depart": 552.007,
+      "origin": "S",
+      "destination": "N",
+      "route_length_m": 700
+    },
+    "E_000075": {
+      "depart": 555.229,
+      "origin": "E",
+      "destination": "W",
+      "route_length_m": 800
+    },
+    "S_000076": {
+      "depart": 578.323,
+      "origin": "S",
+      "destination": "N",
+      "route_length_m": 700
+    },
+    "N_000077": {
+      "depart": 585.35,
+      "origin": "N",
+      "destination": "S",
+      "route_length_m": 700
+    },
+    "S_000078": {
+      "depart": 586.516,
+      "origin": "S",
+      "destination": "E",
+      "route_length_m": 750
+    }
+  },
+  "sha256": "5d78ef88ddd57c164f1dd261dd0e08ad967dd9245698517f59d26a1190c8037e"
+}

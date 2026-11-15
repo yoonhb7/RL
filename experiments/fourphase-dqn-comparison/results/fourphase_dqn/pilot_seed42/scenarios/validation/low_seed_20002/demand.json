@@ -1,0 +1,22 @@
+{
+  "level": "low",
+  "demand_seed": 20002,
+  "sumo_seed": 20002,
+  "rate_veh_h": 1200,
+  "status": "pilot candidates; levels require fixed-time calibration",
+  "observation_end_s": 3600,
+  "generation_end_s": 3660,
+  "scheduled_total": 1319,
+  "scheduled_due": 1297,
+  "scheduled_after_cutoff": 22,
+  "due_by_movement": {
+    "west_left": 83,
+    "west_straight": 237,
+    "south_straight": 223,
+    "north_straight": 249,
+    "east_straight": 245,
+    "east_left": 95,
+    "south_left": 86,
+    "north_left": 79
+  }
+}

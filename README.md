@@ -1,3 +1,9 @@
+> **이 브랜치의 추가 실험: SUMO 4현시 단일 교차로의 DQN 계열 비교**
+>
+> [프로젝트·실행 안내](experiments/fourphase-dqn-comparison/README.md) · [실험 결과 및 고찰](experiments/fourphase-dqn-comparison/docs/fourphase_dqn.md)
+>
+> `experiments/fourphase-dqn-comparison` 폴더에서 실행합니다. DQN·Double DQN·Dueling DQN의 선정 모델, 시드 42 학습곡선, Fixed-time 포함 독립 평가 60회 결과를 담았습니다.
+
 # SUMO 중앙 DQN 교통신호 프로젝트
 
 **현재 실험: 가상 연속 사거리 2개를 하나의 DQN으로 제어하는 PedLink-Corridor2.** 실제 세종대 앞 도로 대신 합성 도로를 사용한다. 차량·보행자 대기를 함께 다루고 보행자 우선 규칙과 대기 연동 전환 비용을 비교한다.

@@ -1,0 +1,39 @@
+{
+  "seed": 42,
+  "profile": "changing",
+  "vehicle_count": 335,
+  "vehicles_by_origin": {
+    "west": 108,
+    "east": 101,
+    "A_north": 31,
+    "A_south": 26,
+    "B_north": 40,
+    "B_south": 29
+  },
+  "segments": [
+    {
+      "begin": 0,
+      "end": 450,
+      "rates": {
+        "west": 650,
+        "east": 200,
+        "A_north": 150,
+        "A_south": 150,
+        "B_north": 150,
+        "B_south": 150
+      }
+    },
+    {
+      "begin": 450,
+      "end": 900,
+      "rates": {
+        "west": 200,
+        "east": 650,
+        "A_north": 150,
+        "A_south": 150,
+        "B_north": 150,
+        "B_south": 150
+      }
+    }
+  ]
+}

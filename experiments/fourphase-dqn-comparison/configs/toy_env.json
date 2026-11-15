@@ -1,0 +1,6 @@
+{
+  "decision_interval_seconds": 5,
+  "min_green_seconds": 10,
+  "max_green_seconds": 60,
+  "vehicle_space_meters": 7.5
+}

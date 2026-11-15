@@ -1,0 +1,75 @@
+{
+  "kind": "fourphase_city_display_v1",
+  "center": [
+    500.0,
+    500.0
+  ],
+  "polygon_count": 1051,
+  "signal_lamps": {
+    "0": {
+      "r": "fourphase.city.signal.north.straight.r",
+      "y": "fourphase.city.signal.north.straight.y",
+      "g": "fourphase.city.signal.north.straight.g",
+      "arrow": "fourphase.city.signal.north.straight.arrow"
+    },
+    "1": {
+      "r": "fourphase.city.signal.north.left.r",
+      "y": "fourphase.city.signal.north.left.y",
+      "g": "fourphase.city.signal.north.left.g",
+      "arrow": "fourphase.city.signal.north.left.arrow"
+    },
+    "2": {
+      "r": "fourphase.city.signal.south.straight.r",
+      "y": "fourphase.city.signal.south.straight.y",
+      "g": "fourphase.city.signal.south.straight.g",
+      "arrow": "fourphase.city.signal.south.straight.arrow"
+    },
+    "3": {
+      "r": "fourphase.city.signal.south.left.r",
+      "y": "fourphase.city.signal.south.left.y",
+      "g": "fourphase.city.signal.south.left.g",
+      "arrow": "fourphase.city.signal.south.left.arrow"
+    },
+    "4": {
+      "r": "fourphase.city.signal.east.straight.r",
+      "y": "fourphase.city.signal.east.straight.y",
+      "g": "fourphase.city.signal.east.straight.g",
+      "arrow": "fourphase.city.signal.east.straight.arrow"
+    },
+    "5": {
+      "r": "fourphase.city.signal.east.left.r",
+      "y": "fourphase.city.signal.east.left.y",
+      "g": "fourphase.city.signal.east.left.g",
+      "arrow": "fourphase.city.signal.east.left.arrow"
+    },
+    "6": {
+      "r": "fourphase.city.signal.west.straight.r",
+      "y": "fourphase.city.signal.west.straight.y",
+      "g": "fourphase.city.signal.west.straight.g",
+      "arrow": "fourphase.city.signal.west.straight.arrow"
+    },
+    "7": {
+      "r": "fourphase.city.signal.west.left.r",
+      "y": "fourphase.city.signal.west.left.y",
+      "g": "fourphase.city.signal.west.left.g",
+      "arrow": "fourphase.city.signal.west.left.arrow"
+    }
+  },
+  "signals": "8 independent movement heads; Python follows actual TLS",
+  "source": "/home/oper/osh/RL Term Project/sumo/fourphase",
+  "source_manifest_sha256": "0a5aaac5939623868cc61ad1a90bfedb9c2ee711dfbcb898900c8d72ead21c8e",
+  "physics_identical_sha256": {
+    "network.net.xml": "5973ba5a2ca050fa714d1ae77025ac7036832e26deb7790f45eace70f0fdb8b7",
+    "settings.json": "cff7224039d833ef0da063d56e4ad8b50753828e7234964ee27d3fc017cef9b6",
+    "cases/low/seed_42/demand.rou.xml": "9ac9fee8c0cf8388f6784b0df6a0905fb247145586dc71912d987a50a3a6c174",
+    "cases/low/seed_42/demand.json": "ccc5aae47e7558581178d9f08630ff29b0288d84b7949d2b58ad66031fbddd8e",
+    "cases/low/seed_42/run.sumocfg": "0c12a6cd6622ab02aac24da096d4f0d48d203625c03329cddc1f9dbba7f21f5b",
+    "cases/medium/seed_42/demand.rou.xml": "2cbeb8bd65eca13c0a75e807dccf4bcd903c12f66c2928395ee853072e76d751",
+    "cases/medium/seed_42/demand.json": "f04a262a55bfdf944aca584905cdc3ecd88d0a530e6b972570359ee4323d308a",
+    "cases/medium/seed_42/run.sumocfg": "0c12a6cd6622ab02aac24da096d4f0d48d203625c03329cddc1f9dbba7f21f5b",
+    "cases/high/seed_42/demand.rou.xml": "73fd3f1894b9e1ddc3dc122a2e4227c570d7df2d45985d73564816682a2a4845",
+    "cases/high/seed_42/demand.json": "2c3f624da05b8223a23e2854851395941a7f3a586ef5d68d8d030971c23880a4",
+    "cases/high/seed_42/run.sumocfg": "0c12a6cd6622ab02aac24da096d4f0d48d203625c03329cddc1f9dbba7f21f5b"
+  },
+  "standalone": "scenery and native signal bars; custom lamps unlit until Python connects"
+}

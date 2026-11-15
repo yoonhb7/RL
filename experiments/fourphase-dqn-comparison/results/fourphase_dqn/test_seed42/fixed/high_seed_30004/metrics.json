@@ -1,0 +1,64 @@
+{
+  "status": "completed",
+  "time_s": 3600.0,
+  "counts": {
+    "scheduled_total": 2342,
+    "scheduled_due": 2300,
+    "scheduled_after_cutoff": 42,
+    "departed": 2300,
+    "arrived": 2224,
+    "unfinished": 76,
+    "pending_due": 0,
+    "due_not_departed": 0
+  },
+  "metrics": {
+    "W_stop_in_vehicle_s": 85518,
+    "W_stop_network_vehicle_s": 85518,
+    "W_pending_vehicle_s": 186,
+    "J_s_per_due_vehicle": 37.262608695652176,
+    "AQL_in_vehicles": 23.755,
+    "throughput_vehicles": 2224,
+    "mean_depart_delay_s": 0.0808695652173913,
+    "max_incoming_queue": 50,
+    "max_pending_due": 3,
+    "ATT_completed_s": 125.05710431654676
+  },
+  "raw_reward_sum": null,
+  "decision_count": null,
+  "switches": 135,
+  "tls_phase_seconds": [
+    1020,
+    102,
+    34,
+    510,
+    102,
+    34,
+    1020,
+    102,
+    34,
+    510,
+    99,
+    33
+  ],
+  "checks": {
+    "full_observation_window": true,
+    "scheduled_due_equals_departed_plus_pending": true,
+    "departed_equals_arrived_plus_active": true,
+    "no_future_departures": true,
+    "no_collision_or_teleport": true,
+    "phase_seconds_equal_elapsed": true,
+    "tripinfo_departed_ids_match": true,
+    "tripinfo_arrived_ids_match": true
+  },
+  "failure": null,
+  "gridlock_policy": "congestion retained as performance; never dropped because of queue size",
+  "case_id": "high_seed_30004",
+  "level": "high",
+  "demand_seed": 30004,
+  "sumo_seed": 30004,
+  "sumo_version": [
+    22,
+    "SUMO 1.28.0"
+  ],
+  "controller": "fixed"
+}

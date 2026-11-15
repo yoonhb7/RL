@@ -1,0 +1,481 @@
+{
+  "junctions": [
+    {
+      "id": "childrens_park",
+      "program_id": "0",
+      "offset_s": 15.0,
+      "cycle_s": 81.0,
+      "phases": [
+        {
+          "duration": 30.0,
+          "state": "GGGGgrrrrGGGgrrrr"
+        },
+        {
+          "duration": 3.0,
+          "state": "yyyygrrrryyygrrrr"
+        },
+        {
+          "duration": 10.0,
+          "state": "rrrrGrrrrrrrGrrrr"
+        },
+        {
+          "duration": 3.0,
+          "state": "rrrryrrrrrrryrrrr"
+        },
+        {
+          "duration": 1.0,
+          "state": "rrrrrrrrrrrrrrrrr"
+        },
+        {
+          "duration": 30.0,
+          "state": "rrrrrGGGgrrrrGGGg"
+        },
+        {
+          "duration": 3.0,
+          "state": "rrrrryyyyrrrryyyy"
+        },
+        {
+          "duration": 1.0,
+          "state": "rrrrrrrrrrrrrrrrr"
+        }
+      ],
+      "incoming_edges": [
+        "1221495341",
+        "967697625",
+        "976906284",
+        "976906300"
+      ],
+      "incoming_lanes": [
+        "1221495341_0",
+        "1221495341_1",
+        "1221495341_2",
+        "1221495341_3",
+        "967697625_0",
+        "967697625_1",
+        "976906284_0",
+        "976906284_1",
+        "976906300_0",
+        "976906300_1"
+      ],
+      "links": [
+        {
+          "from": "1221495341",
+          "to": "976906301",
+          "fromLane": "0",
+          "toLane": "0",
+          "via": ":childrens_park_9_0",
+          "tl": "childrens_park",
+          "linkIndex": "9",
+          "dir": "r",
+          "state": "O"
+        },
+        {
+          "from": "1221495341",
+          "to": "967697627",
+          "fromLane": "1",
+          "toLane": "0",
+          "via": ":childrens_park_10_0",
+          "tl": "childrens_park",
+          "linkIndex": "10",
+          "dir": "s",
+          "state": "O"
+        },
+        {
+          "from": "1221495341",
+          "to": "967697627",
+          "fromLane": "2",
+          "toLane": "1",
+          "via": ":childrens_park_10_1",
+          "tl": "childrens_park",
+          "linkIndex": "11",
+          "dir": "s",
+          "state": "O"
+        },
+        {
+          "from": "1221495341",
+          "to": "967697622#0",
+          "fromLane": "3",
+          "toLane": "1",
+          "via": ":childrens_park_12_0",
+          "tl": "childrens_park",
+          "linkIndex": "12",
+          "dir": "l",
+          "state": "o"
+        },
+        {
+          "from": "967697625",
+          "to": "967697622#0",
+          "fromLane": "0",
+          "toLane": "0",
+          "via": ":childrens_park_0_0",
+          "tl": "childrens_park",
+          "linkIndex": "0",
+          "dir": "r",
+          "state": "O"
+        },
+        {
+          "from": "967697625",
+          "to": "976906299",
+          "fromLane": "0",
+          "toLane": "0",
+          "via": ":childrens_park_1_0",
+          "tl": "childrens_park",
+          "linkIndex": "1",
+          "dir": "s",
+          "state": "O"
+        },
+        {
+          "from": "967697625",
+          "to": "976906299",
+          "fromLane": "1",
+          "toLane": "1",
+          "via": ":childrens_park_1_1",
+          "tl": "childrens_park",
+          "linkIndex": "2",
+          "dir": "s",
+          "state": "O"
+        },
+        {
+          "from": "967697625",
+          "to": "976906299",
+          "fromLane": "1",
+          "toLane": "2",
+          "via": ":childrens_park_1_2",
+          "tl": "childrens_park",
+          "linkIndex": "3",
+          "dir": "s",
+          "state": "O"
+        },
+        {
+          "from": "967697625",
+          "to": "976906301",
+          "fromLane": "1",
+          "toLane": "1",
+          "via": ":childrens_park_4_0",
+          "tl": "childrens_park",
+          "linkIndex": "4",
+          "dir": "l",
+          "state": "o"
+        },
+        {
+          "from": "976906284",
+          "to": "967697627",
+          "fromLane": "0",
+          "toLane": "0",
+          "via": ":childrens_park_5_0",
+          "tl": "childrens_park",
+          "linkIndex": "5",
+          "dir": "r",
+          "state": "o"
+        },
+        {
+          "from": "976906284",
+          "to": "967697622#0",
+          "fromLane": "0",
+          "toLane": "0",
+          "via": ":childrens_park_6_0",
+          "tl": "childrens_park",
+          "linkIndex": "6",
+          "dir": "s",
+          "state": "o"
+        },
+        {
+          "from": "976906284",
+          "to": "967697622#0",
+          "fromLane": "1",
+          "toLane": "1",
+          "via": ":childrens_park_6_1",
+          "tl": "childrens_park",
+          "linkIndex": "7",
+          "dir": "s",
+          "state": "o"
+        },
+        {
+          "from": "976906284",
+          "to": "976906299",
+          "fromLane": "1",
+          "toLane": "2",
+          "via": ":childrens_park_8_0",
+          "tl": "childrens_park",
+          "linkIndex": "8",
+          "dir": "l",
+          "state": "o"
+        },
+        {
+          "from": "976906300",
+          "to": "976906299",
+          "fromLane": "0",
+          "toLane": "0",
+          "via": ":childrens_park_13_0",
+          "tl": "childrens_park",
+          "linkIndex": "13",
+          "dir": "r",
+          "state": "o"
+        },
+        {
+          "from": "976906300",
+          "to": "976906301",
+          "fromLane": "0",
+          "toLane": "0",
+          "via": ":childrens_park_14_0",
+          "tl": "childrens_park",
+          "linkIndex": "14",
+          "dir": "s",
+          "state": "o"
+        },
+        {
+          "from": "976906300",
+          "to": "976906301",
+          "fromLane": "1",
+          "toLane": "1",
+          "via": ":childrens_park_14_1",
+          "tl": "childrens_park",
+          "linkIndex": "15",
+          "dir": "s",
+          "state": "o"
+        },
+        {
+          "from": "976906300",
+          "to": "967697627",
+          "fromLane": "1",
+          "toLane": "1",
+          "via": ":childrens_park_16_0",
+          "tl": "childrens_park",
+          "linkIndex": "16",
+          "dir": "l",
+          "state": "o"
+        }
+      ]
+    },
+    {
+      "id": "hwayang",
+      "program_id": "0",
+      "offset_s": 0.0,
+      "cycle_s": 68.0,
+      "phases": [
+        {
+          "duration": 30.0,
+          "state": "rrrGGGgrrrGGGg"
+        },
+        {
+          "duration": 3.0,
+          "state": "rrryyyyrrryyyy"
+        },
+        {
+          "duration": 1.0,
+          "state": "rrrrrrrrrrrrrr"
+        },
+        {
+          "duration": 30.0,
+          "state": "GGgrrrrGGgrrrr"
+        },
+        {
+          "duration": 3.0,
+          "state": "yyyrrrryyyrrrr"
+        },
+        {
+          "duration": 1.0,
+          "state": "rrrrrrrrrrrrrr"
+        }
+      ],
+      "incoming_edges": [
+        "-175357606#1",
+        "-37400386",
+        "218837465",
+        "967697622#0"
+      ],
+      "incoming_lanes": [
+        "-175357606#1_0",
+        "-37400386_0",
+        "218837465_0",
+        "218837465_1",
+        "967697622#0_0",
+        "967697622#0_1"
+      ],
+      "links": [
+        {
+          "from": "-175357606#1",
+          "to": "967697622#1",
+          "fromLane": "0",
+          "toLane": "0",
+          "via": ":hwayang_0_0",
+          "tl": "hwayang",
+          "linkIndex": "0",
+          "dir": "r",
+          "state": "o"
+        },
+        {
+          "from": "-175357606#1",
+          "to": "37400386",
+          "fromLane": "0",
+          "toLane": "0",
+          "via": ":hwayang_1_0",
+          "tl": "hwayang",
+          "linkIndex": "1",
+          "dir": "s",
+          "state": "o"
+        },
+        {
+          "from": "-175357606#1",
+          "to": "218870944",
+          "fromLane": "0",
+          "toLane": "1",
+          "via": ":hwayang_2_0",
+          "tl": "hwayang",
+          "linkIndex": "2",
+          "dir": "l",
+          "state": "o"
+        },
+        {
+          "from": "-37400386",
+          "to": "218870944",
+          "fromLane": "0",
+          "toLane": "0",
+          "via": ":hwayang_7_0",
+          "tl": "hwayang",
+          "linkIndex": "7",
+          "dir": "r",
+          "state": "o"
+        },
+        {
+          "from": "-37400386",
+          "to": "175357606#1",
+          "fromLane": "0",
+          "toLane": "0",
+          "via": ":hwayang_8_0",
+          "tl": "hwayang",
+          "linkIndex": "8",
+          "dir": "s",
+          "state": "o"
+        },
+        {
+          "from": "-37400386",
+          "to": "967697622#1",
+          "fromLane": "0",
+          "toLane": "1",
+          "via": ":hwayang_9_0",
+          "tl": "hwayang",
+          "linkIndex": "9",
+          "dir": "l",
+          "state": "o"
+        },
+        {
+          "from": "218837465",
+          "to": "37400386",
+          "fromLane": "0",
+          "toLane": "0",
+          "via": ":hwayang_10_0",
+          "tl": "hwayang",
+          "linkIndex": "10",
+          "dir": "r",
+          "state": "O"
+        },
+        {
+          "from": "218837465",
+          "to": "218870944",
+          "fromLane": "0",
+          "toLane": "0",
+          "via": ":hwayang_11_0",
+          "tl": "hwayang",
+          "linkIndex": "11",
+          "dir": "s",
+          "state": "O"
+        },
+        {
+          "from": "218837465",
+          "to": "218870944",
+          "fromLane": "1",
+          "toLane": "1",
+          "via": ":hwayang_11_1",
+          "tl": "hwayang",
+          "linkIndex": "12",
+          "dir": "s",
+          "state": "O"
+        },
+        {
+          "from": "218837465",
+          "to": "175357606#1",
+          "fromLane": "1",
+          "toLane": "0",
+          "via": ":hwayang_13_0",
+          "tl": "hwayang",
+          "linkIndex": "13",
+          "dir": "l",
+          "state": "o"
+        },
+        {
+          "from": "967697622#0",
+          "to": "175357606#1",
+          "fromLane": "0",
+          "toLane": "0",
+          "via": ":hwayang_3_0",
+          "tl": "hwayang",
+          "linkIndex": "3",
+          "dir": "r",
+          "state": "O"
+        },
+        {
+          "from": "967697622#0",
+          "to": "967697622#1",
+          "fromLane": "0",
+          "toLane": "0",
+          "via": ":hwayang_4_0",
+          "tl": "hwayang",
+          "linkIndex": "4",
+          "dir": "s",
+          "state": "O"
+        },
+        {
+          "from": "967697622#0",
+          "to": "967697622#1",
+          "fromLane": "1",
+          "toLane": "1",
+          "via": ":hwayang_4_1",
+          "tl": "hwayang",
+          "linkIndex": "5",
+          "dir": "s",
+          "state": "O"
+        },
+        {
+          "from": "967697622#0",
+          "to": "37400386",
+          "fromLane": "1",
+          "toLane": "0",
+          "via": ":hwayang_6_0",
+          "tl": "hwayang",
+          "linkIndex": "6",
+          "dir": "l",
+          "state": "o"
+        }
+      ]
+    }
+  ],
+  "ports": {
+    "west": {
+      "incoming": "218837465",
+      "outgoing": "967697622#1"
+    },
+    "east": {
+      "incoming": "976906284",
+      "outgoing": "976906285"
+    },
+    "hwayang_north": {
+      "incoming": "-175357606#1",
+      "outgoing": "175357606#1"
+    },
+    "hwayang_south": {
+      "incoming": "-37400386",
+      "outgoing": "37400386"
+    },
+    "park_north": {
+      "incoming": "396816938",
+      "outgoing": "967697627"
+    },
+    "park_south": {
+      "incoming": "1221495341",
+      "outgoing": "976906299"
+    }
+  },
+  "edge_count": 17,
+  "routes_crossing_both": 10
+}

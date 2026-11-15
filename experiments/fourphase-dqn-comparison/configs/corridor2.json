@@ -1,0 +1,28 @@
+{
+  "name": "synthetic_corridor2",
+  "seed": 42,
+  "junction_spacing_m": 350,
+  "boundary_length_m": 250,
+  "speed_m_s": 13.89,
+  "duration_seconds": 1200,
+  "warmup_seconds": 120,
+  "demand_end_seconds": 900,
+  "step_length_seconds": 1,
+  "decision_interval_seconds": 5,
+  "min_green_seconds": 10,
+  "max_green_seconds": 60,
+  "vehicle_space_meters": 7.5,
+  "fixed_green_seconds": 30,
+  "fixed_offset_B_seconds": 25,
+  "queue_hysteresis_vehicles": 2,
+  "profiles": {
+    "low": [{"begin": 0, "end": 900, "rates": {"west": 240, "east": 240, "A_north": 240, "A_south": 240, "B_north": 240, "B_south": 240}}],
+    "balanced": [{"begin": 0, "end": 900, "rates": {"west": 450, "east": 450, "A_north": 450, "A_south": 450, "B_north": 450, "B_south": 450}}],
+    "high": [{"begin": 0, "end": 900, "rates": {"west": 650, "east": 650, "A_north": 650, "A_south": 650, "B_north": 650, "B_south": 650}}],
+    "unbalanced": [{"begin": 0, "end": 900, "rates": {"west": 650, "east": 200, "A_north": 300, "A_south": 150, "B_north": 300, "B_south": 150}}],
+    "changing": [
+      {"begin": 0, "end": 450, "rates": {"west": 650, "east": 200, "A_north": 150, "A_south": 150, "B_north": 150, "B_south": 150}},
+      {"begin": 450, "end": 900, "rates": {"west": 200, "east": 650, "A_north": 150, "A_south": 150, "B_north": 150, "B_south": 150}}
+    ]
+  }
+}

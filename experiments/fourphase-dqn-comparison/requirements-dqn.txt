@@ -1,0 +1,4 @@
+-r requirements.txt
+stable-baselines3==2.9.2
+torch==2.9.1
+matplotlib==3.10.7

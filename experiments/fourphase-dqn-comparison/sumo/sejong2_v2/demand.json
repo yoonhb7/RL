@@ -1,0 +1,307 @@
+{
+  "seed": 42,
+  "source": "synthetic exponential arrivals and assumed OD weights",
+  "vehicle_count": 724,
+  "vehicles_by_od": {
+    "east__hwayang_north": 17,
+    "east__hwayang_south": 9,
+    "east__park_north": 21,
+    "east__park_south": 16,
+    "east__west": 135,
+    "hwayang_north__east": 20,
+    "hwayang_north__hwayang_south": 9,
+    "hwayang_north__west": 20,
+    "hwayang_south__east": 5,
+    "hwayang_south__hwayang_north": 4,
+    "hwayang_south__west": 10,
+    "park_north__east": 28,
+    "park_north__park_south": 53,
+    "park_north__west": 56,
+    "park_south__east": 35,
+    "park_south__park_north": 56,
+    "park_south__west": 66,
+    "west__east": 108,
+    "west__hwayang_north": 15,
+    "west__hwayang_south": 6,
+    "west__park_north": 14,
+    "west__park_south": 21
+  },
+  "requested_destination_weights": {
+    "west": {
+      "east": 0.65,
+      "hwayang_north": 0.1,
+      "hwayang_south": 0.05,
+      "park_north": 0.1,
+      "park_south": 0.1
+    },
+    "east": {
+      "west": 0.65,
+      "hwayang_north": 0.1,
+      "hwayang_south": 0.05,
+      "park_north": 0.1,
+      "park_south": 0.1
+    },
+    "hwayang_north": {
+      "west": 0.35,
+      "east": 0.45,
+      "hwayang_south": 0.2
+    },
+    "hwayang_south": {
+      "west": 0.35,
+      "east": 0.45,
+      "hwayang_north": 0.2
+    },
+    "park_north": {
+      "west": 0.4,
+      "east": 0.2,
+      "park_south": 0.4
+    },
+    "park_south": {
+      "west": 0.4,
+      "east": 0.2,
+      "park_north": 0.4
+    }
+  },
+  "normalized_reachable_weights": {
+    "west": {
+      "east": 0.65,
+      "hwayang_north": 0.1,
+      "hwayang_south": 0.05,
+      "park_north": 0.1,
+      "park_south": 0.1
+    },
+    "east": {
+      "west": 0.65,
+      "hwayang_north": 0.1,
+      "hwayang_south": 0.05,
+      "park_north": 0.1,
+      "park_south": 0.1
+    },
+    "hwayang_north": {
+      "west": 0.35,
+      "east": 0.45,
+      "hwayang_south": 0.2
+    },
+    "hwayang_south": {
+      "west": 0.35,
+      "east": 0.45,
+      "hwayang_north": 0.2
+    },
+    "park_north": {
+      "west": 0.4,
+      "east": 0.2,
+      "park_south": 0.4
+    },
+    "park_south": {
+      "west": 0.4,
+      "east": 0.2,
+      "park_north": 0.4
+    }
+  },
+  "unreachable_od": [],
+  "ports": {
+    "west": {
+      "incoming": "218837465",
+      "outgoing": "967697622#1"
+    },
+    "east": {
+      "incoming": "976906284",
+      "outgoing": "976906285"
+    },
+    "hwayang_north": {
+      "incoming": "-175357606#1",
+      "outgoing": "175357606#1"
+    },
+    "hwayang_south": {
+      "incoming": "-37400386",
+      "outgoing": "37400386"
+    },
+    "park_north": {
+      "incoming": "396816938",
+      "outgoing": "967697627"
+    },
+    "park_south": {
+      "incoming": "1221495341",
+      "outgoing": "976906299"
+    }
+  },
+  "routes": {
+    "west__east": {
+      "edges": [
+        "218837465",
+        "218870944",
+        "976906300",
+        "976906301",
+        "976906285"
+      ],
+      "length_m": 761.31
+    },
+    "west__hwayang_north": {
+      "edges": [
+        "218837465",
+        "175357606#1"
+      ],
+      "length_m": 535.39
+    },
+    "west__hwayang_south": {
+      "edges": [
+        "218837465",
+        "37400386"
+      ],
+      "length_m": 569.9
+    },
+    "west__park_north": {
+      "edges": [
+        "218837465",
+        "218870944",
+        "976906300",
+        "967697627"
+      ],
+      "length_m": 947.07
+    },
+    "west__park_south": {
+      "edges": [
+        "218837465",
+        "218870944",
+        "976906300",
+        "976906299"
+      ],
+      "length_m": 837.55
+    },
+    "east__west": {
+      "edges": [
+        "976906284",
+        "967697622#0",
+        "967697622#1"
+      ],
+      "length_m": 773.2
+    },
+    "east__hwayang_north": {
+      "edges": [
+        "976906284",
+        "967697622#0",
+        "175357606#1"
+      ],
+      "length_m": 787.0400000000001
+    },
+    "east__hwayang_south": {
+      "edges": [
+        "976906284",
+        "967697622#0",
+        "37400386"
+      ],
+      "length_m": 821.5500000000001
+    },
+    "east__park_north": {
+      "edges": [
+        "976906284",
+        "967697627"
+      ],
+      "length_m": 576.4000000000001
+    },
+    "east__park_south": {
+      "edges": [
+        "976906284",
+        "976906299"
+      ],
+      "length_m": 466.88
+    },
+    "hwayang_north__west": {
+      "edges": [
+        "-175357606#1",
+        "967697622#1"
+      ],
+      "length_m": 544.33
+    },
+    "hwayang_north__east": {
+      "edges": [
+        "-175357606#1",
+        "218870944",
+        "976906300",
+        "976906301",
+        "976906285"
+      ],
+      "length_m": 784.0899999999999
+    },
+    "hwayang_north__hwayang_south": {
+      "edges": [
+        "-175357606#1",
+        "37400386"
+      ],
+      "length_m": 592.6800000000001
+    },
+    "hwayang_south__west": {
+      "edges": [
+        "-37400386",
+        "967697622#1"
+      ],
+      "length_m": 576.79
+    },
+    "hwayang_south__east": {
+      "edges": [
+        "-37400386",
+        "218870944",
+        "976906300",
+        "976906301",
+        "976906285"
+      ],
+      "length_m": 816.55
+    },
+    "hwayang_south__hwayang_north": {
+      "edges": [
+        "-37400386",
+        "175357606#1"
+      ],
+      "length_m": 590.63
+    },
+    "park_north__west": {
+      "edges": [
+        "396816938",
+        "967697625",
+        "967697622#0",
+        "967697622#1"
+      ],
+      "length_m": 959.6399999999999
+    },
+    "park_north__east": {
+      "edges": [
+        "396816938",
+        "967697625",
+        "976906301",
+        "976906285"
+      ],
+      "length_m": 577.0799999999999
+    },
+    "park_north__park_south": {
+      "edges": [
+        "396816938",
+        "967697625",
+        "976906299"
+      ],
+      "length_m": 653.3199999999999
+    },
+    "park_south__west": {
+      "edges": [
+        "1221495341",
+        "967697622#0",
+        "967697622#1"
+      ],
+      "length_m": 711.96
+    },
+    "park_south__east": {
+      "edges": [
+        "1221495341",
+        "976906301",
+        "976906285"
+      ],
+      "length_m": 329.4
+    },
+    "park_south__park_north": {
+      "edges": [
+        "1221495341",
+        "967697627"
+      ],
+      "length_m": 515.1600000000001
+    }
+  }
+}

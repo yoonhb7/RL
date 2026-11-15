@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tlLogics>
+  <tlLogic id="A" type="static" programID="fixed" offset="0">
+    <phase duration="30" state="GGrr" />
+    <phase duration="3" state="yyrr" />
+    <phase duration="1" state="rrrr" />
+    <phase duration="30" state="rrGG" />
+    <phase duration="3" state="rryy" />
+    <phase duration="1" state="rrrr" />
+  </tlLogic>
+  <connection from="A_north_in" to="A_south_out" fromLane="0" toLane="0" tl="A" linkIndex="0" />
+  <connection from="A_south_in" to="A_north_out" fromLane="0" toLane="0" tl="A" linkIndex="1" />
+  <connection from="B_to_A" to="west_out" fromLane="0" toLane="0" tl="A" linkIndex="2" />
+  <connection from="west_in" to="A_to_B" fromLane="0" toLane="0" tl="A" linkIndex="3" />
+  <tlLogic id="B" type="static" programID="fixed" offset="25">
+    <phase duration="30" state="GGrr" />
+    <phase duration="3" state="yyrr" />
+    <phase duration="1" state="rrrr" />
+    <phase duration="30" state="rrGG" />
+    <phase duration="3" state="rryy" />
+    <phase duration="1" state="rrrr" />
+  </tlLogic>
+  <connection from="B_north_in" to="B_south_out" fromLane="0" toLane="0" tl="B" linkIndex="0" />
+  <connection from="B_south_in" to="B_north_out" fromLane="0" toLane="0" tl="B" linkIndex="1" />
+  <connection from="east_in" to="B_to_A" fromLane="0" toLane="0" tl="B" linkIndex="2" />
+  <connection from="A_to_B" to="east_out" fromLane="0" toLane="0" tl="B" linkIndex="3" />
+</tlLogics>

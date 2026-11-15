@@ -1,0 +1,19 @@
+{
+  "status": "completed",
+  "stage": "completed",
+  "split": "test",
+  "selection_allowed": false,
+  "training_seed": 42,
+  "planned_simulations": 60,
+  "completed": 60,
+  "abnormal": 0,
+  "attempted": 60,
+  "unattempted": 0,
+  "current_controller": null,
+  "J_equal_level_mean": {
+    "fixed": 34.22519502530869,
+    "dqn": 30.21734254951406,
+    "double_dqn": 31.56912000328492,
+    "dueling_dqn": 37.262235543448426
+  }
+}

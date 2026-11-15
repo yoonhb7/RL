@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tlLogics>
+  <tlLogic id="childrens_park" type="static" programID="0" offset="15">
+    <phase duration="30" state="GGGGgrrrrGGGgrrrr" />
+    <phase duration="3" state="yyyygrrrryyygrrrr" />
+    <phase duration="10" state="rrrrGrrrrrrrGrrrr" />
+    <phase duration="3" state="rrrryrrrrrrryrrrr" />
+    <phase duration="1" state="rrrrrrrrrrrrrrrrr" />
+    <phase duration="30" state="rrrrrGGGgrrrrGGGg" />
+    <phase duration="3" state="rrrrryyyyrrrryyyy" />
+    <phase duration="1" state="rrrrrrrrrrrrrrrrr" />
+  </tlLogic>
+  <tlLogic id="hwayang" type="static" programID="0" offset="0">
+    <phase duration="30" state="rrrGGGgrrrGGGg" />
+    <phase duration="3" state="rrryyyyrrryyyy" />
+    <phase duration="1" state="rrrrrrrrrrrrrr" />
+    <phase duration="30" state="GGgrrrrGGgrrrr" />
+    <phase duration="3" state="yyyrrrryyyrrrr" />
+    <phase duration="1" state="rrrrrrrrrrrrrr" />
+  </tlLogic>
+</tlLogics>

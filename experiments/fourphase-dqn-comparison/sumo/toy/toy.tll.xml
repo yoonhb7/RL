@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tlLogics>
+    <tlLogic id="center" type="static" programID="fixed" offset="0">
+        <phase duration="30" state="GGrr" name="north_south_green"/>
+        <phase duration="3" state="yyrr" name="north_south_yellow"/>
+        <phase duration="1" state="rrrr" name="all_red_to_east_west"/>
+        <phase duration="30" state="rrGG" name="east_west_green"/>
+        <phase duration="3" state="rryy" name="east_west_yellow"/>
+        <phase duration="1" state="rrrr" name="all_red_to_north_south"/>
+    </tlLogic>
+    <connection from="north_in" to="south_out" fromLane="0" toLane="0" tl="center" linkIndex="0"/>
+    <connection from="south_in" to="north_out" fromLane="0" toLane="0" tl="center" linkIndex="1"/>
+    <connection from="east_in" to="west_out" fromLane="0" toLane="0" tl="center" linkIndex="2"/>
+    <connection from="west_in" to="east_out" fromLane="0" toLane="0" tl="center" linkIndex="3"/>
+</tlLogics>

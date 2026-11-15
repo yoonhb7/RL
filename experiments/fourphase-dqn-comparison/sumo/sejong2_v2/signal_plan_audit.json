@@ -1,0 +1,40 @@
+{
+  "childrens_park": {
+    "green_phase_indices": [
+      0,
+      3,
+      6,
+      9
+    ],
+    "approaches": [
+      "1221495341",
+      "967697625",
+      "976906284",
+      "976906300"
+    ],
+    "links": 17,
+    "all_links_served": true,
+    "conflicting_green_pairs": 0,
+    "yellow_seconds": 3,
+    "all_red_seconds": 3
+  },
+  "hwayang": {
+    "green_phase_indices": [
+      0,
+      3,
+      6,
+      9
+    ],
+    "approaches": [
+      "-175357606#1",
+      "-37400386",
+      "218837465",
+      "967697622#0"
+    ],
+    "links": 14,
+    "all_links_served": true,
+    "conflicting_green_pairs": 0,
+    "yellow_seconds": 3,
+    "all_red_seconds": 3
+  }
+}

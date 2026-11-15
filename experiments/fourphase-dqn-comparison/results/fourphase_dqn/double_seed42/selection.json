@@ -1,0 +1,16 @@
+{
+  "episode": 200,
+  "decisions": 48000,
+  "J": 33.833221897778586,
+  "J_by_level": {
+    "low": 25.08103114712215,
+    "medium": 30.17218068104889,
+    "high": 46.24645386516472
+  },
+  "selected": true,
+  "folder": "validation/step_048000",
+  "checkpoint": "best_model.pt",
+  "checkpoint_sha256": "825bfd8a3dc85c0fbe2ddc83df7eabb79e616e8420f8e6d72a5d7732f00fbe91",
+  "validation_summary_sha256": "f1b8d70e6f771a33609614f864ad0984d5744812389df5c256037507b9241047",
+  "criterion": "minimum validation J only; earliest checkpoint on ties"
+}
