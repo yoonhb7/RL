@@ -1,0 +1,21 @@
+{
+  "algorithm": "dqn",
+  "episodes": 200,
+  "seed": 42,
+  "training_seeds": [42, 43, 44, 45, 46],
+  "learning_rate": 0.001,
+  "gamma": 0.95,
+  "buffer_size": 20000,
+  "batch_size": 64,
+  "learning_starts": 1000,
+  "target_update_decisions": 500,
+  "epsilon_initial": 1.0,
+  "epsilon_final": 0.01,
+  "epsilon_fraction": 0.7,
+  "validation_every_episodes": 20,
+  "hidden_sizes": [128, 64],
+  "torch_threads": 1,
+  "train_demand_seed_start": 10000,
+  "validation_demand_seeds": [20000, 20001, 20002],
+  "device": "cpu"
+}

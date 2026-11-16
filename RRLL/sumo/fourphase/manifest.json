@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "kind": "synthetic_fourphase_v1",
+  "status": "built; simulation validation pending",
+  "settings": {
+    "schema_version": 1,
+    "duration_seconds": 3600,
+    "step_length_seconds": 1,
+    "decision_interval_seconds": 15,
+    "yellow_seconds": 3,
+    "all_red_seconds": 1,
+    "min_green_seconds": 11,
+    "max_green_seconds": 60,
+    "fixed_green_seconds": [
+      30,
+      15,
+      30,
+      15
+    ],
+    "arm_length_m": 500.0,
+    "speed_m_s": 13.8888888889,
+    "vehicle_length_m": 5.0,
+    "vehicle_min_gap_m": 2.5,
+    "left_turn_probability": 0.25,
+    "demand_extension_seconds": 60,
+    "pilot_seed": 42,
+    "demand_rates_veh_h": {
+      "low": 1200,
+      "medium": 1800,
+      "high": 2400
+    },
+    "demand_status": "pilot candidates; levels require fixed-time calibration",
+    "task": "continuing_with_external_time_limit",
+    "reward": "negative_mean_incoming_halting_count_over_15_seconds",
+    "observation": "8_scaled_queues_4_green_one_hot_1_green_age; no clipping"
+  },
+  "network_audit": {
+    "tls": "center4",
+    "controlled_links": 8,
+    "internal_phases": 12,
+    "incoming_lanes": [
+      "north_in_0",
+      "north_in_1",
+      "south_in_0",
+      "south_in_1",
+      "east_in_0",
+      "east_in_1",
+      "west_in_0",
+      "west_in_1"
+    ],
+    "states": [
+      "GrGrrrrr",
+      "yryrrrrr",
+      "rrrrrrrr",
+      "rGrGrrrr",
+      "ryryrrrr",
+      "rrrrrrrr",
+      "rrrrGrGr",
+      "rrrryryr",
+      "rrrrrrrr",
+      "rrrrrGrG",
+      "rrrrryry",
+      "rrrrrrrr"
+    ]
+  },
+  "netconvert_command": [
+    "/home/oper/osh/RL Term Project/.venv/bin/netconvert",
+    "--node-files",
+    "/home/oper/osh/RL Term Project/sumo/fourphase/network.nod.xml",
+    "--edge-files",
+    "/home/oper/osh/RL Term Project/sumo/fourphase/network.edg.xml",
+    "--connection-files",
+    "/home/oper/osh/RL Term Project/sumo/fourphase/network.con.xml",
+    "--tllogic-files",
+    "/home/oper/osh/RL Term Project/sumo/fourphase/network.tll.xml",
+    "--no-turnarounds",
+    "true",
+    "--output-file",
+    "/home/oper/osh/RL Term Project/sumo/fourphase/network.net.xml"
+  ],
+  "cases": [
+    {
+      "level": "low",
+      "seed": 42,
+      "folder": "cases/low/seed_42",
+      "scheduled_due": 1168
+    },
+    {
+      "level": "medium",
+      "seed": 42,
+      "folder": "cases/medium/seed_42",
+      "scheduled_due": 1766
+    },
+    {
+      "level": "high",
+      "seed": 42,
+      "folder": "cases/high/seed_42",
+      "scheduled_due": 2387
+    }
+  ],
+  "sha256": {
+    "cases/high/seed_42/demand.json": "2c3f624da05b8223a23e2854851395941a7f3a586ef5d68d8d030971c23880a4",
+    "cases/high/seed_42/demand.rou.xml": "73fd3f1894b9e1ddc3dc122a2e4227c570d7df2d45985d73564816682a2a4845",
+    "cases/high/seed_42/run.sumocfg": "0c12a6cd6622ab02aac24da096d4f0d48d203625c03329cddc1f9dbba7f21f5b",
+    "cases/high/seed_42/view.sumocfg": "c50438d37b5ce80714d440be88e08c964f1c728505c3a275fa217dcb3ac3079d",
+    "cases/low/seed_42/demand.json": "ccc5aae47e7558581178d9f08630ff29b0288d84b7949d2b58ad66031fbddd8e",
+    "cases/low/seed_42/demand.rou.xml": "9ac9fee8c0cf8388f6784b0df6a0905fb247145586dc71912d987a50a3a6c174",
+    "cases/low/seed_42/run.sumocfg": "0c12a6cd6622ab02aac24da096d4f0d48d203625c03329cddc1f9dbba7f21f5b",
+    "cases/low/seed_42/view.sumocfg": "c50438d37b5ce80714d440be88e08c964f1c728505c3a275fa217dcb3ac3079d",
+    "cases/medium/seed_42/demand.json": "f04a262a55bfdf944aca584905cdc3ecd88d0a530e6b972570359ee4323d308a",
+    "cases/medium/seed_42/demand.rou.xml": "2cbeb8bd65eca13c0a75e807dccf4bcd903c12f66c2928395ee853072e76d751",
+    "cases/medium/seed_42/run.sumocfg": "0c12a6cd6622ab02aac24da096d4f0d48d203625c03329cddc1f9dbba7f21f5b",
+    "cases/medium/seed_42/view.sumocfg": "c50438d37b5ce80714d440be88e08c964f1c728505c3a275fa217dcb3ac3079d",
+    "network.con.xml": "ed8864215bfb2c018c523091db1d7e6fb6e0625e0754558e02a1d283ea7908d5",
+    "network.edg.xml": "ec2f678f7f8bc642599269f4bb37659b9565a3c23de45bb20e601c4269830462",
+    "network.net.xml": "5973ba5a2ca050fa714d1ae77025ac7036832e26deb7790f45eace70f0fdb8b7",
+    "network.nod.xml": "0a12cfadfdffb3d1c160cb2aca7cb21a8ff3118cdb34b6cd9d1110cf8e152f0d",
+    "network.tll.xml": "7a9fdd9869f10029788f0c79186320e0015e00f52e6b9271274c453999aba419",
+    "settings.json": "cff7224039d833ef0da063d56e4ad8b50753828e7234964ee27d3fc017cef9b6",
+    "view.xml": "8c7388d0833f0bc0e524e29a9401dec6b64086832a8078cea37dee9598e6f201"
+  }
+}

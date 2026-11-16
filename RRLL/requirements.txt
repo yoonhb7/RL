@@ -1,0 +1,6 @@
+eclipse-sumo==1.28.0
+sumo-data==1.28.0
+traci==1.28.0
+sumolib==1.28.0
+gymnasium==1.4.0
+numpy==2.2.6

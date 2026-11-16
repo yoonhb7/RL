@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "duration_seconds": 3600,
+  "step_length_seconds": 1,
+  "decision_interval_seconds": 15,
+  "yellow_seconds": 3,
+  "all_red_seconds": 1,
+  "min_green_seconds": 11,
+  "max_green_seconds": 60,
+  "fixed_green_seconds": [30, 15, 30, 15],
+  "arm_length_m": 500.0,
+  "speed_m_s": 13.8888888889,
+  "vehicle_length_m": 5.0,
+  "vehicle_min_gap_m": 2.5,
+  "left_turn_probability": 0.25,
+  "demand_extension_seconds": 60,
+  "pilot_seed": 42,
+  "demand_rates_veh_h": {"low": 1200, "medium": 1800, "high": 2400},
+  "demand_status": "pilot candidates; levels require fixed-time calibration",
+  "task": "continuing_with_external_time_limit",
+  "reward": "negative_mean_incoming_halting_count_over_15_seconds",
+  "observation": "8_scaled_queues_4_green_one_hot_1_green_age; no clipping"
+}
