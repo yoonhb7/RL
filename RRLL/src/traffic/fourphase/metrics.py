@@ -30,7 +30,7 @@ class TrafficMetrics:
         self.failure = None
         self.last_sample = None
 
-    def collect(self, connection, controller):
+    def collect(self, connection, controller, *, observation_window=True):
         simulation = connection.simulation
         now = simulation.getTime()
         departures = simulation.getDepartedIDList()
@@ -46,17 +46,19 @@ class TrafficMetrics:
         queues = {lane: connection.lane.getLastStepHaltingNumber(lane) for lane in LANES}
         stop_in = sum(queues.values())
         stop_network = sum(connection.lane.getLastStepHaltingNumber(lane) for lane in connection.lane.getIDList())
-        self.samples += 1
-        self.stop_in += stop_in
-        self.stop_network += stop_network
-        self.pending_seconds += len(pending)
-        self.max_queue = max(self.max_queue, stop_in)
-        self.max_pending = max(self.max_pending, len(pending))
-        self.phase_seconds[controller.phase] += 1
+        if observation_window:
+            self.samples += 1
+            self.stop_in += stop_in
+            self.stop_network += stop_network
+            self.pending_seconds += len(pending)
+            self.max_queue = max(self.max_queue, stop_in)
+            self.max_pending = max(self.max_pending, len(pending))
+            self.phase_seconds[controller.phase] += 1
         self.last_sample = {"time_s": now, "tls_phase": controller.phase, "phase_elapsed_s": controller.elapsed,
                             "signal_state": connection.trafficlight.getRedYellowGreenState("center4"),
                             "queues_raw": queues, "halting_incoming": stop_in, "halting_network": stop_network,
-                            "pending_due": len(pending), "departed": len(self.departed), "arrived": len(self.arrived)}
+                            "pending_due": len(pending), "departed": len(self.departed), "arrived": len(self.arrived),
+                            "observation_window": observation_window}
         collision_ids = list(simulation.getCollidingVehiclesIDList())
         collisions = simulation.getCollisions()
         teleports = list(simulation.getStartingTeleportIDList())

@@ -15,7 +15,7 @@ from common import ROOT
 sys.path.insert(0, str(ROOT))
 from src.agents.fourphase_data import ALGORITHMS, case_path, prepare_run, read_config
 from src.agents.fourphase_dqn import DQNAgent
-from src.agents.fourphase_evaluation import evaluate_cases, run_episode
+from src.agents.fourphase_evaluation import ATT_PROTOCOL, evaluate_cases, run_episode
 from src.traffic.experiments import sha256, write_json
 from src.traffic.fourphase.scenario import OBSERVATION_SIZE
 
@@ -35,7 +35,7 @@ def plot_curves(folder):
     axes[1].plot([u["decision"] for u in losses], [u["loss"] for u in losses], alpha=.6, linewidth=.6)
     axes[1].set(title="Huber loss", xlabel="Decisions", ylabel="Loss")
     axes[2].plot([v["decisions"] for v in validations], [v["ATT"] for v in validations], marker="o")
-    axes[2].set(title="Validation ATT (lower is better)", xlabel="Decisions", ylabel="s / departed vehicle")
+    axes[2].set(title="Validation ATT (all scheduled vehicles)", xlabel="Decisions", ylabel="s / scheduled vehicle")
     fig.tight_layout()
     FigureCanvasAgg(fig).print_png(str(folder / "training.png"))
 
@@ -63,13 +63,15 @@ def main():
     manifest = prepare_run(folder, source, config)
     metadata = {"env_settings": manifest["env_settings"], "network_sha256": manifest["network_sha256"],
                 "manifest_sha256": sha256(folder / "manifest.json"), "episodes_completed": 0,
-                "observation_size": OBSERVATION_SIZE, "action_count": 2, "selection": None}
+                "observation_size": OBSERVATION_SIZE, "action_count": 2, "selection": None,
+                "ATT_protocol": ATT_PROTOCOL}
     summary = {"status": "running", "algorithm": config["algorithm"], "seed": config["seed"], "requested_episodes": config["episodes"],
                "planned_decisions": budget, "episodes_completed": 0, "best_validation_ATT": None,
                "python": platform.python_version(), "packages": {name: importlib.metadata.version(name) for name in
                     ("torch", "numpy", "gymnasium", "traci", "eclipse-sumo")},
                "parameter_count": sum(p.numel() for p in agent.online.parameters()),
-               "test_cases_run": 0, "training_level_counts": manifest["training_level_counts"],
+               "test_cases_run": 0, "ATT_protocol": ATT_PROTOCOL,
+               "training_level_counts": manifest["training_level_counts"],
                "epsilon_reaches_final_at_decision": budget * config["epsilon_fraction"]}
     write_json(folder / "training_summary.json", summary)
     started = time.monotonic()
@@ -116,9 +118,9 @@ def main():
                 agent.save(folder / "last_model.pt", metadata)
                 print(f"episode {number}/{config['episodes']} {case['level']} | decisions={agent.decisions} "
                       f"updates={agent.updates} epsilon={agent.epsilon:.3f} mean_R1={row['mean_R1']:.3f} "
-                      f"ATT={result['metrics']['ATT_s'] or float('nan'):.2f} "
+                      f"ATT_observed={result['metrics']['ATT_observed_due_s']:.2f} "
                       f"AQL={result['metrics']['AQL_in_vehicles']:.2f} "
-                      f"AWT={result['metrics']['AWT_s'] or float('nan'):.2f}", flush=True)
+                      f"AWT_observed={result['metrics']['AWT_observed_due_s']:.2f}", flush=True)
                 if number % config["validation_every_episodes"] == 0 or number == config["episodes"]:
                     relative = Path("validation") / f"step_{agent.decisions:06d}"
                     current_case = str(relative)
@@ -127,6 +129,7 @@ def main():
                     score = validation["ATT_equal_level_mean"]
                     selected = score < best
                     validation_row = {"episode": number, "decisions": agent.decisions, "ATT": score,
+                                      "ATT_protocol": ATT_PROTOCOL,
                                       "ATT_by_level": validation["ATT_by_level"], "selected": selected, "folder": str(relative)}
                     validations.write(json.dumps(validation_row) + "\n")
                     validations.flush()
@@ -137,7 +140,7 @@ def main():
                         write_json(folder / "selection.json", {**validation_row, "checkpoint": "best_model.pt",
                             "checkpoint_sha256": sha256(folder / "best_model.pt"),
                             "validation_summary_sha256": sha256(folder / relative / "summary.json"),
-                            "criterion": "minimum validation ATT only; earliest checkpoint on ties"})
+                            "criterion": "minimum full-cohort validation ATT including insertion delay; earliest checkpoint on ties"})
                         summary.update(best_validation_ATT=score, best_validation_decisions=agent.decisions,
                                        selected_checkpoint="best_model.pt")
                     print(f"validation ATT={score:.3f}s, best={best:.3f}s", flush=True)

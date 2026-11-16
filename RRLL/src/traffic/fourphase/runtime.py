@@ -14,12 +14,17 @@ from .signal import SignalController
 
 
 class FourPhaseRuntime:
-    def __init__(self, case_folder, *, settings=None, connection=None, tripinfo=None, sample_sink=None, error_log=None):
+    def __init__(self, case_folder, *, settings=None, connection=None, tripinfo=None, sample_sink=None, error_log=None,
+                 route_file_override=None, max_drain_seconds=0):
         """`connection` is normally None (SUMO is started here); tests may inject a fake TraCI connection."""
         self.case_folder = Path(case_folder).resolve()
         self.settings = dict(settings or read_settings())
         validate_settings(self.settings)
-        self.route_file = self.case_folder / "demand.rou.xml"
+        self.route_file = Path(route_file_override).resolve() if route_file_override else self.case_folder / "demand.rou.xml"
+        if type(max_drain_seconds) is not int or max_drain_seconds < 0 or max_drain_seconds % 15:
+            raise ValueError("Drain limit must be a nonnegative multiple of 15 seconds")
+        self.max_drain_seconds = max_drain_seconds
+        self.draining = False
         self.connection = connection
         self.owns_connection = connection is None
         self.sample_sink = sample_sink
@@ -35,6 +40,7 @@ class FourPhaseRuntime:
 
     def reset(self, seed):
         self.ready = False
+        self.draining = False
         if not self.route_file.is_file():
             raise FileNotFoundError(f"Build the fourphase scenario first: {self.route_file}")
         if type(seed) is not int or not 0 <= seed < 2**31:
@@ -43,6 +49,9 @@ class FourPhaseRuntime:
                      "--route-steps", "0", "--max-depart-delay", "-1", "--time-to-teleport", "-1",
                      "--collision.action", "warn", "--collision.check-junctions", "true",
                      "--no-step-log", "true", "--duration-log.disable", "true"]
+        if self.max_drain_seconds:
+            arguments += ["--route-files", str(self.route_file), "--end",
+                          str(self.settings["duration_seconds"] + self.max_drain_seconds)]
         if self.tripinfo:
             Path(self.tripinfo).parent.mkdir(parents=True, exist_ok=True)
             arguments += ["--tripinfo-output", self.tripinfo, "--tripinfo-output.write-unfinished", "true"]
@@ -85,8 +94,10 @@ class FourPhaseRuntime:
         if not self.ready:
             raise RuntimeError("Reset the runtime before advancing")
         previous = self.now
-        if previous >= self.settings["duration_seconds"]:
+        if previous >= self.settings["duration_seconds"] and not self.draining:
             raise RuntimeError("Observation window ended; reset before advancing again")
+        if self.draining and previous >= self.settings["duration_seconds"] + self.max_drain_seconds:
+            raise InvalidRun({"reason": "ATT_cohort_did_not_finish_before_drain_limit", "time_s": previous})
         try:
             self.controller.before_second()
             self.connection.simulationStep()
@@ -94,7 +105,7 @@ class FourPhaseRuntime:
                 raise RuntimeError("SUMO did not advance exactly one second")
             self.controller.after_second()
             try:
-                sample = self.metrics.collect(self.connection, self.controller)
+                sample = self.metrics.collect(self.connection, self.controller, observation_window=not self.draining)
             except InvalidRun:
                 if self.sample_sink is not None and self.metrics.last_sample is not None:
                     self.sample_sink(self.metrics.last_sample)
@@ -105,6 +116,14 @@ class FourPhaseRuntime:
         except Exception:
             self.ready = False
             raise
+
+    def start_drain(self):
+        """Continue evaluation only; the original observation-window accounting stays frozen."""
+        if not self.ready or not self.max_drain_seconds or self.now != self.settings["duration_seconds"]:
+            raise RuntimeError("Drain must begin at the observation cutoff with a positive limit")
+        if set(self.metrics.scheduled) != self.metrics.due:
+            raise RuntimeError("Evaluation must exclude all departures scheduled at/after the cutoff")
+        self.draining = True
 
     def summary(self, **kwargs):
         return self.metrics.summary(self.connection, controller=self.controller, **kwargs)

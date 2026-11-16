@@ -1,0 +1,153 @@
+{
+  "date": "2026-11-17",
+  "purpose": "ATT implementation verification, not a trained-model performance study",
+  "unit_tests_passed": 36,
+  "SUMO_version": [
+    22,
+    "SUMO 1.28.0"
+  ],
+  "runtime": {
+    "python": "3.12.14",
+    "torch": "2.15.0",
+    "numpy": "2.5.4",
+    "gymnasium": "1.2.2",
+    "traci": "1.28.0",
+    "eclipse-sumo": "1.28.0"
+  },
+  "protocol_checks": [
+    {
+      "level": "low",
+      "counts_at_3600": {
+        "scheduled_total": 1168,
+        "scheduled_due": 1168,
+        "scheduled_after_cutoff": 0,
+        "departed": 1168,
+        "arrived": 1120,
+        "unfinished": 48,
+        "pending_due": 0,
+        "due_not_departed": 0
+      },
+      "ATT_s": 161.68407534246575,
+      "drain_seconds": 240.0,
+      "arrived_after_drain": 1168,
+      "checks": {
+        "full_observation_window": true,
+        "scheduled_due_equals_departed_plus_pending": true,
+        "departed_equals_arrived_plus_active": true,
+        "no_future_departures": true,
+        "no_collision_or_teleport": true,
+        "phase_seconds_equal_elapsed": true,
+        "reward_stop_identity": true,
+        "exact_decision_count": true,
+        "truncation_retains_valid_next_mask": true,
+        "tripinfo_departed_ids_match": true,
+        "tripinfo_arrived_ids_match": true,
+        "ATT_all_scheduled_due_vehicles_arrived": true
+      }
+    },
+    {
+      "level": "medium",
+      "counts_at_3600": {
+        "scheduled_total": 1766,
+        "scheduled_due": 1766,
+        "scheduled_after_cutoff": 0,
+        "departed": 1766,
+        "arrived": 1695,
+        "unfinished": 71,
+        "pending_due": 0,
+        "due_not_departed": 0
+      },
+      "ATT_s": 167.3607021517554,
+      "drain_seconds": 240.0,
+      "arrived_after_drain": 1766,
+      "checks": {
+        "full_observation_window": true,
+        "scheduled_due_equals_departed_plus_pending": true,
+        "departed_equals_arrived_plus_active": true,
+        "no_future_departures": true,
+        "no_collision_or_teleport": true,
+        "phase_seconds_equal_elapsed": true,
+        "reward_stop_identity": true,
+        "exact_decision_count": true,
+        "truncation_retains_valid_next_mask": true,
+        "tripinfo_departed_ids_match": true,
+        "tripinfo_arrived_ids_match": true,
+        "ATT_all_scheduled_due_vehicles_arrived": true
+      }
+    },
+    {
+      "level": "high",
+      "counts_at_3600": {
+        "scheduled_total": 2387,
+        "scheduled_due": 2387,
+        "scheduled_after_cutoff": 0,
+        "departed": 2387,
+        "arrived": 2157,
+        "unfinished": 230,
+        "pending_due": 0,
+        "due_not_departed": 0
+      },
+      "ATT_s": 268.4893171344784,
+      "drain_seconds": 465.0,
+      "arrived_after_drain": 2387,
+      "checks": {
+        "full_observation_window": true,
+        "scheduled_due_equals_departed_plus_pending": true,
+        "departed_equals_arrived_plus_active": true,
+        "no_future_departures": true,
+        "no_collision_or_teleport": true,
+        "phase_seconds_equal_elapsed": true,
+        "reward_stop_identity": true,
+        "exact_decision_count": true,
+        "truncation_retains_valid_next_mask": true,
+        "tripinfo_departed_ids_match": true,
+        "tripinfo_arrived_ids_match": true,
+        "ATT_all_scheduled_due_vehicles_arrived": true
+      }
+    }
+  ],
+  "pending_stress_check": {
+    "level": "stress",
+    "counts_at_3600": {
+      "scheduled_total": 800,
+      "scheduled_due": 800,
+      "scheduled_after_cutoff": 0,
+      "departed": 456,
+      "arrived": 377,
+      "unfinished": 79,
+      "pending_due": 344,
+      "due_not_departed": 344
+    },
+    "ATT_s": 3772.46125,
+    "drain_seconds": 3915.0,
+    "arrived_after_drain": 800,
+    "checks": {
+      "full_observation_window": true,
+      "scheduled_due_equals_departed_plus_pending": true,
+      "departed_equals_arrived_plus_active": true,
+      "no_future_departures": true,
+      "no_collision_or_teleport": true,
+      "phase_seconds_equal_elapsed": true,
+      "reward_stop_identity": true,
+      "exact_decision_count": true,
+      "truncation_retains_valid_next_mask": true,
+      "tripinfo_departed_ids_match": true,
+      "tripinfo_arrived_ids_match": true,
+      "ATT_all_scheduled_due_vehicles_arrived": true
+    },
+    "mean_entered_only_duration_s": 649.23125
+  },
+  "smoke_training": {
+    "algorithm": "double_dqn",
+    "requested_episodes": 6,
+    "actual_decisions": 1440,
+    "optimizer_updates": 440,
+    "target_copies": 2,
+    "status": "completed",
+    "ATT_protocol": "scheduled_departure_to_arrival_all_due_v1"
+  },
+  "smoke_validation_cases_completed": 9,
+  "best_checkpoint_saved": true,
+  "training_plot_saved": true,
+  "full_200_episode_15_run_study_executed": false
+}

@@ -12,7 +12,7 @@ from torch import nn
 
 from src.agents.fourphase_data import case_path, episode_order, prepare_run, read_config, split_seeds
 from src.agents.fourphase_dqn import DQNAgent, DQNPolicy, QNetwork, ReplayBuffer, epsilon_at, td_targets, valid_action
-from src.agents.fourphase_evaluation import validation_score
+from src.agents.fourphase_evaluation import ATT_PROTOCOL, validation_score
 from src.traffic.experiments import sha256, write_json
 from src.traffic.fourphase.scenario import read_settings
 
@@ -130,7 +130,8 @@ class FrozenDataTests(unittest.TestCase):
                 case_path(output, manifest, case)
 
     def test_validation_ATT_weights_levels_equally_and_refuses_to_drop_abnormal_cases(self):
-        records = [{"level": level, "status": "completed", "metrics": {"ATT_s": score}}
+        records = [{"level": level, "status": "completed", "metrics": {"ATT_s": score},
+                    "ATT_protocol": {"name": ATT_PROTOCOL, "all_arrived": True}}
                    for level, score in (("low", 3), ("medium", 6), ("high", 12))]
         score, levels = validation_score(records)
         self.assertEqual(score, 7)

@@ -203,6 +203,38 @@ class FourPhaseProtocolTests(unittest.TestCase):
         with self.assertRaises(ResetNeeded):
             env.step(0)
 
+    def test_evaluation_drain_freezes_window_reward_decisions_and_keeps_safety_checks(self):
+        (self.case / "demand.rou.xml").write_text('<routes><vehicle id="a" depart="0"/></routes>')
+        env, connection = self.make_env(horizon=60)
+        env.runtime.max_drain_seconds = 30
+        env.reset(seed=42)
+        for _ in range(4):
+            _, _, _, _, info = env.step(0)
+        snapshot = (env.decisions, env.raw_return, env.runtime.metrics.samples, env.runtime.metrics.stop_in)
+        env.runtime.start_drain()
+        _, info = env.drain_step(1)
+        self.assertEqual(connection.time, 75)
+        self.assertEqual(snapshot, (env.decisions, env.raw_return, env.runtime.metrics.samples, env.runtime.metrics.stop_in))
+        self.assertEqual(sum(env.runtime.metrics.phase_seconds), 60)
+        self.assertEqual(info["green_elapsed_s"], 11)
+        connection.collisions = ("a",)
+        with self.assertRaises(InvalidRun):
+            env.drain_step(0)
+
+    def test_drain_limit_is_an_explicit_failure_and_future_demand_cannot_leak(self):
+        env, _ = self.make_env(horizon=60)
+        env.runtime.max_drain_seconds = 15
+        env.reset(seed=42)
+        for _ in range(4):
+            env.step(0)
+        with self.assertRaises(RuntimeError):
+            env.runtime.start_drain()  # The source contains a future vehicle.
+        env.runtime.metrics.scheduled.pop("future")
+        env.runtime.start_drain()
+        env.drain_step(1)
+        with self.assertRaises(InvalidRun):
+            env.drain_step(0)
+
     def test_reset_passes_collision_and_insertion_settings_to_mac(self):
         env, connection = self.make_env()
         env.reset(seed=42)

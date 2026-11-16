@@ -115,3 +115,12 @@ class FourPhaseTrafficEnv(gym.Env):
     def close(self):
         self._needs_reset = True
         self.runtime.close()
+
+    def drain_step(self, action):
+        """Evaluation-only continuation: no reward, replay transition, or training decision."""
+        if not self.runtime.draining:
+            raise RuntimeError("start_drain() is required before evaluation continuation")
+        self.runtime.controller.apply(int(action))
+        for _ in range(15):
+            self.runtime.advance_second()
+        return self._observation()

@@ -1,0 +1,3 @@
+# Reproducible local ATT verification and smoke-training outputs.
+/results/att_*/
+/results/fourphase_dqn_EDIT_ATT/

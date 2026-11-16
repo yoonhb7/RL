@@ -3,6 +3,8 @@
 보호좌회전 4현시 교차로에서 세 DQN 계열 모델을 같은 조건으로 학습합니다.
 설계와 근거 문헌은 [docs/FINAL_DESIGN_KO.md](docs/FINAL_DESIGN_KO.md)에 있습니다.
 
+**EDIT_ATT 변경:** 검증 ATT는 1시간 내 출발 예정인 모든 차량의 **예정 출발부터 실제 도착까지** 계산합니다. 진입 전 대기를 포함하며, 미완료 차량은 추가 실행으로 모두 통과시킵니다. 학습은 기존처럼 1시간에서 끝납니다. 기존 ATT 결과와 정의가 다르므로 [변경 내용과 실행 안내](docs/EDIT_ATT_KO.md)를 먼저 확인하세요.
+
 ## 설치 (최초 1회)
 
 ```bash
@@ -21,13 +23,14 @@ Windows에서는 경로 길이 제한(260자) 때문에 프로젝트 안에 `.ve
 
 ```bash
 python scripts/check_env.py                # SUMO·패키지 설치 확인
-python scripts/train_all_seeds.py          # 3종 × 시드 5개 = 15회, 동시 5개 (약 6~8시간)
+python scripts/check_att.py                # 실제 SUMO에서 ATT 처리 검증 (학습 성능 실험 아님)
+python scripts/train_all_seeds.py          # 3종 × 시드 5개 = 15회, 동시 5개, EDIT_ATT 전용 결과 폴더
 ```
 
 모델 하나만 학습할 때:
 
 ```bash
-python scripts/train_fourphase_dqn.py --algorithm double_dqn --seed 42 --output results/fourphase_dqn/double_dqn_seed42
+python scripts/train_fourphase_dqn.py --algorithm double_dqn --seed 42 --output results/fourphase_dqn_EDIT_ATT/double_dqn_seed42
 ```
 
 테스트:
@@ -53,7 +56,7 @@ python -m unittest discover -s tests -p "test_fourphase*.py"
 
 ## 학습 결과 폴더
 
-`results/fourphase_dqn/<알고리즘>_seed<시드>/`
+`results/fourphase_dqn_EDIT_ATT/<알고리즘>_seed<시드>/` (`--output-root`로 변경 가능)
 
 | 파일 | 내용 |
 |---|---|

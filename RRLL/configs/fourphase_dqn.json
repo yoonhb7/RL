@@ -13,6 +13,7 @@
   "epsilon_final": 0.01,
   "epsilon_fraction": 0.7,
   "validation_every_episodes": 20,
+  "evaluation_max_drain_seconds": 14400,
   "hidden_sizes": [128, 64],
   "torch_threads": 1,
   "train_demand_seed_start": 10000,

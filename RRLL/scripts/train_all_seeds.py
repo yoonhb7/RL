@@ -1,7 +1,7 @@
 """Train every algorithm with every training seed, several runs at a time.
 
 Each run is an independent `train_fourphase_dqn.py` process writing to
-results/fourphase_dqn/<algorithm>_seed<seed>/ and logging to <that folder>.log.
+results/fourphase_dqn_EDIT_ATT/<algorithm>_seed<seed>/ and logging to <that folder>.log.
 Runs whose output folder already exists are skipped, so an interrupted batch can be restarted.
 Activate the project environment first (conda activate fourphase-py310) so SUMO is on PATH.
 """
@@ -25,13 +25,18 @@ def main():
     parser.add_argument("--seeds", nargs="+", type=int, default=config["training_seeds"])
     parser.add_argument("--episodes", type=int, help="Default: episodes in configs/fourphase_dqn.json")
     parser.add_argument("--parallel", type=int, default=5, help="Simultaneous runs (default 5; one SUMO + one CPU thread each)")
+    parser.add_argument("--output-root", type=Path, default=Path("results/fourphase_dqn_EDIT_ATT"),
+                        help="Keep corrected ATT runs separate from older experiment results")
     parser.add_argument("--dry-run", action="store_true", help="Only print the planned runs")
     args = parser.parse_args()
+    output_root = (ROOT / args.output_root).resolve()
+    if not output_root.is_relative_to(ROOT / "results") or output_root == ROOT / "results":
+        parser.error("Use an output root below results/")
 
     jobs, skipped = [], []
     for seed in args.seeds:  # Seed-major order: all algorithms of one seed finish close together.
         for algorithm in args.algorithms:
-            output = Path("results/fourphase_dqn") / f"{algorithm}_seed{seed}"
+            output = output_root.relative_to(ROOT) / f"{algorithm}_seed{seed}"
             if (ROOT / output).exists():
                 skipped.append(str(output))
                 continue
@@ -73,7 +78,7 @@ def main():
     failed = [name for name, code in results.items() if code != 0]
     print(f"\n전체 {len(results)}회 중 완료 {len(results) - len(failed)}회, 실패 {len(failed)}회", flush=True)
     for name in failed:
-        print(f"  실패: {name} -> results/fourphase_dqn/{name}.log", flush=True)
+        print(f"  실패: {name} -> {args.output_root / name}.log", flush=True)
     return 1 if failed else 0
 
 

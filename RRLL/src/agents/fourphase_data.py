@@ -26,6 +26,9 @@ def read_config(path=None, *, episodes=None, seed=None, device=None, algorithm=N
                 "validation_every_episodes", "torch_threads"):
         if type(config[key]) is not int or config[key] <= 0:
             raise ValueError(f"{key} must be a positive integer")
+    drain = config.get("evaluation_max_drain_seconds", 14400)
+    if type(drain) is not int or drain <= 0 or drain % 15:
+        raise ValueError("evaluation_max_drain_seconds must be positive and divisible by 15")
     for key in ("seed", "train_demand_seed_start"):
         if type(config[key]) is not int or not 0 <= config[key] < 2**31:
             raise ValueError(f"{key} must be an integer in [0, 2**31)")
